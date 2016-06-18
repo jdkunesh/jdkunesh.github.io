@@ -1,14 +1,23 @@
+---
+layout: default
+---
 
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Jason Kunesh Web Site, Inc.</title>
-	<meta name="generator" content="TextMate http://macromates.com/">
-	<meta name="author" content="Jason Kunesh">
-	<!-- Date: 2016-06-17 -->
-</head>
-<body>
-<h1>Kunesh</h1>
-<p>tonight the internet let me down.</p>
-</body>
-</html>
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
