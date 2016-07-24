@@ -9,7 +9,7 @@
 title: Zoinks, it's Kunesh
 email: jdkunesh@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The personal site of Jason Daniel Kunesh. Sometime mustachiod Chicagoan. Hiya!
+  The personal site of Jason Daniel Kunesh. Sometime mustachio'd Chicagoan. Hiya!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jdkunesh.com" # the base hostname & protocol for your site
 twitter_username: jdkunesh
