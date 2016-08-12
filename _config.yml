@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Zoinks, it's Kunesh
+title: Yup, it's Kunesh!
 email: jdkunesh@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The personal site of Jason Daniel Kunesh. Sometime mustachio'd Chicagoan. Hiya!
+  Hi. This is my personal web site. Thanks for visiting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jdkunesh.com" # the base hostname & protocol for your site
 twitter_username: jdkunesh
