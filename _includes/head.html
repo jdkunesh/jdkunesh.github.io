@@ -5,8 +5,63 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
+<!--//
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+//-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/site-jdk.css" | prepend: site.baseurl }}">
+    <style>
+
+    p, li {font-family: 'Raleway', sans-serif;}
+    h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', serif;}
+
+    /*body {
+        font-size:1em;
+    }
+        h1 { font-family: 'Arvo', arial, serif; font-weight: bold;
+        font-size:6em;
+        line-height:.8em;
+        }
+    
+        h1 #bigcopy {
+            letter-spacing:.09em;
+        }
+    
+        h1 a {text-decoration: none;}
+    
+        br {margin:0;}
+        .smalltype {
+            font-size:.25em;
+            line-height:.125em;
+            font-weight: normal;
+            font-style: italic; 
+        
+        }
+    
+        h2, h3 {
+        font-family: 'Arvo', arial, serif;
+        font-weight: normal;
+        font-size:2em;
+        line-height:1em; }
+
+        .home {margin:1em 4em;}
+    
+        footer {
+            margin: 0 auto;
+        }
+    
+        #container {
+            min-width:66%;
+            max-width:33%;
+        }
+    
+    
+        /* jekyll style overrides */
+    
+        .icon {width:10%;}
+        */
+    </style>
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
