@@ -1,11 +1,14 @@
 ---
 # my custom styles using bootstrap are here:
 # https://github.com/twbs/bootstrap-sass
-
+# these are my actual styles, reliant upon /bootstrap & _bootstrap.scss
+# to see which variables you can set, go to: _sass/bootstrap/_variables.scss
+# modify them here to override them while still maintaining forward compatability.
 ---
 
 $font-size-base: 17px;
 $headings-font-weight: 600;
 $blockquote-font-size: $font-size-base;
 
+@import "bootstrap/variables";
 @import "bootstrap";
