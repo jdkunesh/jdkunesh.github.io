@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Kunesh here.
+title: Jason Kunesh
 email: jdkunesh@gmail.com
-description: Thanks for visiting my personal web site.
+description: I make short stories long.
 
 # > # this means to ignore newlines until "baseurl:"
 
@@ -19,3 +19,5 @@ github_username:  jdkunesh
 
 # Build settings
 markdown: kramdown
+sass:
+    style: :compressed

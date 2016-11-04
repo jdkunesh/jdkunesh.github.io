@@ -6,9 +6,28 @@
 # modify them here to override them while still maintaining forward compatability.
 ---
 
+
+// All bootstrap variables may be found here: http://getbootstrap.com/customize/#less-variables
+
 $font-size-base: 17px;
 $headings-font-weight: 600;
 $blockquote-font-size: $font-size-base;
 
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables" to use the icon fonts
+// i do not have icon fonts currently installed, though. :D
+// @import "bootstrap-sprockets";
+
 @import "bootstrap/variables";
-@import "bootstrap";
+
+// uncomment the line below for all of bootstrap
+// @import "bootstrap";
+//
+
+@import "bootstrap/mixins";
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/grid";
+@import "bootstrap/responsive-utilities";
