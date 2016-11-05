@@ -2,12 +2,23 @@
 <html lang="en">
 {% include head.html %}
 <body>
+<div style="width:60%; margin:auto; padding-top:60px;">
 {% include header.html %}
+{% comment %}
+<!--//    
+ style="width:60%; margin: auto; padding:20px 5px;"
 <div class="page-content">
-<div class="wrapper" style="width:60%; margin: auto; padding:20px 5px;">
+//-->
+{% endcomment %}
+
 {{ content }}
+
+{% comment %}
+<!--//    
 </div>
-</div>
+//-->
+{% endcomment %}
 {% include footer.html %}
+</div>
 </body>
 </html>
