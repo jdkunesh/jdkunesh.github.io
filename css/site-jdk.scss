@@ -52,8 +52,8 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #ddf;
+$text-color:       #562800;
+$background-color: #F4E9DF;
 $brand-color:      #2ae;
 
 $grey-color:       #828282;
@@ -66,13 +66,20 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+body {
+    background-color:$background-color;
+}
 h1, h2, h3, h4, h5, h6 {
+    color: #2ae;
     font-family: $font-family-sans-serif;
-    font-weight: $headings-font-weight;
+    font-weight: $base-font-weight;
 }
 
 p {
+    color: $text-color;
     font-family: $font-family-sans-serif;
+    font-weight: $base-font-weight;
+    line-height: $line-height-base;
 
 }
 
