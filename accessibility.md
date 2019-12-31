@@ -1,9 +1,9 @@
 ---
 title: Accessibility statement
 layout: page
-permalink: /accessibility-statement/
+permalink: /accessibility/
 layout: page
-filename: accessibility-statement.md
+filename: accessibility.md
 
 ---
 
