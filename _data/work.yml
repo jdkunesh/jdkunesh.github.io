@@ -14,19 +14,21 @@
       role: Design Director
       role_timeframe: January 2018 to now
       challenge: 
-        description: >
-                asfdsafdasdfsadfsdafsdfasf
-                asfsadfsadfsdafsdfsdfsadf
-        media:
-          - url: 
-            type: 
-            alt_text: 
-          - url: 
-            type: 
-            alt_text: 
-          - url: 
-            type: 
-            alt_text: 
+      research:
+      showcase:
+      validation:
+      learnings:
+      results:
+    - title: Chicago Design System
+      url: /work/cds
+      image: /img/work/LOGO-CHICAGO-horizontal 311.png
+      alt_text:
+      budget:
+      project_timeframe:
+      tags:  
+      role: Design Director
+      role_timeframe: January 2018 to now
+      challenge: 
       research:
       showcase:
       validation:

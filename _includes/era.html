@@ -1,4 +1,6 @@
-{% assign era = site.data.work | where: "title", page.title %}
+{% assign era_title = page.title | "none" %}
+
+{% assign era = site.data.work[] | where: "title", era_title %}
 {% for item in era %}
     <img src="{{ item.image }}" alt="{{ item.alt_text }}" width="50%" />
     <div class="card-deck">
