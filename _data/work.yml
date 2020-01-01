@@ -2,17 +2,17 @@
   tags: 
   url: /work/chicago
   image: /img/work/LOGO-CHICAGO-horizontal.png
-  alt_text: City of Chicago
+  alt_text: City of Chicago logo
   cases:
     - title: 311 Modernization
       url: /work/311
-      image: 
+      image: /img/work/LOGO-CHICAGO-horizontal 311.png
       alt_text:
       budget:
       project_timeframe:
-      tags: [] 
-      role:
-      role_timeframe:
+      tags:  
+      role: Design Director
+      role_timeframe: January 2018 to now
       challenge: 
         description: >
                 asfdsafdasdfsadfsdafsdfasf

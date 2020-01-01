@@ -1,8 +1,7 @@
 {% assign era = site.data.work | where: "title", page.title %}
 {% for item in era %}
-    <img src="{{ item["image"] }}" alt="{{ item.alt_text }}" width="50%" />
+    <img src="{{ item.image }}" alt="{{ item.alt_text }}" width="50%" />
     <div class="card-deck">
-
       {% for case in item.cases %}
         <a href="{{ site.baseurl }}{{ case.url }}">
           <div class="card card-home">
