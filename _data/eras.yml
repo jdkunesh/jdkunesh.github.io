@@ -1,37 +1,193 @@
-- title: City of Chicago
-  image:
-  url: /311
+- name: City of Chicago
+  tags: 
+  image: 
+  url: /chicago
   alt_text:
-  team: City of Chicago
-  metadata: 
-    budget:
-    project_timeframe:
-    tags: [] 
-    role:
-    role_timeframe:
-  challenge: 
-  research:
-  showcase:
-  validation:
-  learnings:
-  results:
-- title: Public Good
+  cases:
+    - title: 
+      team: City of Chicago
+      budget:
+      project_timeframe:
+      tags: [] 
+      role:
+      role_timeframe:
+      challenge: 
+        description: >
+                asfdsafdasdfsadfsdafsdfasf
+                asfsadfsadfsdafsdfsdfsadf
+        media:
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+      research:
+      showcase:
+      validation:
+      learnings:
+      results:
+- name: Public Good
+  tags: 
   image: 
   url: /publicgood
-  alt_text: 
-- title: Obama for America
+  alt_text:
+  cases:
+    - title: 
+      team: Public Good
+      budget:
+      project_timeframe:
+      tags: [] 
+      role:
+      role_timeframe:
+      challenge: 
+        description: >
+                asfdsafdasdfsadfsdafsdfasf
+                asfsadfsadfsdafsdfsdfsadf
+        media:
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+      research:
+      showcase:
+      validation:
+      learnings:
+      results:
+- name: Obama for America
+  tags: 
   image: 
   url: /ofa
-  alt_text: 
-- title: Fuzzy Math
+  alt_text:
+  cases:
+    - title: 
+      team: Obama for America
+      budget:
+      project_timeframe:
+      tags: [] 
+      role:
+      role_timeframe:
+      challenge: 
+        description: >
+                asfdsafdasdfsadfsdafsdfasf
+                asfsadfsadfsdafsdfsdfsadf
+        media:
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+      research:
+      showcase:
+      validation:
+      learnings:
+      results:
+- name: Fuzzy Math
+  tags: 
   image: 
   url: /fuzzymath
-  alt_text: 
-- title: Orbitz
+  alt_text:
+  cases:
+    - title: 
+      team: Fuzzy Math
+      budget:
+      project_timeframe:
+      tags: [] 
+      role:
+      role_timeframe:
+      challenge: 
+        description: >
+                asfdsafdasdfsadfsdafsdfasf
+                asfsadfsadfsdafsdfsdfsadf
+        media:
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+      research:
+      showcase:
+      validation:
+      learnings:
+      results:
+- name: Orbitz
+  tags: 
   image: 
   url: /orbitz
-  alt_text: 
-- title: Everything else
+  alt_text:
+  cases:
+    - title: 
+      team: Orbitz
+      budget:
+      project_timeframe:
+      tags: [] 
+      role:
+      role_timeframe:
+      challenge: 
+        description: >
+                asfdsafdasdfsadfsdafsdfasf
+                asfsadfsadfsdafsdfsdfsadf
+        media:
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+      research:
+      showcase:
+      validation:
+      learnings:
+      results:
+- name: Everything else
+  tags: 
   image: 
   url: /etc
-  alt_text: 
+  alt_text:
+  cases:
+    - title: 
+      team: Everything else
+      budget:
+      project_timeframe:
+      tags: [] 
+      role:
+      role_timeframe:
+      challenge: 
+        description: >
+                asfdsafdasdfsadfsdafsdfasf
+                asfsadfsadfsdafsdfsdfsadf
+        media:
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+      research:
+      showcase:
+      validation:
+      learnings:
+      results:
+
