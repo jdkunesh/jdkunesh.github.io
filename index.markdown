@@ -13,7 +13,6 @@ layout: home
 </ul>
 
 
-
 * Chicago, IL
 * [Github](https://github.com/jdkunesh)
 * [Twitter](http://www.twitter.com/jdkunesh/)
