@@ -1,9 +1,10 @@
 - title: City of Chicago
-  tags: 
   url: /work/chicago
   image: /img/work/LOGO-CHICAGO-horizontal.png
   alt_text: City of Chicago logo
-  cases:
+  description: >
+   At the design office, we work to make city services more accessible and inclusive for Chicago residents. It’s our mission to listen, amplify, and design with the community to build better technology experiences for everyone.
+  cases: 
     - title: 311 Modernization
       url: /work/311
       image: /img/work/LOGO-CHICAGO-horizontal 311.png
@@ -34,4 +35,27 @@
       validation:
       learnings:
       results:
-
+- title: Public Good
+  image: /img/work/public good.png
+  url: /publicgood
+  alt_text:
+  description: At the design office
+- title: Obama for America
+  image: /img/work/Obama_logomark2012.png
+  url: /ofa
+  alt_text:
+  description: At the design office
+- title: Fuzzy Math
+  image: /img/work/FM_SoMe_Square.png
+  url: /fuzzymath
+  alt_text:
+  description: At the design office
+- title: Orbitz
+  image: /img/work/Orbitz-Logo.jpg
+  url: /orbitz
+  description: At the design office
+- title: Everything else
+  image: 
+  url: /etc
+  alt_text:
+  description: At the design office

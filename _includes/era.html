@@ -1,20 +1,18 @@
-{% assign era_title = page.title | "none" %}
 
-{% assign era = site.data.work[] | where: "title", era_title %}
-{% for item in era %}
-    <img src="{{ item.image }}" alt="{{ item.alt_text }}" width="50%" />
-    <div class="card-deck">
-      {% for case in item.cases %}
-        <a href="{{ site.baseurl }}{{ case.url }}">
-          <div class="card card-home">
-            <img src="{{ case.image }}" alt="{{ case.alt_text }}" width="50%"/>
-            <div class="card-body">
-                <h2>{{ case.title }}</h2>
-                <p>{{ case.role }}, {{ case.role_timeframe }}</p>
-            </div>
-          </div>
-        </a>
-      {% endfor %}
+<img src="{{ era.image }}" alt="{{ era.alt_text }}" width="50%" />
 
-    </div>
-{% endfor %}
+<p>{{ era.description }}</p>
+
+<div class="card-deck">
+  {% for case in era.cases %}
+    <a href="{{ site.baseurl }}{{ case.url }}">
+      <div class="card card-home">
+        <img src="{{ case.image }}" alt="{{ case.alt_text }}" width="50%"/>
+        <div class="card-body">
+            <h2>{{ case.title }}</h2>
+            <p>{{ case.role }}, {{ case.role_timeframe }}</p>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>

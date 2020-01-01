@@ -4,16 +4,15 @@ title: Work
 layout: page
 
 ---
-
 <div class="card-deck">
-      {% for item in site.data.work %}
-        <a href="{{ site.baseurl }}{{ item.url }}">
-          <div class="card card-home">
-            <img src="{{ item.image }}" alt="{{ item.alt_text }}" width="50%"/>
-            <div class="card-body">
-                <h2>{{ item.title }}</h2>
-            </div>
-          </div>
-        </a>
-      {% endfor %}
+{% for item in site.data.work %}
+  <a href="{{ site.baseurl }}{{ item.url }}">
+    <div class="card card-home">
+      <img src="{{ item.image }}" alt="{{ item.alt_text }}" width="50%"/>
+      <div class="card-body">
+          <h2>{{ item.title }}</h2>
+      </div>
+    </div>
+  </a>
+{% endfor %}
 </div>
