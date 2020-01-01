@@ -1,15 +1,11 @@
 ---
-
 title: City of Chicago
 layout: case
 permalink: /chicago/
 filename: chicago.md
-
 ---
 
-Hello Chicago info.
+# {{page.title}}
 
-
-{% include case.html %}
-
+{% assign item = site.data.portfolio | where: "name", "City of Chicago" %}
 
