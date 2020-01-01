@@ -3,3 +3,17 @@
 
 <p>{{ case.role }}, {{ case.role_timeframe }}</p>
 
+{{ case.budget }}
+
+{{ case.project_timeframe }}
+
+{% for tag in case.tags %}
+{{ tag }},
+{% endfor %}
+
+<p>:{{ case.challenge }}</p>
+<p>:{{ case.research }}</p>
+<p>:{{ case.showcase }}</p>
+<p>:{{ case.validation }}</p>
+<p>:{{ case.learnings }}</p>
+<p>:{{ case.results }}</p>
