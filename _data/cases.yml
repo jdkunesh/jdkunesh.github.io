@@ -1,29 +1,14 @@
-- title: 311 Modernization
-  description: 
+- title:
   team: City of Chicago
-  budget:
-  project_timeframe:
-  tags: [] 
-  role:
-  role_timeframe:
+  metadata: 
+    budget:
+    project_timeframe:
+    tags: [] 
+    role:
+    role_timeframe:
+  challenge: 
   research:
-  media:
-      - url: 
-        phase: 
-        alt_text: 
-      - url: 
-        phase: 
-        alt_text: 
-      - url: 
-        phase: 
-        alt_text: 
+  showcase:
   validation:
   learnings:
   results:
-  links:
-      - text: 
-        href: 
-      - text: 
-        href: 
-      - text: 
-        href: 

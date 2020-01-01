@@ -1,24 +1,37 @@
 - title: City of Chicago
   image:
-  url: 
-  alt_text: 
+  url: /311
+  alt_text:
+  team: City of Chicago
+  metadata: 
+    budget:
+    project_timeframe:
+    tags: [] 
+    role:
+    role_timeframe:
+  challenge: 
+  research:
+  showcase:
+  validation:
+  learnings:
+  results:
 - title: Public Good
   image: 
-  url: 
+  url: /publicgood
   alt_text: 
 - title: Obama for America
   image: 
-  url: 
+  url: /ofa
   alt_text: 
 - title: Fuzzy Math
   image: 
-  url: 
+  url: /fuzzymath
   alt_text: 
 - title: Orbitz
   image: 
-  url: 
+  url: /orbitz
   alt_text: 
 - title: Everything else
   image: 
-  url: 
+  url: /etc
   alt_text: 
