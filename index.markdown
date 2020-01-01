@@ -5,6 +5,7 @@
 layout: home
 ---
 
-# your content here.
-
-yes sir!
+* Chicago, IL
+* [Github](https://github.com/jdkunesh)
+* [Twitter](http://www.twitter.com/jdkunesh/)
+* [LinkedIn](http://www.linkedin.com/in/jdkunesh/)
