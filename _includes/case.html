@@ -1,9 +1,14 @@
-<h1>this is the title {{ item.name }}</h1>
 
-  <a href="{{ site.baseurl }}{{ item.url }}">
-    <div>
-      <img src="{{ item.image }}" alt="{{ item.alt_text }}"/>
-      <div class="card-body">
-      </div>
+{% assign item = site.data.work.cases | where: "cases.title", page.title %}
+
+{% for case in item %}
+<a href="{{ site.baseurl }}{{ case.url }}">
+  <div class="card card-home">
+    <img src="{{ case.image }}" alt="{{ case.alt_text }}" width="50%"/>
+    <div class="card-body">
+        <h2>{{ case.title }}</h2>
+        <p>{{ case.role }}, {{ case.role_timeframe }}</p>
     </div>
-  </a>
+  </div>
+</a>
+{% endfor %}
