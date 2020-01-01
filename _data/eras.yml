@@ -1,18 +1,24 @@
 - title: City of Chicago
-  media:
-      - url: 
-        phase: 
-        alt_text: 
-      - url: 
-        phase: 
-        alt_text: 
-      - url: 
-        phase: 
-        alt_text: 
-  links:
-      - text: 
-        href: 
-      - text: 
-        href: 
-      - text: 
-        href: 
+  image:
+  url: 
+  alt_text: 
+- title: Public Good
+  image: 
+  url: 
+  alt_text: 
+- title: Obama for America
+  image: 
+  url: 
+  alt_text: 
+- title: Fuzzy Math
+  image: 
+  url: 
+  alt_text: 
+- title: Orbitz
+  image: 
+  url: 
+  alt_text: 
+- title: Everything else
+  image: 
+  url: 
+  alt_text: 
