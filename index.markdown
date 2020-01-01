@@ -4,18 +4,15 @@ layout: home
 
 ---
 
-<div class="card-deck">
-      {% for item in site.data.work %}
-        <a href="{{ site.baseurl }}{{ item.url }}">
-          <div class="card card-home">
-            <img src="{{ item.image }}" alt="{{ item.alt_text }}"/>
-            <div class="card-body">
-                <h2>{{ item.name }}</h2>
-            </div>
-          </div>
-        </a>
-      {% endfor %}
-</div>
+<ul>
+  {% for item in site.data.navigation.primary %}
+    <a href="{{ site.baseurl }}{{ item.url }}">
+      <li>{{ item.text}}</li>
+    </a>
+  {% endfor %}
+</ul>
+
+
 
 * Chicago, IL
 * [Github](https://github.com/jdkunesh)
