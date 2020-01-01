@@ -5,7 +5,7 @@ layout: home
 ---
 
 <div class="card-deck">
-      {% for item in site.data.eras %}
+      {% for item in site.data.portfolio %}
         <a href="{{ site.baseurl }}{{ item.url }}">
           <div class="card card-home">
             <img src="{{ item.image }}" alt="{{ item.alt_text }}"/>
