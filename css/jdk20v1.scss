@@ -66,34 +66,6 @@ body {
     background-color: $background-color;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: $grey-dark;
-    font-family: $font-family-sans-serif;
-    font-weight: $headings-font-weight;
-    line-height: $headings-line-height;
-}
-
-h1 {
-    font-family: $font-family-serif;
-    font-size: 2em;
-}
-
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.17em; }
-h4 { font-size: 1em; }
-h5 { font-size: 0.83em; }
-h6 { font-size: 0.75em; }
-
-header, footer { padding: 1rem; }
-
-p, li {
-    color: $text-color;
-    font-family: $font-family-sans-serif;
-    font-weight: $font-weight-base;
-    line-height: $line-height-base;
-
-}
-
 a {
     color: $color-link;
     text-decoration: none;
@@ -115,6 +87,26 @@ a {
         text-decoration: underline;
     }
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: $grey-dark;
+    font-family: $font-family-sans-serif;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+}
+
+h1 {
+    font-family: $font-family-serif;
+    font-size: 2em;
+}
+
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1em; }
+h5 { font-size: 0.83em; }
+h6 { font-size: 0.75em; }
+
+header, footer { padding: 1rem; }
 
 header a h1 {
     color: $color-link;
@@ -139,20 +131,29 @@ header a h1 {
 }
 
 ul {
-    list-style:none;
+    list-style: none;
     text-align: center;
     padding:0;
     margin:0;
 }
 
 li {
-//    float: left;
     margin:0;
     padding: 0 1em 0 0;
     text-align: left;
     text-decoration: none;
 }
 
+p, li {
+    color: $text-color;
+    font-family: $font-family-sans-serif;
+    font-weight: $font-weight-base;
+    line-height: $line-height-base;
+
+}
+
+header ul li, footer ul li {float:left;}
+footer { text-align: center;}
 
 // some stuff from pure blog view
 /* LAYOUT CSS 
