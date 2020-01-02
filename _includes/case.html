@@ -20,36 +20,34 @@
 {% for thing in case.challenge.media %}
 {% include media.html %}
 {% endfor %}
-
-<p>{{ case.challenge.description | markdownify }}</p>
+{{ case.challenge.description | markdownify }}
 
 <h3>Research</h3>
 {% for thing in case.research.media %}
 {% include media.html %}
 {% endfor %}
-
-<p>{{ case.research.description | markdownify }}</p>
+{{ case.research.description | markdownify }}
 
 <h3>Highlights</h3>
 {% for thing in case.highlights.media %}
 {% include media.html %}
 {% endfor %}
-<p>{{ case.highlights.description | markdownify }}</p>
+{{ case.highlights.description | markdownify }}
 
 <h3>Validation</h3>
 {% for thing in case.validation.media %}
 {% include media.html %}
 {% endfor %}
-<p>{{ case.validation.description | markdownify }}</p>
+{{ case.validation.description | markdownify }}
 
 <h3>Learnings</h3>
 {% for thing in case.learnings.media %}
 {% include media.html %}
 {% endfor %}
-<p>{{ case.learnings.description | markdownify }}</p>
+{{ case.learnings.description | markdownify }}
 
 <h3>Results</h3>
 {% for thing in case.results.media %}
 {% include media.html %}
 {% endfor %}
-<p>{{ case.results.description | markdownify }}</p>
+{{ case.results.description | markdownify }}

@@ -1,10 +1,21 @@
 
-<img src="{{ era.image }}" alt="{{ era.alt_text }}" width="50%" />
+{% assign era = site.data.work[current_index] | 0 %}
+{% assign next_era = site.data.work[next_index] | 1 %}
+{% assign previous_era = site.data.work[previous_index] | 5 %}
 
+<ul title="other work">
+  <li><a href="{{ site.baseurl }}{{ previous_era.url }}">Back to {{ previous_era.title }}</a></li>
+  <li><a href="{{ site.baseurl }}{{ next_era.url }}">Next up {{ next_era.title }}</a></li>
+</ul>
+
+
+
+<img src="{{ era.image }}" alt="{{ era.alt_text }}" width="50%" />
 {% if era.description != null %}
-<p>{{ era.description | markdownify  }}</p>
+{{ era.description | markdownify  }}
 {% endif %}
 
+<h2>Case studies</h2>
 <div class="card-deck">
   {% for case in era.cases %}
     <a href="{{ site.baseurl }}{{ case.url }}">
@@ -23,3 +34,4 @@
     </a>
   {% endfor %}
 </div>
+
