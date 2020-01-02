@@ -1,5 +1,11 @@
 <footer>
-
+<ul>
+  {% for item in site.data.navigation.footer %}
+    <a href="{{ site.baseurl }}{{ item.url }}">
+      <li>{{ item.text}}</li>
+    </a>
+  {% endfor %}
+</ul>
 {% comment %}
 <!--//
 jdkunesh
