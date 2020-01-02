@@ -1,7 +1,9 @@
 
 <img src="{{ era.image }}" alt="{{ era.alt_text }}" width="50%" />
 
-<p>{{ era.description }}</p>
+{% if era.description != null %}
+<p>{{ era.description | markdownify  }}</p>
+{% endif %}
 
 <div class="card-deck">
   {% for case in era.cases %}

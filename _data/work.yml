@@ -12,7 +12,7 @@
       team: City of Chicago
       budget: $34mm
       project_timeframe: 2017-2021
-      tags: {community, turds}
+      tags: {community, government, mobile, web, IVR, service app}
       role: Design Director. Design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer.
       role_timeframe: January 2018 to now
       challenge: 
@@ -171,7 +171,11 @@
   image: /img/work/public good.png
   url: /work/publicgood
   alt_text:
-  description: At the design office
+  description: |
+    I founded Public Good to continue the work we began at Obama for America.
+    * Raised $$$
+    * Millions fundraised.
+    * Billions of minds changes through our Public Good for Media program.
 - title: Obama for America
   image: /img/work/Obama_logomark2012.png
   url: /work/ofa
