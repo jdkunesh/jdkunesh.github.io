@@ -49,9 +49,12 @@ $grey:                       #494440;
 $grey-light:                 #E4E2E0;
 $grey-dark:                  #494440;
 
+$brand-color:                $primary-color;
+
+
+// FUNCTIONAL COLORS (WHERE STYLE MEETS SEMANTICS)
 $background-color:           $offwhite;
 $text-color:                 $secondary-color;
-$brand-color:                $primary-color;
 
 $color-link:                 $another-primary-color;
 $color-active:               $teal;
