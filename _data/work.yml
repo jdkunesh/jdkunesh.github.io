@@ -169,25 +169,25 @@
             alt_text: Screenshot of some Lorem ipsum?
 - title: Public Good
   image: /img/work/public good.png
-  url: /publicgood
+  url: /work/publicgood
   alt_text:
   description: At the design office
 - title: Obama for America
   image: /img/work/Obama_logomark2012.png
-  url: /ofa
+  url: /work/ofa
   alt_text:
   description: At the design office
 - title: Fuzzy Math
   image: /img/work/FM_SoMe_Square.png
-  url: /fuzzymath
+  url: /work/fm
   alt_text:
   description: At the design office
 - title: Orbitz
   image: /img/work/Orbitz-Logo.jpg
-  url: /orbitz
+  url: /work/orbitz
   description: At the design office
 - title: Everything else
   image: 
-  url: /etc
+  url: /work/etc
   alt_text:
   description: At the design office

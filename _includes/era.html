@@ -9,8 +9,13 @@
       <div class="card card-home">
         <img src="{{ case.image }}" alt="{{ case.alt_text }}" width="50%"/>
         <div class="card-body">
-            <h2>{{ case.title }}</h2>
-            <p>{{ case.role }}, {{ case.role_timeframe }}</p>
+          <h2>{{ case.title }}</h2>
+          <p>{{ case.challenge.description | markdownify }}</p>
+          <ul>
+            {% for tag in case.tags %}
+            <li>{{ tag }}</li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </a>
