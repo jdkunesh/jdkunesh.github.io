@@ -4,18 +4,21 @@
 # 
 ---
 
-// Required
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/mixins";
-
-
 // my customization
 
 $font-family-serif:       'Playfair Display', serif !default;
 
 // stylelint-disable value-keyword-case
 $font-family-sans-serif:      'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+
+
+// Required
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
