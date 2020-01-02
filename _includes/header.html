@@ -1,7 +1,11 @@
-<header >
-<h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-</header>
-{% comment %}
-<!--//
-//-->
-{% endcomment %}
+<header><h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1></header>
+
+<nav>
+<ul>
+  {% for item in site.data.navigation.primary %}
+    <a href="{{ site.baseurl }}{{ item.url }}">
+      <li>{{ item.text}}</li>
+    </a>
+  {% endfor %}
+</ul>
+</nav>
