@@ -15,11 +15,36 @@
       tags: {community, turds}
       role: Design Director. Design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer.
       role_timeframe: January 2018 to now
-      challenge: >
-        Use user experience methods to include resident voice in the product design process, transforming an analog and digital system into a pure digital workflow.
-      research: Card sort, participatory design, usability tests, comparative analysis, service design, contextual inquiry, accessibility evaluation, and internationalization evaluation
-      highlights: iOS & Android applications, Open 311 roadmap, web portal at 311.chicago.gov. Highlight explore and follow solutions. 
-      validation: Usability testing, net promoter score, and reddit comments.
+      challenge: 
+        description: |
+          Use user experience methods to include resident voice in the product design process, transforming an analog and digital system into a pure digital workflow.
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
+      research:
+        description: |
+          Card sort, participatory design, usability tests, comparative analysis, service design, contextual inquiry, accessibility evaluation, and internationalization evaluation
+        media:
+          - url: https://via.placeholder.com/800x600?text=Resident+Engagement
+            type: image
+            alt_text: Photo of resident engagement session.
+      highlights:
+        description: |
+          * iOS & Android applications, Open 311 roadmap, web portal at 311.chicago.gov. Highlight explore and follow solutions.
+        media:
+          - url: https://via.placeholder.com/800x600?text=311.chicago.gov
+            type: image
+            alt_text: Screenshot of the 311.chicago.gov.
+          - url: https://via.placeholder.com/800x600?text=iOS+&+Android+Applications
+            type: image
+            alt_text: Screenshots of iOS & Android mobile applications. 
+          - url: https://via.placeholder.com/800x600?text=Open+311+Roadmap
+            type: image
+            alt_text: Screenshot of 311 Open 311 Roadmap.
+      validation:
+        description: |
+          Usability testing, net promoter score, and reddit comments.
       learnings:
         description: |
           * It's difficult to get a Net Promoter Score doesn't mean much.
@@ -35,7 +60,9 @@
           - url: 
             type: 
             alt_text: 
-      results: 30k+ mobile application downloads, feature story in WIRED.
+      results:
+        description: |
+          30k+ mobile application downloads, feature story in WIRED.
     - title: Chicago Design System
       url: /work/cds
       image: /img/work/LOGO-CHICAGO-horizontal 311.png
@@ -47,11 +74,99 @@
       role: Design Director
       role_timeframe: January 2018 to now
       challenge: 
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
       research:
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
       highlights:
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
       validation:
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
       learnings:
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
       results:
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
+    - title: Design Operations
+      url: /work/desops
+      image: /img/work/LOGO-CHICAGO-horizontal 311.png
+      alt_text:
+      team: City of Chicago
+      budget:
+      project_timeframe:
+      tags:  
+      role: Design Director
+      role_timeframe: January 2018 to now
+      challenge: 
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
+      research:
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
+      highlights:
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
+      validation:
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
+      learnings:
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
+      results:
+        description: |
+          * text
+        media:
+          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+            type: image
+            alt_text: Screenshot of some Lorem ipsum?
 - title: Public Good
   image: /img/work/public good.png
   url: /publicgood

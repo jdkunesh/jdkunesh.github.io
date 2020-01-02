@@ -17,27 +17,39 @@
 {% endfor %}
 </ul>
 <h3>Challenge</h3>
-<p>{{ case.challenge }}</p>
-
-<h3>Research</h3>
-<p>{{ case.research }}</p>
-
-<h3>Highlights</h3>
-<p>{{ case.highlights }}</p>
-
-<h3>Validation</h3>
-<p>{{ case.validation }}</p>
-
-<h3>Learnings</h3>
-<p>{{ case.learnings.description | markdownify }}</p>
-
-{% for thing in case.learnings.media %}
-
-{% if thing.type == "image" %}
-<img src="{{ thing.url }}" alt="{{ thing.alt_text }} /">
-{% endif %}
-
+{% for thing in case.challenge.media %}
+{% include media.html %}
 {% endfor %}
 
+<p>{{ case.challenge.description | markdownify }}</p>
+
+<h3>Research</h3>
+{% for thing in case.research.media %}
+{% include media.html %}
+{% endfor %}
+
+<p>{{ case.research.description | markdownify }}</p>
+
+<h3>Highlights</h3>
+{% for thing in case.highlights.media %}
+{% include media.html %}
+{% endfor %}
+<p>{{ case.highlights.description | markdownify }}</p>
+
+<h3>Validation</h3>
+{% for thing in case.validation.media %}
+{% include media.html %}
+{% endfor %}
+<p>{{ case.validation.description | markdownify }}</p>
+
+<h3>Learnings</h3>
+{% for thing in case.learnings.media %}
+{% include media.html %}
+{% endfor %}
+<p>{{ case.learnings.description | markdownify }}</p>
+
 <h3>Results</h3>
-<p>{{ case.results }}</p>
+{% for thing in case.results.media %}
+{% include media.html %}
+{% endfor %}
+<p>{{ case.results.description | markdownify }}</p>
