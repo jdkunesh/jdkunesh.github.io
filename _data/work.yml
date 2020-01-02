@@ -8,22 +8,39 @@
     - title: 311 Modernization
       url: /work/311
       image: /img/work/LOGO-CHICAGO-horizontal 311.png
-      alt_text:
-      budget:
-      project_timeframe:
+      alt_text: CHI 311 Logo
+      team: City of Chicago
+      budget: $34mm
+      project_timeframe: 2017-2021
       tags: {community, turds}
-      role: Design Director
+      role: Design Director. Design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer.
       role_timeframe: January 2018 to now
-      challenge: 
-      research:
-      showcase:
-      validation:
+      challenge: >
+        Use user experience methods to include resident voice in the product design process, transforming an analog and digital system into a pure digital workflow.
+      research: Card sort, participatory design, usability tests, comparative analysis, service design, contextual inquiry, accessibility evaluation, and internationalization evaluation
+      highlights: iOS & Android applications, Open 311 roadmap, web portal at 311.chicago.gov. Highlight explore and follow solutions. 
+      validation: Usability testing, net promoter score, and reddit comments.
       learnings:
-      results:
+        description: |
+          * It's difficult to get a Net Promoter Score doesn't mean much.
+          * No uniform design standards meant difficult to quickly establish working user interface.
+          * Governments are not set up to encourage outcome driven behavior like a product-oriented startup.
+        media:
+          - url: https://via.placeholder.com/800x600?text=Open+311+Roadmap
+            type: image
+            alt_text: Screenshot of the 311 open roadmap.
+          - url: 
+            type: 
+            alt_text: 
+          - url: 
+            type: 
+            alt_text: 
+      results: 30k+ mobile application downloads, feature story in WIRED.
     - title: Chicago Design System
       url: /work/cds
       image: /img/work/LOGO-CHICAGO-horizontal 311.png
       alt_text:
+      team: City of Chicago
       budget:
       project_timeframe:
       tags:  
@@ -31,7 +48,7 @@
       role_timeframe: January 2018 to now
       challenge: 
       research:
-      showcase:
+      highlights:
       validation:
       learnings:
       results:

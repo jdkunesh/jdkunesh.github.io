@@ -1,19 +1,43 @@
 <img src="{{ case.image }}" alt="{{ case.alt_text }}" width="50%"/>
-<h2>{{ case.title }}</h2>
 
-<p>{{ case.role }}, {{ case.role_timeframe }}</p>
+<h2>{{case.team }}</h2>
+<p>{{ case.role }}</p>
+<p>{{ case.role_timeframe }}</p>
 
-{{ case.budget }}
+<h4>Metadata</h4>
 
-{{ case.project_timeframe }}
+<ul>
+<li>{{ case.budget }}</li>
+<li>{{ case.project_timeframe }}</li>
+</ul>
 
+<ul>
 {% for tag in case.tags %}
-{{ tag }},
+<li>{{ tag }}</li>
+{% endfor %}
+</ul>
+<h3>Challenge</h3>
+<p>{{ case.challenge }}</p>
+
+<h3>Research</h3>
+<p>{{ case.research }}</p>
+
+<h3>Highlights</h3>
+<p>{{ case.highlights }}</p>
+
+<h3>Validation</h3>
+<p>{{ case.validation }}</p>
+
+<h3>Learnings</h3>
+<p>{{ case.learnings.description | markdownify }}</p>
+
+{% for thing in case.learnings.media %}
+
+{% if thing.type == "image" %}
+<img src="{{ thing.url }}" alt="{{ thing.alt_text }} /">
+{% endif %}
+
 {% endfor %}
 
-<p>:{{ case.challenge }}</p>
-<p>:{{ case.research }}</p>
-<p>:{{ case.showcase }}</p>
-<p>:{{ case.validation }}</p>
-<p>:{{ case.learnings }}</p>
-<p>:{{ case.results }}</p>
+<h3>Results</h3>
+<p>{{ case.results }}</p>
