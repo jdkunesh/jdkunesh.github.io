@@ -1,3 +1,15 @@
+{% assign current_work = site.data.work[work_index] %}
+{% assign case = site.data.work[work_index].cases[case_index]%}
+{% assign next_case = site.data.work[work_index].cases[next_index] %}
+{% assign previous_case = site.data.work[work_index].cases[previous_index] %}
+
+<a href="{{ site.baseurl }}{{ current_work.url }}">Back to {{ current_work.title }}</a>
+
+<ul title="other work">
+  <li><a href="{{ site.baseurl }}{{ previous_case.url }}">Back to {{ previous_case.title }}</a></li>
+  <li><a href="{{ site.baseurl }}{{ next_case.url }}">Next up {{ next_case.title }}</a></li>
+</ul>
+
 <img src="{{ case.image }}" alt="{{ case.alt_text }}" width="50%"/>
 
 <h2>{{case.team }}</h2>
