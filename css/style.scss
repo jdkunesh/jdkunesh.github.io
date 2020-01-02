@@ -1,3 +1,20 @@
-@charset "utf-8";
+---
+# This is the only file I use now to deliver css to my website.
+# I may end up killing this and bringing it all into the index.html file.
+# 
+---
 
+@import "test.scss";
+
+// Required
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+// Optional
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/code";
+@import "bootstrap/scss/grid";
 h1 { text: blue;}
