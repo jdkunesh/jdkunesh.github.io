@@ -3,11 +3,9 @@ primary:
     url: /work
 
 footer:
-  - text: Chicago, IL
-    url: 
-  - text: Github
-    url: https://github.com/jdkunesh
-  - text: Twitter
-    url: http://www.twitter.com/jdkunesh/
   - text: LinkedIn
     url: http://www.linkedin.com/in/jdkunesh/
+  - text: Twitter
+    url: http://www.twitter.com/jdkunesh/
+  - text: Github
+    url: https://github.com/jdkunesh

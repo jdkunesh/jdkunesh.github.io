@@ -3,7 +3,6 @@
 # This file contains overrides to the pure.css framework v1.01 https://purecss.io/
 # 
 ---
-
 @charset "utf-8";
 // reset box model for css3 grid
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -27,7 +26,6 @@ $headings-line-height:    1.1 !default;
 $blockquote-font-size: $font-size-base;
 
 //== COLOR
-
 $primary-color:              #2ae !default;    // aqua-ish?
 $secondary-color:            #562800 !default; // old text brown
 $another-primary-color:      #2C5491 !default; // close enough to the primary?
@@ -52,7 +50,6 @@ $grey-dark:                  #494440;
 
 $brand-color:                $primary-color;
 
-
 // FUNCTIONAL COLORS (WHERE STYLE MEETS SEMANTICS)
 $background-color:           $offwhite;
 $text-color:                 $secondary-color;
@@ -62,7 +59,6 @@ $color-active:               $teal;
 $color-hover:                $orange;
 $color-focus:                $cyan;
 $color-visited:              $purple;
-
 
 //== TOP LEVEL ELEMENTS
 
@@ -88,7 +84,7 @@ h4 { font-size: 1em; }
 h5 { font-size: 0.83em; }
 h6 { font-size: 0.75em; }
 
-header h1 { padding: 1rem; }
+header, footer { padding: 1rem; }
 
 p, li {
     color: $text-color;
@@ -117,6 +113,28 @@ a {
     &:active {
         color: $color-active;
         text-decoration: underline;
+    }
+}
+
+header a h1 {
+    color: $color-link;
+    text-decoration: none;
+
+    &:visited {
+        color: $color-link;
+    }
+
+    &:focus {
+        color: $color-focus;
+        text-decoration: none;
+    }
+    &:hover {
+        color: $color-hover;
+        text-decoration: underline;
+    }
+    &:active {
+        color: $color-active;
+        text-decoration: none;
     }
 }
 

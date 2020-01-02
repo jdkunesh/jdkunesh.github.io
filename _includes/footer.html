@@ -1,3 +1,13 @@
 <footer>
-<p>All content &copy;2020 Jason Kunesh.</p>
+<nav>
+<ul>
+  {% for item in site.data.navigation.footer %}
+    <a href="{{ site.baseurl }}{{ item.url }}">
+      <li>{{ item.text}}</li>
+    </a>
+  {% endfor %}
+</ul>
+</nav>
+
+<p>All content &copy;2020 Jason Kunesh. Chicago, IL, USA, Earth, Sol, Milkway, Multiverse.</p>
 </footer>
