@@ -7,11 +7,6 @@
 
 <nav>
   <ul>
-    {% for item in site.data.navigation.primary %}
-      <a href="{{ site.baseurl }}{{ item.url }}">
-        <li>{{ item.text}}</li>
-      </a>
-    {% endfor %}
       <li><a href="{{ site.baseurl }}{{ previous.url }}"><i class="fas fa-chevron-circle-left"></i></a></li>
       <li><a href="{{ site.baseurl }}{{ current.url }}"><i class="fas fa-chevron-circle-up"></i></a></li>
       <li><a href="{{ site.baseurl }}{{ next.url }}"><i class="fas fa-chevron-circle-right"></i></a></li>
