@@ -1,7 +1,7 @@
 ---
 
 layout: home
-
+title: Jason Kunesh's CyberPalace 
 ---
 
 <div class="pure-g">

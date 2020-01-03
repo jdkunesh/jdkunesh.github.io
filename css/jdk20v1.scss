@@ -9,8 +9,9 @@
 
 //== Typography
 $font-family-sans-serif:  'Nunito', sans-serif !default;
-$font-family-serif:       'Playfair Display', serif !default;
+$font-family-serif:       'Lora', serif !default;
 $font-family-base:        $font-family-sans-serif !default;
+$font-family-statement:   'Playfair Display', serif !default;
 
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
@@ -96,9 +97,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: $font-family-serif;
+    font-family: $font-family-statement;
     font-size: 2em;
-}
+    font-style: normal;
+   font-weight: 900;
+ }
 
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.17em; }
