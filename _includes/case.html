@@ -3,12 +3,24 @@
 {% assign next_case = site.data.work[work_index].cases[next_index] %}
 {% assign previous_case = site.data.work[work_index].cases[previous_index] %}
 
-<a href="{{ site.baseurl }}{{ current_work.url }}">Back to {{ current_work.title }}</a>
 
-<ul title="other work">
-  <li><a href="{{ site.baseurl }}{{ previous_case.url }}">Back to {{ previous_case.title }}</a></li>
-  <li><a href="{{ site.baseurl }}{{ next_case.url }}">Next up {{ next_case.title }}</a></li>
-</ul>
+
+<nav>
+  <ul>
+    {% for item in site.data.navigation.primary %}
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        <li>{{ item.text}}</li>
+      </a>
+    {% endfor %}
+      <li><a href="{{ site.baseurl }}{{ previous_case.url }}">Back to {{ previous_case.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ current_work.url }}">Back to {{ current_work.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ next_case.url }}">Next up {{ next_case.title }}</a></li>
+  </ul>
+</nav>
+</div><div class="pure-u-1 pure-u-md-2-3 prem">
+{% if page.title != null %}
+<h1>{{page.title}}</h1>
+{% endif%}
 
 <img src="{{ case.image }}" alt="{{ case.alt_text }}" class="pure-img" />
 
