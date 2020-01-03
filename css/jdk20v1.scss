@@ -106,8 +106,6 @@ h4 { font-size: 1em; }
 h5 { font-size: 0.83em; }
 h6 { font-size: 0.75em; }
 
-header, footer { padding: 1rem; }
-
 header a h1 {
     color: $color-link;
     text-decoration: none;
@@ -150,6 +148,15 @@ p, li {
     font-weight: $font-weight-base;
     line-height: $line-height-base;
 
+}
+
+//* LAYOUT TIME
+
+.content {
+    padding: 2em 1em 0;
+}
+.1-box {
+    padding: 1rem;
 }
 
 header ul li, footer ul li {float:left;}
@@ -198,8 +205,5 @@ footer { text-align: center;}
     letter-spacing: 0.1em;
 }
 
-.content {
-    padding: 2em 1em 0;
-}
 
 */

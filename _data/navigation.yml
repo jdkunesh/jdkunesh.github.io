@@ -1,15 +1,14 @@
 primary:
   - text: About
     url: /about
-  - text: Work
-    url: /work
-
-
-footer:
   - text: Accessibility
     url: /accessibility
   - text: Colophon
     url: /colophon
+  - text: Work
+    url: /work
+
+secondary:
   - text: LinkedIn
     url: http://www.linkedin.com/in/jdkunesh/
     external: true
