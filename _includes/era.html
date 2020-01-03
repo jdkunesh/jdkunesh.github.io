@@ -1,7 +1,7 @@
 
 {% assign era = site.data.work[current_index] %}
-{% assign next_era = site.data.work[next_index] %}
-{% assign previous_era = site.data.work[previous_index] %}
+{% assign next = site.data.work[next_index] %}
+{% assign previous = site.data.work[previous_index] %}
 <nav>
   <ul>
     {% for item in site.data.navigation.primary %}
@@ -9,8 +9,8 @@
         <li>{{ item.text}}</li>
       </a>
     {% endfor %}
-  <li><a href="{{ site.baseurl }}{{ previous_era.url }}">Back to {{ previous_era.title }}</a></li>
-  <li><a href="{{ site.baseurl }}{{ next_era.url }}">Next up {{ next_era.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ previous.url }}"><i class="fas fa-chevron-circle-left"></i></a></li>
+      <li><a href="{{ site.baseurl }}{{ next.url }}"><i class="fas fa-chevron-circle-right"></i></a></li>
   </ul>
 </nav>
 </div><div class="pure-u-1 pure-u-md-2-3 prem">
