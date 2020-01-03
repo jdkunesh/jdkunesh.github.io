@@ -3,8 +3,6 @@
 {% assign next = site.data.work[work_index].cases[next_index] %}
 {% assign previous = site.data.work[work_index].cases[previous_index] %}
 
-
-
 <nav>
   <ul>
       <li><a href="{{ site.baseurl }}{{ previous.url }}"><i class="fas fa-chevron-circle-left"></i></a></li>
@@ -12,18 +10,24 @@
       <li><a href="{{ site.baseurl }}{{ next.url }}"><i class="fas fa-chevron-circle-right"></i></a></li>
   </ul>
 </nav>
-</div><div class="pure-u-1 pure-u-md-2-3 prem">
+
+
+</div>
+<div class="pure-u-1 pure-u-md-2-3 prem">
+
 {% if page.title != null %}
 <h1>{{page.title}}</h1>
 {% endif%}
+</div>
+</div>
+<div class="pure-g">
+<div class="pure-u-1 pure-u-md-1-3 prem">
 
-<img src="{{ case.image }}" alt="{{ case.alt_text }}" class="pure-img" />
+<h4>Metadata</h4>
 
 <h2>{{case.team }}</h2>
 <p>{{ case.role }}</p>
 <p>{{ case.role_timeframe }}</p>
-
-<h4>Metadata</h4>
 
 <ul>
 <li>{{ case.budget }}</li>
@@ -35,6 +39,10 @@
 <li>{{ tag }}</li>
 {% endfor %}
 </ul>
+</div>
+<div class="pure-u-1 pure-u-md-2-3 prem">
+<img src="{{ case.image }}" alt="{{ case.alt_text }}" class="pure-img" />
+
 <h3>Challenge</h3>
 {% for thing in case.challenge.media %}
 {% include media.html %}
