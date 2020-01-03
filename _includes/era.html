@@ -18,24 +18,25 @@
 <h1>{{page.title}}</h1>
 {% endif%}
 
-<ul title="other work">
-</ul>
 <img src="{{ era.image }}" alt="{{ era.alt_text }}" class="pure-img" />
+<h2>Description</h2>
 {% if era.description != null %}
 {{ era.description | markdownify  }}
 {% endif %}
 
+{% if era.cases.size > 0 %}
 <h2>Case studies</h2>
-{% for case in era.cases %}
-  <a href="{{ site.baseurl }}{{ case.url }}">
-      <img src="{{ case.image }}" alt="{{ case.alt_text }}" class="pure-img" />
-        <h2>{{ case.title }}</h2>
-  </a>
-  <p>{{ case.challenge.description | markdownify }}</p>
-  <ul>
-    {% for tag in case.tags %}
-    <li>{{ tag }}</li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+  {% for case in era.cases %}
+    <a href="{{ site.baseurl }}{{ case.url }}">
+        <img src="{{ case.image }}" alt="{{ case.alt_text }}" class="pure-img" />
+          <h2>{{ case.title }}</h2>
+    </a>
+    <p>{{ case.challenge.description | markdownify }}</p>
+    <ul>
+      {% for tag in case.tags %}
+      <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+{% endif %}
 

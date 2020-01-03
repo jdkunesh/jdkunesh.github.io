@@ -1,9 +1,9 @@
 - title: City of Chicago
   url: /work/chicago
   image: /img/work/LOGO-CHICAGO-horizontal.png
-  alt_text: City of Chicago logo
+  alt_text: City of Chicago Public Mark
   description: >
-   At the design office, we work to make city services more accessible and inclusive for Chicago residents. It’s our mission to listen, amplify, and design with the community to build better technology experiences for everyone.
+   The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through community engagement for digital transformation. I am the first Design Director responsible for digital services and service delivery to the residents, businesses and visitors of the City of Chicago.
   cases: 
     - title: 311 Modernization
       url: /work/311
@@ -13,7 +13,8 @@
       budget: $34mm
       project_timeframe: 2017-2021
       tags: {community, government, mobile, web, IVR, service app}
-      role: Design Director. Design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer.
+      role: |
+        Design Director. Design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer.
       role_timeframe: January 2018 to now
       challenge: 
         description: |
@@ -62,48 +63,50 @@
             alt_text: 
       results:
         description: |
-          30k+ mobile application downloads, feature story in WIRED.
+          50k+ mobile application downloads, feature story in WIRED.
+          * WIRED: [Chicago’s New 311 System is a Huge Win for Public Works](https://www.wired.com/story/chicago-311-huge-win-for-public-works/)
     - title: Chicago Design System
       url: /work/cds
       image: /img/work/LOGO-CHICAGO-horizontal 311.png
       alt_text:
       team: City of Chicago
-      budget:
-      project_timeframe:
-      tags:  
-      role: Design Director
+      budget: $52 & lots of pro bono help
+      project_timeframe: June 2018–January 2020
+      tags: design system, web design system
+      role: Design Director, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism
       role_timeframe: January 2018 to now
       challenge: 
         description: |
-          * text
+          No definition of design standards enforced across departments or teams, leading to over 500 logos under management and over 200 applications with inconsistent, outdated standards, and money wasted defining and solving the same issues, over and over again. The piecemeal approach led to inaccessible, poorly translated systems, ugly systems not befitting the 3rd largest City in America. Mayor Rahm Emmanuel hated our dated digital brand. 
         media:
-          - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+          - url: https://via.placeholder.com/800x600?text=screenshot of all the different logos and icons
             type: image
             alt_text: Screenshot of some Lorem ipsum?
       research:
         description: |
-          * text
+          I began by reviewing the City's major technology programs, departments, and service delivery channels to understand what was in market and what design language it used to communicate. Along with inventorying our current state, we examined the branding efforts of other global cities to understand the benefits and pitfalls of different approaches. Finally, we examined the history and origin of Chicago's civic heraldry and neighborhood devices to place our work in the larger historical context, including interviews with the City's historian.
+          Comparative analysis, interface inventory, listening tour.
         media:
           - url: https://via.placeholder.com/800x600?text=lorem+ipsum
             type: image
             alt_text: Screenshot of some Lorem ipsum?
       highlights:
         description: |
-          * text
+          After creating the 311 logo, we realized we needed additional expertise to shape the city's public identity. We pitched Ogilvy to help us on a pro bono basis, and they accepted.
         media:
           - url: https://via.placeholder.com/800x600?text=lorem+ipsum
             type: image
             alt_text: Screenshot of some Lorem ipsum?
       validation:
         description: |
-          * text
+          We validated the brand by sharing it publicly for comment in the fall of 2019. We received positive and critical feedback on accessibility and usage that helped us evolve the framework. We also piloted web projects with the system throughout 2019 with community users, university graduate students, and business partners to understand the barriers to adoption.
         media:
           - url: https://via.placeholder.com/800x600?text=lorem+ipsum
             type: image
             alt_text: Screenshot of some Lorem ipsum?
       learnings:
         description: |
-          * text
+          We learned early on that that City didn't have a uniform marketing voice because it was no one's responsibility to enforce it. This led to a. 
         media:
           - url: https://via.placeholder.com/800x600?text=lorem+ipsum
             type: image
@@ -117,13 +120,13 @@
             alt_text: Screenshot of some Lorem ipsum?
     - title: Design Operations
       url: /work/desops
-      image: /img/work/LOGO-CHICAGO-horizontal 311.png
+      image: https://via.placeholder.com/300x300?text=lorem+ipsum
       alt_text:
       team: City of Chicago
       budget:
       project_timeframe:
       tags:  
-      role: Design Director
+      role: Design Director, individual contributor
       role_timeframe: January 2018 to now
       challenge: 
         description: |
@@ -172,33 +175,44 @@
   url: /work/publicgood
   alt_text:
   description: |
-    I founded Public Good to continue the work we began at Obama for America.
-    * Raised $$$
-    * Millions fundraised.
+    Public Good is an AI for Good platform that makes news actionable for brands and nonprofits. I co-founded Public Good as one of the first social benefit startups to continue the work we began at Obama for America.
+    * Raised $3mm in venture funding to build a capacity building startup. We served thousands of customers and helped them raise millions of dollars, but couldn't scale. We pivoted the business to solve the unsolved problem we kept hearing: when people read the news they want to take action but don't know how.
     * Billions of minds changes through our Public Good for Media program.
     * Did lots of advisory activities from future of work to future of design.
 - title: Obama for America
   image: /img/work/Obama_logomark2012.png
   url: /work/ofa
-  alt_text:
+  alt_text: Obama for America Logo
   description: |
-    I joined Obama for America to be the first Director of User Experience on a Presidential campaign. It was an incredible prilivege, and one of the most difficult jobs I've ever done.
+    Obama for America was the re-election campaign for President Barack Obama. I joined Obama for America to be the first Director of User Experience on a Presidential campaign. It was an incredible prilivege, and one of the most difficult jobs I've ever done.
     * Dashboard volunteer platform program management.
     * GOTV program management and overall management of the product team.
     * 11% conversion increase resulted in an additional $30mm raised.
     * Mobile app product management
     * Created nationwide volunteer UX network and supported and opened the SF tech field office.
+    * Managed multiple product managers, products, and programs for voter engagement throughout lifecycle.
+    * Helped establish San Francisco tech office, place outgoing staff in private industry or the administration or business life.
+    * Contributed donation page A/B test suggestions resulting in $30mm+ additional donations.
 - title: Fuzzy Math
   image: /img/work/FM_SoMe_Square.png
   url: /work/fm
-  alt_text:
-  description: At the design office
+  alt_text: Fuzzy Math, LLC Logo
+  description: |
+    I founded Kunesh Interaction Design, grew to include partners and reformed as Fuzzy Math, with a concentration on consumer ecommerce, healthcare, and travel.
+    Major engagements included reworking how Threadless approached commerce, ecommerce, and marketing, helping Microsoft & the Mayo Clinic create a health application for families struggling to manage a loved one's chronic health conditions, and an eLearning platform and out of the box experience for LeapFrog Connected Toys. Achievements:
+    * Established all business development, design practice and operations processes.
+    * Doubled sales to $2mm annually from 2009-11 through in person word of mouth and SEO landing pages.
 - title: Orbitz
   image: /img/work/Orbitz-Logo.jpg
   url: /work/orbitz
-  description: At the design office
+  alt_text: Oritz Worldwide (old school) Logo
+  description: |
+    Orbitz is a leading travel platform.
+    * Performed full lifecycle UX and accessibility activities on orbitz.com, orbitzforbusiness.com, and related properties.
+    * Began as a team of one in B2B, grew to lead a team of Information Architects on four products serving small businesses to Fortune 100 companies.
 - title: Everything else
   image: 
   url: /work/etc
   alt_text:
-  description: At the design office
+  description: |
+    I've been been fortunate to consult or work with awesome organizations from A to Z including: 3M, American Airlines, the Chicago Field Museum, the Clinton Foundation, the Dali Lama Center, Edelman, Emory University, Fellowes Manufacturing, GE Healthcare, Giant Bike, The Grammy Foundation, IBM, Intel, Jabber, LeapFrog, Lockheed Martin, the Mayo Clinic, McDonald's, Microsoft, the NFL, NORC at the University of Chicago, New York Presbyterian Hospital, SAP Fieldglass, Simon Properties, Threadless, United Airlines, UX for Good, Walt Disney Corporation, and bunches more you've never heard of. I am an advisor to [Designation](https://designation.io/), [Greenhouse: the Center of Social Innovation](https://www.ghouseinnovation.com), and [Side Door](https://www.sidedooraccess.com).

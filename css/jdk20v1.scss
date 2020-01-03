@@ -159,10 +159,6 @@ p, li {
 
 //* LAYOUT TIME
 
-.content {
-    padding: 2em 1em 0;
-}
-
 .p1rem {
     padding: 1rem;
 }
@@ -170,12 +166,19 @@ p, li {
     padding: 2em;
 }
 
+.card {
+    
+}
 
 //header ul li, footer ul li {float:left;}
 footer { text-align: center;}
 
 // some stuff from pure blog view
 /* LAYOUT CSS 
+
+.content {
+    padding: 2em 1em 0;
+}
 
 .pure-img-responsive {
     max-width: 100%;
