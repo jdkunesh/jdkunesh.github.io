@@ -131,7 +131,7 @@ header a h1 {
     }
 }
 
-header nav ul li {
+nav ul.gallery li {
     float: left;
 }
 
@@ -162,9 +162,14 @@ p, li {
 .content {
     padding: 2em 1em 0;
 }
-.prem {
+
+.p1rem {
     padding: 1rem;
 }
+.p2em {
+    padding: 2em;
+}
+
 
 //header ul li, footer ul li {float:left;}
 footer { text-align: center;}

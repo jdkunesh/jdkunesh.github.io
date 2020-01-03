@@ -3,7 +3,7 @@
 {% assign next = site.data.work[next_index] %}
 {% assign previous = site.data.work[previous_index] %}
 <nav>
-  <ul>
+  <ul class="gallery">
     {% for item in site.data.navigation.primary %}
       <a href="{{ site.baseurl }}{{ item.url }}">
         <li>{{ item.text}}</li>
@@ -13,7 +13,7 @@
       <li><a href="{{ site.baseurl }}{{ next.url }}"><i class="fas fa-chevron-circle-right"></i></a></li>
   </ul>
 </nav>
-</div><div class="pure-u-1 pure-u-md-2-3 prem">
+</div><div class="pure-u-1 pure-u-md-2-3 p1rem">
 {% if page.title != null %}
 <h1>{{page.title}}</h1>
 {% endif%}
