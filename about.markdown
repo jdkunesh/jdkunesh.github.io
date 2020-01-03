@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-![](/static/images/with-POTUS-08-11-2012.png)
-
 I am the Design Director for the City of Chicago, making the City work better for residents, visitors, and businesses by building awareness and usage of digital information and services designed with the community like [311](https://311.chicago.gov/) and the [Chicago Design System](https://chicagodesignsystem.org/).
 
 I am the first person in this role. I have had the privilege of saying that pretty often in my career as I've progressed from programming to design to product leadership. I have worked in all sorts of market sectors with acronyms like B2B/B2C/G2B/G2C/B2G/C2G and C2C Whew, I think that's all of 'em, often on either side of the table. Most of the time it's worked out pretty great.
