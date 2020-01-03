@@ -2,7 +2,7 @@
 {% assign era = site.data.work[current_index] %}
 {% assign next_era = site.data.work[next_index] %}
 {% assign previous_era = site.data.work[previous_index] %}
-
+<h1>{{ era.title }}</h1>
 <ul title="other work">
   <li><a href="{{ site.baseurl }}{{ previous_era.url }}">Back to {{ previous_era.title }}</a></li>
   <li><a href="{{ site.baseurl }}{{ next_era.url }}">Next up {{ next_era.title }}</a></li>
