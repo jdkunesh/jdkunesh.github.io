@@ -2,33 +2,26 @@
 {% assign era = site.data.work[current_index] %}
 {% assign next_era = site.data.work[next_index] %}
 {% assign previous_era = site.data.work[previous_index] %}
-<h1>{{ era.title }}</h1>
 <ul title="other work">
   <li><a href="{{ site.baseurl }}{{ previous_era.url }}">Back to {{ previous_era.title }}</a></li>
   <li><a href="{{ site.baseurl }}{{ next_era.url }}">Next up {{ next_era.title }}</a></li>
 </ul>
-<img src="{{ era.image }}" alt="{{ era.alt_text }}" width="50%" />
+<img src="{{ era.image }}" alt="{{ era.alt_text }}" class="pure-img" />
 {% if era.description != null %}
 {{ era.description | markdownify  }}
 {% endif %}
 
 <h2>Case studies</h2>
-<div class="card-deck">
-  {% for case in era.cases %}
-    <a href="{{ site.baseurl }}{{ case.url }}">
-      <div class="card card-home">
-        <img src="{{ case.image }}" alt="{{ case.alt_text }}" width="50%"/>
-        <div class="card-body">
-          <h2>{{ case.title }}</h2>
-          <p>{{ case.challenge.description | markdownify }}</p>
-          <ul>
-            {% for tag in case.tags %}
-            <li>{{ tag }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </a>
-  {% endfor %}
-</div>
+{% for case in era.cases %}
+  <a href="{{ site.baseurl }}{{ case.url }}">
+      <img src="{{ case.image }}" alt="{{ case.alt_text }}" class="pure-img" />
+        <h2>{{ case.title }}</h2>
+  </a>
+  <p>{{ case.challenge.description | markdownify }}</p>
+  <ul>
+    {% for tag in case.tags %}
+    <li>{{ tag }}</li>
+    {% endfor %}
+  </ul>
+{% endfor %}
 
