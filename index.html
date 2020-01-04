@@ -14,20 +14,30 @@ title: Jason Kunesh's CyberPalace
 <c span="7-8"></c>
 <c></c>
 </grid>
-
 <grid columns="8">
 <c></c>
 {% for item in site.data.work %}
 {% assign counter = forloop.index | times:2 %}
-{% if counter > 6 %}
-{% assign counter = counter | minus:6 %}
+{% if counter == 8 %}
+<grid columns="8">
+<c></c>
 {% endif %}
+
+{% if counter >= 8 %}{% assign counter = counter | minus:6 %}{% endif %}
  <c span="{{counter}}+2">
     <a href="{{ site.baseurl }}{{ item.url }}">
+    <div class="card">
     <img src="{{ item.image }}" alt="{{ item.alt_text }}" class="" />
     <h2>{{ item.title }}</h2>
+    </div>
     </a>
- </c>
+</c>
+{% assign test = counter | modulo:6 %}
+{% if test == 0 %}
+<c></c>
+</grid>
+{% endif %}
+
 {% endfor %}
 <c></c>
 </grid>
