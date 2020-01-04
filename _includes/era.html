@@ -2,6 +2,8 @@
 {% assign era = site.data.work[current_index] %}
 {% assign next = site.data.work[next_index] %}
 {% assign previous = site.data.work[previous_index] %}
+
+<c span="2">
 <nav>
   <ul class="gallery">
     {% for item in site.data.navigation.primary %}
@@ -13,19 +15,33 @@
       <li><a href="{{ site.baseurl }}{{ next.url }}"><i class="fas fa-chevron-circle-right"></i></a></li>
   </ul>
 </nav>
-</div><div class="pure-u-1 pure-u-md-2-3 p1rem">
+</c>
+<c span="3-5">
 {% if page.title != null %}
-<h1>{{page.title}}</h1>
+<h2>{{page.title}}</h2>
 {% endif%}
+</c>
+<c></c>
+<c></c>
+<c></c>
+</grid>
+
+<grid columns="8">
+<c span="row">
 
 <img src="{{ era.image }}" alt="{{ era.alt_text }}" />
-<h2>Description</h2>
+</c>
+</grid>
+
+<grid columns="8">
+<c></c>
+<c span="2-7">
+<h3>Description</h3>
 {% if era.description != null %}
 {{ era.description | markdownify  }}
 {% endif %}
-
 {% if era.cases.size > 0 %}
-<h2>Case studies</h2>
+<h3>Case studies</h3>
   {% for case in era.cases %}
     <a href="{{ site.baseurl }}{{ case.url }}">
         <img src="{{ case.image }}" alt="{{ case.alt_text }}" />
@@ -39,4 +55,7 @@
     </ul>
   {% endfor %}
 {% endif %}
+</c>
+<c></c>
+</grid>
 

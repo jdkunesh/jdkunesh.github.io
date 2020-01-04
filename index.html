@@ -4,15 +4,53 @@ layout: home
 title: Jason Kunesh's CyberPalace
 
 ---
-
+<grid columns="8">
+<c span="1-2"></c>
+<c span="3-6">
     <h2>Howdy!</h2>
     <p>inspirational statement like a book cover</p>
     <p>lover's quarrel with tech: design, biz, code intersection.</p>
+</c>
+<c span="7-8"></c>
+<c></c>
+</grid>
 
- {% for item in site.data.work %}
- 
+<grid columns="8">
+<c></c>
+{% for item in site.data.work %}
+{% assign counter = forloop.index | times:2 %}
+{% if counter > 6 %}
+{% assign counter = counter | minus:6 %}
+{% endif %}
+ <c span="{{counter}}+2">
     <a href="{{ site.baseurl }}{{ item.url }}">
-    <img src="{{ item.image }}" alt="{{ item.alt_text }}" />
+    <img src="{{ item.image }}" alt="{{ item.alt_text }}" class="" />
     <h2>{{ item.title }}</h2>
     </a>
+ </c>
 {% endfor %}
+<c></c>
+</grid>
+<!-- 
+
+<grid columns="8">
+<c></c>
+<c span="2+2"></c>
+<c span="4+2"></c>
+<c span="6+2"></c>
+<c></c>
+</grid>
+<grid columns="8">
+<c></c>
+<c span="2+2"></c>
+<c span="4+2"></c>
+<c span="6+2"></c>
+<c></c>
+</grid>
+<grid columns="8">
+<c span=""></c>
+<c span=""></c>
+<c span=""></c>
+<c span=""></c>
+</grid>
+ -->
