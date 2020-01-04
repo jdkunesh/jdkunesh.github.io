@@ -5,39 +5,5 @@ layout: default
 {% include header.html %}
 <grid columns="8">
 <c></c>
-<c span="2">
-<nav>
-  <ul>
-    {% for item in site.data.navigation.primary %}
-      <a href="{{ site.baseurl }}{{ item.url }}">
-        <li>{{ item.text}}</li>
-      </a>
-    {% endfor %}
-  </ul>
-</nav>
-</c>
-<c span="3-5">
-{% if page.title != null %}
-<h2>{{page.title}}</h2>
-{% endif%}
-{{ content }}
-</c>
-<c></c>
-<c></c>
-<c></c>
-</grid>
-
-<grid columns="8">
-<c span=""></c>
-<c span=""></c>
-<c span=""></c>
-<c span=""></c>
-<c span=""></c>
-<c span=""></c>
-<c span=""></c>
-<c span=""></c>
-<c></c>
-<c></c>
-</grid>
 
 {% include footer.html %}

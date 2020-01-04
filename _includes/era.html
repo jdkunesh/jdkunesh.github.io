@@ -18,7 +18,7 @@
 <h1>{{page.title}}</h1>
 {% endif%}
 
-<img src="{{ era.image }}" alt="{{ era.alt_text }}" class="pure-img" />
+<img src="{{ era.image }}" alt="{{ era.alt_text }}" />
 <h2>Description</h2>
 {% if era.description != null %}
 {{ era.description | markdownify  }}
@@ -28,7 +28,7 @@
 <h2>Case studies</h2>
   {% for case in era.cases %}
     <a href="{{ site.baseurl }}{{ case.url }}">
-        <img src="{{ case.image }}" alt="{{ case.alt_text }}" class="pure-img" />
+        <img src="{{ case.image }}" alt="{{ case.alt_text }}" />
           <h2>{{ case.title }}</h2>
     </a>
     <p>{{ case.challenge.description | markdownify }}</p>
