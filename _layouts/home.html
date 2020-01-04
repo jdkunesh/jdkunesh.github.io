@@ -1,14 +1,33 @@
 ---
 layout: default
 ---
-<div class="pure-g">
-<div class="pure-u-1 p1rem">
 {% include header.html %}
-</div>
-</div>
+<grid columns="8">
+<c span=""></c>
+<c span=""></c>
+<c span=""></c>
+<c span=""></c>
+</grid>
 
+<grid columns="8">
+<c span=""></c>
+<c span=""></c>
+<c span=""></c>
+<c span=""></c>
+</grid>
+
+<nav>
+  <ul>
+    {% for item in site.data.navigation.primary %}
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        <li>{{ item.text}}</li>
+      </a>
+    {% endfor %}
+  </ul>
+</nav>
+
+{% if page.title != null %}
+<h2>{{page.title}}</h2>
+{% endif%}
 {{ content }}
-
-<div class="pure-g"><div class="pure-u-1 p1rem">
 {% include footer.html %}
-</div></div>
