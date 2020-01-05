@@ -1,5 +1,5 @@
 - title: Chicago Design System
-  id: 1
+  id: 0
   url: /work/cds
   live: yes
   image: /img/work/chi/LOGO-CHICAGO-horizontal.png
@@ -56,7 +56,7 @@
         type: image
         alt_text: Screenshot of some Lorem ipsum?
 - title: 311 Modernization
-  id: 2
+  id: 1
   url: /work/311
   live: yes
   image: /img/work/chi/CHI-311-logo.png
@@ -120,7 +120,7 @@
       50k+ mobile application downloads, feature story in WIRED.
       * WIRED: [Chicago’s New 311 System is a Huge Win for Public Works](https://www.wired.com/story/chicago-311-huge-win-for-public-works/)
 - title: Design Operations
-  id: 3
+  id: 2
   url: /work/desops
   live: yes
   image: https://via.placeholder.com/300x300?text=lorem+ipsum
@@ -176,7 +176,7 @@
         type: image
         alt_text: Screenshot of some Lorem ipsum?
 - title: Quick Pay & Cash
-  id: 4
+  id: 3
   url: /work/ofa
   live: no
   image: /img/work/ofa/Obama_logomark2012.png
@@ -188,7 +188,7 @@
     * quick pay
     * Contributed donation page A/B test suggestions resulting in $30mm+ additional donations.
 - title: Digital whatever the webby says. + Dashboard
-  id: 5
+  id: 4
   url: /work/ofa2
   live: no
   image: /img/work/ofa/Obama_logomark2012.png
@@ -203,7 +203,7 @@
     * Managed multiple product managers, products, and programs for voter engagement throughout lifecycle.
     * Helped establish San Francisco tech office, place outgoing staff in private industry or the administration or business life.
 - title: MyNYP
-  id: 6
+  id: 5
   url: /work/nyp
   live: no
   image: /img/work/FM_SoMe_Square.png
@@ -215,14 +215,14 @@
     * Established all business development, design practice and operations processes.
     * Doubled sales to $2mm annually from 2009-11 through in person word of mouth and SEO landing pages.
 - title: Threadless prjoect?
-  id: 7
+  id: 6
   url: /work/orbitz
   live: no
   image: /img/work/Orbitz-Logo.jpg
   alt_text: Oritz Worldwide (old school) Logo
   team: Kunesh Interaction Design
 - title: Orbitz for Business
-  id: 8
+  id: 7
   url: /work/orbitz
   live: no
   image: /img/work/orbz/Orbitz-Logo.jpg
@@ -236,7 +236,7 @@
   role: 
   role_timeframe: January 2018 to now
 - title: Everything else
-  id: 9
+  id: 8
   url: /work/etc
   live: no
   image: 

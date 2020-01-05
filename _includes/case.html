@@ -1,6 +1,13 @@
-{% assign previous = site.data.work[previous_index] %}
+{% assign previous = site.data.work[case_index].id | minus:1 %}
 {% assign case = site.data.work[case_index]%}
-{% assign next = site.data.work[next_index] %}
+{% assign next = site.data.work[case_index].id | plus:1 %}
+
+{% if next >= site.data.work.size %}
+{% assign next = 0 %}
+{% endif %}
+{% if previous < 0 %}
+{% assign previous = 0 %}
+{% endif %}
 
 <c span="2">
 <nav>
