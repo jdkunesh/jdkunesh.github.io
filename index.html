@@ -18,9 +18,8 @@ title: Jason Kunesh's CyberPalace
 <c></c>
 
 {% for item in site.data.work %}
-{% assign counter = forloop.index | times:2 %}
-{% if counter >= 8 %}{% assign counter = counter | minus:6 %}{% endif %}
- <c span="{{counter}}+2">
+
+ <c span="{% cycle 2, 4, 6 %}+2">
     <a href="{{ site.baseurl }}{{ item.url }}">
     <div class="card">
     <img src="{{ item.image }}" alt="{{ item.alt_text }}" class="" />
