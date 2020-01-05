@@ -1,12 +1,11 @@
-{% assign previous = site.data.work[work_index].cases[previous_index] %}
-{% assign case = site.data.work[work_index].cases[case_index]%}
-{% assign next = site.data.work[work_index].cases[next_index] %}
+{% assign previous = site.data.work[previous_index] %}
+{% assign case = site.data.work[case_index]%}
+{% assign next = site.data.work[next_index] %}
 
 <c span="2">
 <nav>
   <ul class="gallery">
       <li><a href="{{ site.baseurl }}{{ previous.url }}"><i class="fas fa-chevron-circle-left"></i></a></li>
-      <li><a href="{{ site.baseurl }}{{ current.url }}"><i class="fas fa-chevron-circle-up"></i></a></li>
       <li><a href="{{ site.baseurl }}{{ next.url }}"><i class="fas fa-chevron-circle-right"></i></a></li>
   </ul>
 </nav>

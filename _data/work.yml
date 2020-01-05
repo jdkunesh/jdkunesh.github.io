@@ -179,7 +179,7 @@
   id: 4
   url: /work/ofa
   live: no
-  image: /img/work/Obama_logomark2012.png
+  image: /img/work/ofa/Obama_logomark2012.png
   alt_text: Obama for America Logo
   team: Obama for America
   description: |
@@ -191,7 +191,7 @@
   id: 5
   url: /work/ofa2
   live: no
-  image: /img/work/Obama_logomark2012.png
+  image: /img/work/ofa/Obama_logomark2012.png
   alt_text: Obama for America Logo
   team: Obama for America
   description: |
@@ -225,7 +225,7 @@
   id: 8
   url: /work/orbitz
   live: no
-  image: /img/work/Orbitz-Logo.jpg
+  image: /img/work/orbz/Orbitz-Logo.jpg
   alt_text: Oritz Worldwide (old school) Logo
   team: Orbitz
   description: |

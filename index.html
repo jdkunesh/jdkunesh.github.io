@@ -16,13 +16,9 @@ title: Jason Kunesh's CyberPalace
 </grid>
 <grid columns="8">
 <c></c>
+
 {% for item in site.data.work %}
 {% assign counter = forloop.index | times:2 %}
-{% if counter == 8 %}
-<grid columns="8">
-<c></c>
-{% endif %}
-
 {% if counter >= 8 %}{% assign counter = counter | minus:6 %}{% endif %}
  <c span="{{counter}}+2">
     <a href="{{ site.baseurl }}{{ item.url }}">
@@ -32,10 +28,12 @@ title: Jason Kunesh's CyberPalace
     </div>
     </a>
 </c>
-{% assign test = counter | modulo:6 %}
+{% assign test = forloop.index | modulo:3 %}
 {% if test == 0 %}
 <c></c>
 </grid>
+<grid columns="8">
+<c></c>
 {% endif %}
 
 {% endfor %}
