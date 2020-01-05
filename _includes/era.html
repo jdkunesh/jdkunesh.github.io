@@ -40,21 +40,6 @@
 {% if era.description != null %}
 {{ era.description | markdownify  }}
 {% endif %}
-{% if era.cases.size > 0 %}
-<h3>Case studies</h3>
-  {% for case in era.cases %}
-    <a href="{{ site.baseurl }}{{ case.url }}">
-        <img src="{{ case.image }}" alt="{{ case.alt_text }}" />
-          <h2>{{ case.title }}</h2>
-    </a>
-    <p>{{ case.challenge.description | markdownify }}</p>
-    <ul>
-      {% for tag in case.tags %}
-      <li>{{ tag }}</li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
-{% endif %}
 </c>
 <c></c>
 </grid>
