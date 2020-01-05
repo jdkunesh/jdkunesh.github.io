@@ -1,6 +1,15 @@
-{% assign previous_index = site.data.work[case_index].id | minus:1 %}
 {% assign case = site.data.work[case_index]%}
+<!-- assume case is good -->
+
+{% assign previous_index = site.data.work[case_index].id | minus:1 %}
+{% if prev_ovr_index %}
+    {% assign previous_index = prev_ovr_index %}
+{% endif %}
+
 {% assign next_index = site.data.work[case_index].id | plus:1 %}
+{% if next_ovr_index %}
+    {% assign next_index = next_ovr_index %}
+{% endif %}
 {% if next_index >= site.data.work.size %}
     {% assign next_index = 0 %}
 {% endif %}

@@ -1,7 +1,7 @@
 - title: Chicago Design System
   id: 0
   url: /work/cds
-  live: yes
+  live: true
   image: /img/work/chi/LOGO-CHICAGO-horizontal.png
   alt_text: City of Chicago Public Mark
   team: City of Chicago
@@ -58,7 +58,7 @@
 - title: 311 Modernization
   id: 1
   url: /work/311
-  live: yes
+  live: true
   image: /img/work/chi/CHI-311-logo.png
   alt_text: CHI 311 Logo
   team: City of Chicago
@@ -122,9 +122,9 @@
 - title: Design Operations
   id: 2
   url: /work/desops
-  live: yes
-  image: https://via.placeholder.com/300x300?text=lorem+ipsum
-  alt_text:
+  live: true
+  image: /img/work/chi/city-seal-black-2019.png
+  alt_text: Seal of the City of Chicago
   team: City of Chicago
   description: |
     The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through community engagement for digital transformation. I am the first Design Director responsible for digital services and service delivery to the residents, businesses and visitors of the City of Chicago.
@@ -175,22 +175,22 @@
       - url: https://via.placeholder.com/800x600?text=lorem+ipsum
         type: image
         alt_text: Screenshot of some Lorem ipsum?
-- title: Quick Pay & Cash
+- title: Digital Fundraising
   id: 3
   url: /work/ofa
-  live: no
+  live: false
   image: /img/work/ofa/Obama_logomark2012.png
   alt_text: Obama for America Logo
   team: Obama for America
   description: |
     Obama for America was the re-election campaign for President Barack Obama. I joined Obama for America to be the first Director of User Experience on a Presidential campaign. It was an incredible prilivege, and one of the most difficult jobs I've ever done.
     * 11% conversion increase resulted in an additional $30mm raised.
-    * quick pay
+    * Quick Donate
     * Contributed donation page A/B test suggestions resulting in $30mm+ additional donations.
-- title: Digital whatever the webby says. + Dashboard
+- title: Digital Campaign
   id: 4
   url: /work/ofa2
-  live: no
+  live: false
   image: /img/work/ofa/Obama_logomark2012.png
   alt_text: Obama for America Logo
   team: Obama for America
@@ -205,7 +205,7 @@
 - title: MyNYP
   id: 5
   url: /work/nyp
-  live: no
+  live: false
   image: /img/work/FM_SoMe_Square.png
   alt_text: Fuzzy Math, LLC Logo
   team: Microsoft
@@ -214,17 +214,17 @@
     Major engagements included reworking how Threadless approached commerce, ecommerce, and marketing, helping Microsoft & the Mayo Clinic create a health application for families struggling to manage a loved one's chronic health conditions, and an eLearning platform and out of the box experience for LeapFrog Connected Toys. Achievements:
     * Established all business development, design practice and operations processes.
     * Doubled sales to $2mm annually from 2009-11 through in person word of mouth and SEO landing pages.
-- title: Threadless prjoect?
+- title: Customer Experience Strategy
   id: 6
-  url: /work/orbitz
-  live: no
-  image: /img/work/Orbitz-Logo.jpg
-  alt_text: Oritz Worldwide (old school) Logo
+  url: /work/threadless
+  live: false
+  image: /img/work/thr/threadless.png
+  alt_text: Threadless logo
   team: Kunesh Interaction Design
 - title: Orbitz for Business
   id: 7
   url: /work/orbitz
-  live: no
+  live: false
   image: /img/work/orbz/Orbitz-Logo.jpg
   alt_text: Oritz Worldwide (old school) Logo
   team: Orbitz
@@ -238,7 +238,7 @@
 - title: Everything else
   id: 8
   url: /work/etc
-  live: no
+  live: true
   image: 
   alt_text:
   team: 
