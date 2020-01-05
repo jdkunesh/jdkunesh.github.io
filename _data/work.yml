@@ -239,11 +239,11 @@
   id: 8
   url: /work/etc
   live: true
-  image: 
-  alt_text:
-  team: 
+  image: /img/work/etc/ee-logo.png
+  alt_text: An image of logos from many different companies.
+  team: various
   description: |
     
   tags: design system, web design system
   role: Design Director, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism
-  role_timeframe: January 2018 to now
+  role_timeframe: 1999-2020

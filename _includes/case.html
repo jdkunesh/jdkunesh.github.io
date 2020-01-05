@@ -18,6 +18,13 @@
 {% endif %}
 {% assign previous = site.data.work[previous_index] %}
 {% assign next = site.data.work[next_index] %}
+
+<nav>
+  <ul class="gallery">
+      <li><a href="{{ site.baseurl }}{{ previous.url }}"><i class="fas fa-chevron-circle-left"></i></a></li>
+      <li><a href="{{ site.baseurl }}{{ next.url }}"><i class="fas fa-chevron-circle-right"></i></a></li>
+  </ul>
+</nav>
 <grid columns="8">
 <c span="row">
 <img src="{{ case.image }}" alt="{{ case.alt_text }}" />
@@ -27,12 +34,6 @@
 <grid columns="8">
 <c></c>
 <c span="2">
-<nav>
-  <ul class="gallery">
-      <li><a href="{{ site.baseurl }}{{ previous.url }}"><i class="fas fa-chevron-circle-left"></i></a></li>
-      <li><a href="{{ site.baseurl }}{{ next.url }}"><i class="fas fa-chevron-circle-right"></i></a></li>
-  </ul>
-</nav>
 </c>
 <c span="3-5">
 {% if case.title %}{{ case.title | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}

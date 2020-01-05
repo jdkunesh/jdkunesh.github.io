@@ -16,6 +16,25 @@ img.dead {
 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
+
+nav ul {
+    list-style: none;
+//   text-align: center;
+//  padding:0;
+//  margin:0;
+}
+
+nav ul li {
+    float: left;
+    text-align: left;
+    text-decoration: none;
+//    margin:0;
+//  padding: 0 1em 0 0;
+ }
+
+
+
+
 // // reset box model for css3 grid
 // * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: // border-box; }
 // 
@@ -143,23 +162,6 @@ img.dead {
 //     }
 // }
 // 
-// nav ul.gallery li {
-//     float: left;
-// }
-// 
-// ul {
-//     list-style: none;
-//     text-align: center;
-//     padding:0;
-//     margin:0;
-// }
-// 
-// li {
-//     margin:0;
-//     padding: 0 1em 0 0;
-//     text-align: left;
-//     text-decoration: none;
-// }
 // 
 // p, li {
 //     color: $text-color;
