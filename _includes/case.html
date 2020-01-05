@@ -1,13 +1,14 @@
-{% assign previous = site.data.work[case_index].id | minus:1 %}
+{% assign previous_index = site.data.work[case_index].id | minus:1 %}
 {% assign case = site.data.work[case_index]%}
-{% assign next = site.data.work[case_index].id | plus:1 %}
-
-{% if next >= site.data.work.size %}
-{% assign next = 0 %}
+{% assign next_index = site.data.work[case_index].id | plus:1 %}
+{% if next_index >= site.data.work.size %}
+    {% assign next_index = 0 %}
 {% endif %}
-{% if previous < 0 %}
-{% assign previous = 0 %}
+{% if previous_index < 0 %}
+    {% assign previous_index = 0 %}
 {% endif %}
+{% assign previous = site.data.work[previous_index] %}
+{% assign next = site.data.work[next_index] %}
 
 <c span="2">
 <nav>
@@ -18,6 +19,7 @@
 </nav>
 </c>
 <c span="3-5">
+{% if case.title %}{{ case.title | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}
 {% if page.title != null %}
 <h2>{{page.title}}</h2>
 {% endif%}
