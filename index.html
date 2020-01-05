@@ -4,7 +4,7 @@ layout: home
 title: Jason Kunesh's CyberPalace
 
 ---
-<grid columns="8">
+<grid columns="8" columns-s="1">
 <c></c>
 <c span="2-7">
     <h2>Welcome!</h2>
@@ -25,24 +25,22 @@ title: Jason Kunesh's CyberPalace
 <c></c>
 </grid>
 
-<grid columns="8">
+<grid columns="8" columns-s="1">
 <c></c>
 
 {% for item in site.data.work %}
-
- <c span="{% cycle 2, 4, 6 %}+2">
+<!-- {% cycle 2, 4, 6 %} -->
+<c span="2">
+<img src="{{ item.image }}" alt="{{ item.alt_text }}" class="h-8 top {% if item.live == false %}dead{% endif %}" />
 {% if item.live %} <a href="{{ site.baseurl }}{{ item.url }}"> {% endif %}
-    <div class="card">
-    <img src="{{ item.image }}" alt="{{ item.alt_text }}"{% if item.live == false %} class="dead"{% endif %} />
-    <p>{{ item.title }}</p>
-    </div>
+<p>{{ item.title }}</p>
 {% if item.live %} </a> {% endif %}
 </c>
 {% assign test = forloop.index | modulo:3 %}
 {% if test == 0 %}
 <c></c>
 </grid>
-<grid columns="8">
+<grid columns="8" columns-s="1">
 <c></c>
 {% endif %}
 
