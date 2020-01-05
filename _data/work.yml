@@ -204,10 +204,10 @@
     * Helped establish San Francisco tech office, place outgoing staff in private industry or the administration or business life.
 - title: MyNYP
   id: 5
-  url: /work/nyp
+  url: /work/msft
   live: false
-  image: /img/work/FM_SoMe_Square.png
-  alt_text: Fuzzy Math, LLC Logo
+  image: /img/work/msft/microsoft.png
+  alt_text: Microsoft Logo
   team: Microsoft
   description: |
     I founded Kunesh Interaction Design, grew to include partners and reformed as Fuzzy Math, with a concentration on consumer ecommerce, healthcare, and travel.
