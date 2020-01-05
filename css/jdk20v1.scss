@@ -34,9 +34,90 @@ nav ul li {
 //  padding: 0 1em 0 0;
  }
 
+//== COLOR
+$primary-color:              #2ae !default;    // aqua-ish?
+$secondary-color:            #562800 !default; // old text brown
+$another-primary-color:      #2C5491 !default; // close enough to the primary?
 
+$black:                      #000000 !default;
+$blue:                       #0d6efd !default;
+$indigo:                     #6610f2 !default;
+$purple:                     #4C2C92 !default;
+$pink:                       #d63384 !default;
+$red:                        #dc3545 !default;
+$orange:                     #fd7e14 !default;
+$yellow:                     #ffc107 !default;
+$green:                      #28a745 !default;
+$teal:                       #20c997 !default;
+$cyan:                       #17a2b8 !default;
+$white:                      #ffffff !default;
+$offwhite:                   #FFF4F4 !default;
 
+$grey:                       #494440;
+$grey-light:                 #E4E2E0;
+$grey-dark:                  #494440;
 
+$brand-color:                $primary-color;
+
+// FUNCTIONAL COLORS (WHERE STYLE MEETS SEMANTICS)
+$background-color:           $offwhite;
+$text-color:                 $secondary-color;
+
+$color-link:                 $another-primary-color;
+$color-active:               $teal;
+$color-hover:                $orange;
+$color-focus:                $cyan;
+$color-visited:              $purple;
+
+//== TOP LEVEL ELEMENTS
+
+body {
+    background-color: $background-color;
+}
+
+a {
+    color: $color-link;
+    text-decoration: none;
+
+    &:visited {
+        color: $color-visited;
+    }
+
+    &:focus {
+        color: $color-focus;
+        text-decoration: underline;
+    }
+    &:hover {
+        color: $color-hover;
+        text-decoration: underline;
+    }
+    &:active {
+        color: $color-active;
+        text-decoration: underline;
+    }
+}
+
+header a h1 {
+    color: $color-link;
+    text-decoration: none;
+
+    &:visited {
+        color: $color-link;
+    }
+
+    &:focus {
+        color: $color-focus;
+        text-decoration: none;
+    }
+    &:hover {
+        color: $color-hover;
+        text-decoration: underline;
+    }
+    &:active {
+        color: $color-active;
+        text-decoration: none;
+    }
+}
 // // reset box model for css3 grid
 // * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: // border-box; }
 // 
@@ -58,69 +139,6 @@ nav ul li {
 // $headings-font-weight:    700 !default;
 // $headings-line-height:    1.1 !default;
 // $blockquote-font-size: $font-size-base;
-
-//== COLOR
-// $primary-color:              #2ae !default;    // aqua-ish?
-// $secondary-color:            #562800 !default; // old text brown
-// $another-primary-color:      #2C5491 !default; // close enough to the primary?
-// 
-// $black:                      #000000 !default;
-// $blue:                       #0d6efd !default;
-// $indigo:                     #6610f2 !default;
-// $purple:                     #4C2C92 !default;
-// $pink:                       #d63384 !default;
-// $red:                        #dc3545 !default;
-// $orange:                     #fd7e14 !default;
-// $yellow:                     #ffc107 !default;
-// $green:                      #28a745 !default;
-// $teal:                       #20c997 !default;
-// $cyan:                       #17a2b8 !default;
-// $white:                      #ffffff !default;
-// $offwhite:                   #FFF4F4 !default;
-// 
-// $grey:                       #494440;
-// $grey-light:                 #E4E2E0;
-// $grey-dark:                  #494440;
-// 
-// $brand-color:                $primary-color;
-// 
-// // FUNCTIONAL COLORS (WHERE STYLE MEETS SEMANTICS)
-// $background-color:           $offwhite;
-// $text-color:                 $secondary-color;
-// 
-// $color-link:                 $another-primary-color;
-// $color-active:               $teal;
-// $color-hover:                $orange;
-// $color-focus:                $cyan;
-// $color-visited:              $purple;
-
-//== TOP LEVEL ELEMENTS
-
-// body {
-//     background-color: $background-color;
-// }
-// 
-// a {
-//     color: $color-link;
-//     text-decoration: none;
-// 
-//     &:visited {
-//         color: $color-visited;
-//     }
-// 
-//     &:focus {
-//         color: $color-focus;
-//         text-decoration: underline;
-//     }
-//     &:hover {
-//         color: $color-hover;
-//         text-decoration: underline;
-//     }
-//     &:active {
-//         color: $color-active;
-//         text-decoration: underline;
-//     }
-// }
 // 
 // h1, h2, h3, h4, h5, h6 {
 //     color: $grey-dark;
@@ -142,27 +160,7 @@ nav ul li {
 // h5 { font-size: 0.83em; }
 // h6 { font-size: 0.75em; }
 // 
-// header a h1 {
-//     color: $color-link;
-//     text-decoration: none;
-// 
-//     &:visited {
-//         color: $color-link;
-//     }
-// 
-//     &:focus {
-//         color: $color-focus;
-//         text-decoration: none;
-//     }
-//     &:hover {
-//         color: $color-hover;
-//         text-decoration: underline;
-//     }
-//     &:active {
-//         color: $color-active;
-//         text-decoration: none;
-//     }
-// }
+
 // 
 // 
 // p, li {
