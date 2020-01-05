@@ -240,10 +240,10 @@
   url: /work/etc
   live: true
   image: /img/work/etc/ee-logo.png
-  alt_text: An image of logos from many different companies.
+  alt_text: Logos from many different companies I've worked with in my career.
   team: various
   description: |
     
-  tags: design system, web design system
+  tags: {activism, B2B, B2C, CPG, defense, education, finance, healthcare, media, travel}
   role: Design Director, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism
   role_timeframe: 1999-2020
