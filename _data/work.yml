@@ -175,73 +175,65 @@
       - url: https://via.placeholder.com/800x600?text=lorem+ipsum
         type: image
         alt_text: Screenshot of some Lorem ipsum?
-- title: Public Good
+- title: Quick Pay & Cash
   id: 4
-  url: /work/publicgood
-  live: yes
-  image: /img/work/public good.png
-  alt_text: Public Good Software logo
-  team: Public Good
-  description: |
-    Public Good is an AI for Good platform that makes news actionable for brands and nonprofits. I co-founded Public Good as one of the first social benefit startups to continue the work we began at Obama for America.
-    * Raised $3mm in venture funding to build a capacity building startup. We served thousands of customers and helped them raise millions of dollars, but couldn't scale. We pivoted the business to solve the unsolved problem we kept hearing: when people read the news they want to take action but don't know how.
-    * Billions of minds changes through our Public Good for Media program.
-    * Did lots of advisory activities from future of work to future of design.
-- title: Obama for America
-  id: 5
   url: /work/ofa
   live: no
   image: /img/work/Obama_logomark2012.png
   alt_text: Obama for America Logo
+  team: Obama for America
+  description: |
+    Obama for America was the re-election campaign for President Barack Obama. I joined Obama for America to be the first Director of User Experience on a Presidential campaign. It was an incredible prilivege, and one of the most difficult jobs I've ever done.
+    * 11% conversion increase resulted in an additional $30mm raised.
+    * quick pay
+    * Contributed donation page A/B test suggestions resulting in $30mm+ additional donations.
+- title: Digital whatever the webby says. + Dashboard
+  id: 5
+  url: /work/ofa2
+  live: no
+  image: /img/work/Obama_logomark2012.png
+  alt_text: Obama for America Logo
+  team: Obama for America
   description: |
     Obama for America was the re-election campaign for President Barack Obama. I joined Obama for America to be the first Director of User Experience on a Presidential campaign. It was an incredible prilivege, and one of the most difficult jobs I've ever done.
     * Dashboard volunteer platform program management.
     * GOTV program management and overall management of the product team.
-    * 11% conversion increase resulted in an additional $30mm raised.
     * Mobile app product management
     * Created nationwide volunteer UX network and supported and opened the SF tech field office.
     * Managed multiple product managers, products, and programs for voter engagement throughout lifecycle.
     * Helped establish San Francisco tech office, place outgoing staff in private industry or the administration or business life.
-    * Contributed donation page A/B test suggestions resulting in $30mm+ additional donations.
-- title: Fuzzy Math
+- title: MyNYP
   id: 6
-  url: /work/fm
+  url: /work/nyp
   live: no
   image: /img/work/FM_SoMe_Square.png
   alt_text: Fuzzy Math, LLC Logo
-  team: 
+  team: Microsoft
   description: |
     I founded Kunesh Interaction Design, grew to include partners and reformed as Fuzzy Math, with a concentration on consumer ecommerce, healthcare, and travel.
     Major engagements included reworking how Threadless approached commerce, ecommerce, and marketing, helping Microsoft & the Mayo Clinic create a health application for families struggling to manage a loved one's chronic health conditions, and an eLearning platform and out of the box experience for LeapFrog Connected Toys. Achievements:
     * Established all business development, design practice and operations processes.
     * Doubled sales to $2mm annually from 2009-11 through in person word of mouth and SEO landing pages.
-- title: Microsoft
+- title: Threadless prjoect?
   id: 7
   url: /work/orbitz
   live: no
   image: /img/work/Orbitz-Logo.jpg
   alt_text: Oritz Worldwide (old school) Logo
-  team: 
-  description: |
-    Orbitz is a leading travel platform.
-    * Performed full lifecycle UX and accessibility activities on orbitz.com, orbitzforbusiness.com, and related properties.
-    * Began as a team of one in B2B, grew to lead a team of Information Architects on four products serving small businesses to Fortune 100 companies.
-  tags: design system, web design system
-  role: Design Director, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism
-  role_timeframe: January 2018 to now
-- title: Orbitz
+  team: Kunesh Interaction Design
+- title: Orbitz for Business
   id: 8
   url: /work/orbitz
   live: no
   image: /img/work/Orbitz-Logo.jpg
   alt_text: Oritz Worldwide (old school) Logo
-  team: 
+  team: Orbitz
   description: |
     Orbitz is a leading travel platform.
     * Performed full lifecycle UX and accessibility activities on orbitz.com, orbitzforbusiness.com, and related properties.
     * Began as a team of one in B2B, grew to lead a team of Information Architects on four products serving small businesses to Fortune 100 companies.
   tags: design system, web design system
-  role: Design Director, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism
+  role: 
   role_timeframe: January 2018 to now
 - title: Everything else
   id: 9
