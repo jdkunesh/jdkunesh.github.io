@@ -175,7 +175,7 @@
       - url: /img/work/
         type: image
         alt_text: Screenshot of some Lorem ipsum?
-- title: Digital Fundraising
+- title: Online Fundraising
   id: 3
   url: /work/ofa
   live: false
@@ -204,7 +204,7 @@
     * Created nationwide volunteer UX network and supported and opened the SF tech field office.
     * Managed multiple product managers, products, and programs for voter engagement throughout lifecycle.
     * Helped establish San Francisco tech office, place outgoing staff in private industry or the administration or business life.
-- title: MyNYP
+- title: MyNYP HealthVault
   id: 5
   url: /work/msft
   live: false
