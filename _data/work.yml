@@ -14,11 +14,11 @@
   role: |
     Design Director. Design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer.
   role_timeframe: January 2018 to now
-  challenge: 
+  solution: 
     description: |
       Use user experience methods to include resident voice in the product design process, transforming an analog and digital system into a pure digital workflow.
     media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+      - url: /img/work/
         type: image
         alt_text: Screenshot of some Lorem ipsum?
   research:
@@ -67,7 +67,7 @@
   id: 1
   url: /work/cds
   live: true
-  image: /img/work/chi/LOGO-CHICAGO-horizontal.png
+  image: /img/work/chi/flag-commission-seal.png
   logo: /img/work/chi/LOGO-CHICAGO-horizontal.png
   alt_text: City of Chicago Public Mark
   team: City of Chicago
@@ -75,56 +75,40 @@
     The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through digital transformation of information and service delivery with the community. 
   budget: $52 & lots of pro bono help
   project_timeframe: June 2018–January 2020
-  tags: design system, web design system
+  tags: {design system, web design system, comparative analysis, interface inventory, listening tour, historical research}
   role: Design Director, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism
   role_timeframe: January 2018 to now
-  challenge: 
+  solution: 
     description: |
       No definition of design standards enforced across departments or teams, leading to over 500 logos under management and over 200 applications with inconsistent, outdated standards, and money wasted defining and solving the same issues, over and over again. The piecemeal approach led to inaccessible, poorly translated systems, ugly systems not befitting the 3rd largest City in America. Mayor Rahm Emmanuel hated our dated digital brand. 
-      After creating the 311 logo, we realized we needed additional expertise to shape the city's public identity. We pitched Ogilvy to help us on a pro bono basis, and they accepted.
-
-    media:
-      - url: https://via.placeholder.com/800x600?text=screenshot of all the different logos and icons
-        type: image
-        alt_text: Screenshot of some Lorem ipsum?
+      After creating the 311 logo, we realized we needed additional expertise to shape the city's public identity, so we partnered with Ogilvy on a pro bono project to design a new identity for Chicago.
   research:
     description: |
-      I began by reviewing the City's major technology programs, departments, and service delivery channels to understand what was in market and what design language it used to communicate. Along with inventorying our current state, we examined the branding efforts of other global cities to understand the benefits and pitfalls of different approaches. Finally, we examined the history and origin of Chicago's civic heraldry and neighborhood devices to place our work in the larger historical context, including interviews with the City's historian.
-      Comparative analysis, interface inventory, listening tour.
+      We began by reviewing the City's major technology programs, departments, and service delivery channels to understand what was in market and what design language it used to communicate. Along with inventorying our current state, we examined the branding efforts of other global cities to understand the benefits and pitfalls of different approaches. Finally, we examined the history and origin of Chicago's civic heraldry and neighborhood devices to place our work in the larger historical context, including interviews with the City's historian.
     media:
       - url: /img/work/chi/cds-seals-research.png
         type: image
         caption: We researched 150 years of City of Chicago archives for examples of how the symbols of the City changed over time. We saw opportunity in refining and reframing existing symbols, including the newest version of the Seal, above.
-  highlights:
+  solution:
     description: 
     media:
-      - url: /img/work/chi/cds-tradcom-solution-trans.png
+      - url: /img/work/chi/cds-tradcom-solution-t.png
         type: image
         caption: Traditional media chiron (in use), presentation, memo and business card templates.
-      - url: /img/work/chi/cds-new-media-solution-trans.png
+      - url: /img/work/chi/cds-support-sites-t.png
+        type: image
+        caption: I developed a demonstration site at [design.chicago.gov](https://design.chicago.gov/) with a Bootstrap 4 theme stored in GitHub.
+      - url: /img/work/chi/cds-new-media-solution-t.png
         type: image
         caption: An upcoming Cannabis Legalization program illustrates the system today on Chicago home page, microsite, Facebook, Twitter, Instagram, and event messaging.
   validation:
     description: |
       We validated the brand by sharing it publicly for comment in the fall of 2019. We received positive and critical feedback on accessibility and usage that helped us evolve the framework. We also piloted web projects with the system throughout 2019 with community users, university graduate students, and business partners to understand the barriers to adoption.
-    media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
-        type: image
-        alt_text: Screenshot of some Lorem ipsum?
   learnings:
     description: |
       We learned early on that that City didn't have a uniform marketing voice because it was no one's responsibility to enforce it. This led to a. 
-    media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
-        type: image
-        alt_text: Screenshot of some Lorem ipsum?
   results:
-    description: |
-      * text
-    media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
-        type: image
-        alt_text: Screenshot of some Lorem ipsum?
+    description: _launching January 2020_
 - title: Design Operations
   id: 2
   url: /work/desops
@@ -140,46 +124,46 @@
   tags:  
   role: Design Director, individual contributor
   role_timeframe: January 2018 to now
-  challenge: 
+  solution: 
     description: |
       * text
     media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+      - url: /img/work/
         type: image
         alt_text: Screenshot of some Lorem ipsum?
   research:
     description: |
       * text
     media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+      - url: /img/work/
         type: image
         alt_text: Screenshot of some Lorem ipsum?
   highlights:
     description: |
       * text
     media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+      - url: /img/work/
         type: image
         alt_text: Screenshot of some Lorem ipsum?
   validation:
     description: |
       * text
     media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+      - url: /img/work/
         type: image
         alt_text: Screenshot of some Lorem ipsum?
   learnings:
     description: |
       * text
     media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+      - url: /img/work/
         type: image
         alt_text: Screenshot of some Lorem ipsum?
   results:
     description: |
       * text
     media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+      - url: /img/work/
         type: image
         alt_text: Screenshot of some Lorem ipsum?
 - title: Digital Fundraising

@@ -43,6 +43,13 @@
 <h3>Brief</h3>
 {{ case.description | markdownify }}
 {% endif %}
+{% if case.challenge %}
+<h3>Challenge</h3>
+{% for thing in case.challenge.media %}
+{% include media.html %}
+{% endfor %}
+{{ case.challenge.description | markdownify }}
+{% endif %}
 </c>
 <c span="7-8">
 <img src="{{ case.logo }}" alt="{{ case.alt_text }}" class="w-12 top" />
@@ -66,15 +73,6 @@
 <grid columns="8" columns-s="1">
 <c></c>
 <c span="2-7">
-
-{% if case.challenge %}
-<h3>Challenge</h3>
-{% for thing in case.challenge.media %}
-{% include media.html %}
-{% endfor %}
-{{ case.challenge.description | markdownify }}
-{% endif %}
-
 {% if case.research %}
 <h3>Research</h3>
 {{ case.research.description | markdownify }}
@@ -83,12 +81,12 @@
 {% endfor %}
 {% endif %}
 
-{% if case.highlights %}
-<h3>Highlights</h3>
-{% for thing in case.highlights.media %}
+{% if case.solution %}
+<h3>Solution</h3>
+{% for thing in case.solution.media %}
 {% include media.html %}
 {% endfor %}
-{{ case.highlights.description | markdownify }}
+{{ case.solution.description | markdownify }}
 {% endif %}
 
 {% if case.validation %}
