@@ -81,6 +81,8 @@
   challenge: 
     description: |
       No definition of design standards enforced across departments or teams, leading to over 500 logos under management and over 200 applications with inconsistent, outdated standards, and money wasted defining and solving the same issues, over and over again. The piecemeal approach led to inaccessible, poorly translated systems, ugly systems not befitting the 3rd largest City in America. Mayor Rahm Emmanuel hated our dated digital brand. 
+      After creating the 311 logo, we realized we needed additional expertise to shape the city's public identity. We pitched Ogilvy to help us on a pro bono basis, and they accepted.
+
     media:
       - url: https://via.placeholder.com/800x600?text=screenshot of all the different logos and icons
         type: image
@@ -92,10 +94,9 @@
     media:
       - url: /img/work/chi/cds-seals-research.png
         type: image
-        caption: We researched 150 years of City of Chicago archives for examples of how the symbols of the city changed over time, and how they reflected communities' identity.
+        caption: We researched 150 years of City of Chicago archives for examples of how the symbols of the City changed over time. We saw opportunity in refining and reframing existing symbols, including the newest version of the Seal, above.
   highlights:
-    description: |
-      After creating the 311 logo, we realized we needed additional expertise to shape the city's public identity. We pitched Ogilvy to help us on a pro bono basis, and they accepted.
+    description: 
     media:
       - url: /img/work/chi/cds-tradcom-solution-trans.png
         type: image

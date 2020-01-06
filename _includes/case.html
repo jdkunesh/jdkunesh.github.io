@@ -77,10 +77,10 @@
 
 {% if case.research %}
 <h3>Research</h3>
+{{ case.research.description | markdownify }}
 {% for thing in case.research.media %}
 {% include media.html %}
 {% endfor %}
-{{ case.research.description | markdownify }}
 {% endif %}
 
 {% if case.highlights %}
