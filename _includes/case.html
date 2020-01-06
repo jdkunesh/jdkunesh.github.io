@@ -88,10 +88,10 @@
 
 {% if case.solution %}
 <h3>Solution</h3>
+{{ case.solution.description | markdownify }}
 {% for thing in case.solution.media %}
 {% include media.html %}
 {% endfor %}
-{{ case.solution.description | markdownify }}
 {% endif %}
 
 {% if case.validation %}

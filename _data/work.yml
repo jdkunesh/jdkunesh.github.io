@@ -45,9 +45,9 @@
     description: |
       We tested early versions of the new 311 system with residents at libraries and community colleges across the city and made refinements based on their feedback in 15 testing sessions with over 350 community testers thanks to the help of Chicago sister agencies. Through partnership with DePaul University's College of Digital Media, we have organized student volunteer usability testing resulting in bug improvements and feature requests driven by the community.
     media:
-      - url: https://via.placeholder.com/800x600?text=Open+311+Roadmap
+      - url: /img/work/chi/311-findings-validation.png
         type: image
-        caption: Screenshot of Public 311 Roadmap in July 2019. Residents can follow progress and contribute ideas on the first of its kind [CHI311 public roadmap](https://trello.com/b/AODvHk2V/311-public-roadmap).
+        caption: Resident ideas were captured in a roadmap poster to guide product development throughout the five year plan. Residents can follow progress and contribute ideas on the first of its kind [CHI311 public roadmap](https://trello.com/b/AODvHk2V/311-public-roadmap). Screenshots here show roadmap changes from January to August, 2019.
   learnings:
     description: |
       * Net Promoter Scores are meaningless.
@@ -79,7 +79,7 @@
     description: |
       Living with over 500 logos, 200 applications, and no design standards is a recipe for confusing messaging delivered inconsistently at great expense. Our new design system saves money and time while supporting accessible, inclusive, consistent communication.
 
-      While rolling out 311 with our marketing and community engagement partners we saw time and again how supply and demand for services met unequally time and again. Some awesome services went under utilized while others were overrun with demand, not due to laziness, but because governments weren't built to encourage marketing activities, until now. Now that our digital life is, well, our life, governments need to market services digitally since it's so effective.
+      While rolling out 311 with our marketing and community engagement partners we saw how supply and demand for services met unequally time and again. Some great services go under-utilized by the people who need them most because governments aren't built to market effectively. Now that our digital life is, well, our life, governments need to market services digitally.
 
       While creating the 311 logo and going through the early launch process, I realized there were many policies written for accessibility and style, but nearly no one followed them. A design system would help, and many of our platforms had them, like Salesforce or ServiceNow, but dozens more did not. In consultation and partnership with the Mayor's Office, we realized we needed additional expertise to shape the city's public identity, so we partnered with Ogilvy, Google, and House of Pretty on a pro bono project to design a new identity for Chicago.
   research:
@@ -90,7 +90,8 @@
         type: image
         caption: We researched 150 years of City of Chicago archives for examples of how the symbols of the City changed over time. We saw opportunity in refining and reframing existing symbols, including the newest version of the Seal, above.
   solution:
-    description: 
+    description: |
+      The Chicago Design System is the public visual identity of the City of Chicago. It is an inclusive, equitable, cost saving system for City communication and for the public to use to show civic pride.
     media:
       - url: /img/work/chi/LOGO-Chicago2000x1000-TW.png
         type: image
@@ -131,7 +132,6 @@
   project_timeframe: 2018-present
   tags:  
   role: Design Director
-  role_timeframe: January 2018 to now
   challenge: 
     description: |
       In 2018 I fielded 37 outside project requests from different departments during the course of the 311 Modernization launch. It became apparent fast that the scale of procurement, systems, relationships, and politics were the study of many lifetimes. Often, the only help I could offer was to describe what the process would look like, and in a few cases, offer a service or two. It was small comfort that wasn't helping anyone.
@@ -150,29 +150,12 @@
       #### Product
       Support project teams through the performance of design duties or through design direction and planning with vendor design teams, university design departments, and philanthropic teams.
     media:
-      - url: /img/work/
+      - url: /img/work/chi/desops-culture-process.png
         type: image
-        alt_text: Screenshot of some Lorem ipsum?
-  validation:
-    description: |
-    media:
-      - url: /img/work/
+        caption: I had no free budget in 2018 or early 2019, so I partnered with Northwestern University, DePaul University, and the Mayor's Office for People with Disabilities to build capacity and produce design work and culture change for departments. 
+      - url: /img/work/chi/desops-tools.png
         type: image
-        alt_text: Screenshot of some Lorem ipsum?
-  learnings:
-    description: |
-      * text
-    media:
-      - url: /img/work/
-        type: image
-        alt_text: Screenshot of some Lorem ipsum?
-  results:
-    description: |
-      * text
-    media:
-      - url: /img/work/
-        type: image
-        alt_text: Screenshot of some Lorem ipsum?
+        caption: Along with the Design System code, we provide multiple tools to vendors, employees, and the community. Pictured here are method playbooks and accessibility guides adapted from 18F, a Figma community beta where we store our patterns and community items like the Chicago star. Also pictured is a summary from Ogilvy of our Frontify presence, currently rolling out.
 - title: Online Fundraising
   id: 3
   url: /work/ofa
