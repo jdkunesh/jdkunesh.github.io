@@ -34,12 +34,9 @@
 </grid>
 
 <grid columns="8" columns-s="1">
-<c span="1-2">
-<img src="{{ case.logo }}" alt="{{ case.alt_text }}" class="w-16 top" />
-<h4>{{case.team }}</h4>
-<p>{{ case.role }}</p>
+<c>
 </c>
-<c span="3-6">
+<c span="2-6">
 <h1>{% if case.title %}{{ case.title | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h1>
 
 {% if case.description %}
@@ -48,6 +45,9 @@
 {% endif %}
 </c>
 <c span="7-8">
+<img src="{{ case.logo }}" alt="{{ case.alt_text }}" class="w-12 top" />
+<h4>{{case.team }}</h4>
+<p>{{ case.role }}</p>
 <h4>Details</h4>
 <ul>
 <li>budget {{ case.budget }}</li>
