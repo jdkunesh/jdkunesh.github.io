@@ -2,5 +2,18 @@
 layout: default
 ---
 {% include header.html %}
+<grid columns="8" columns-s="1">
+<c span="row" span-s="row">
+<img src="{{ page.image }}" alt="{{ page.alt_text }}" class="w-full"/>
+</c>
+<c span="1-2"></c>
+<c span="3.." span-s="row">
+<h1>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h1>
+</c>
+<c span="1-2"></c>
+<c span="3-6" span-s="row">
 {{ content }}
+</c>
+<c span="7-8"></c>
+</grid>
 {% include footer.html %}

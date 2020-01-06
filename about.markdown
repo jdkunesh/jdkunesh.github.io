@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+image: /img/work/ofa/with-POTUS-08-11-2012.JPG
+alt_text: A picture of me with President Barack Obama, discussing technology products for the Obama for America 2012 campaign.
 ---
 Hi, I'm Jason.
 
@@ -15,6 +17,8 @@ I was an early team member at [Orbitz](https://www.orbitz.com), one of the first
 
 I've played [Metro's main stage](https://metrochicago.com) a couple times as well as assorted dive bars around the greater Midwest. I was a bouncer at the [Green Mill](http://greenmilljazz.com), so settle down, please. You'll have a better time if you don't make A scene, but make THE scene, y'know?
 
-I've been been fortunate to consult or work with awesome organizations from A to Z including: 3M, American Airlines, the Chicago Field Museum, the Clinton Foundation, the Dali Lama Center, Edelman, Emory University, Fellowes Manufacturing, GE Healthcare, Giant Bike, The Grammy Foundation, IBM, Intel, Jabber, LeapFrog, Lockheed Martin, the Mayo Clinic, McDonald's, Microsoft, the NFL, NORC at the University of Chicago, New York Presbyterian Hospital, SAP Fieldglass, Simon Properties, Threadless, United Airlines, UX for Good, Walt Disney Corporation, and bunches more you've never heard of. I am an advisor to [Designation](https://designation.io/), [Greenhouse: the Center of Social Innovation](https://www.ghouseinnovation.com), and [Side Door](https://www.sidedooraccess.com).
+I've been been fortunate to consult or work with awesome organizations from A to Z including: 3M, American Airlines, the Chicago Field Museum, the Clinton Foundation, the Dali Lama Center, Edelman, Emory University, Fellowes Manufacturing, GE Healthcare, Giant Bike, The Grammy Foundation, IBM, Intel, Jabber, LeapFrog, Lockheed Martin, the Mayo Clinic, McDonald's, Microsoft, the NFL, NORC at the University of Chicago, New York Presbyterian Hospital, SAP Fieldglass, Simon Properties, Threadless, United Airlines, UX for Good, Walt Disney Corporation, and bunches more you've never heard of.
 
+I am an advisor to [Designation](https://designation.io/), [Side Door](https://www.sidedooraccess.com), and [Greenhouse: the Center of Social Innovation](https://www.ghouseinnovation.com).
 
+Thanks for reading this!
