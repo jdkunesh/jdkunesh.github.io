@@ -78,9 +78,10 @@
   tags: {design system, web design system, comparative analysis, interface inventory, listening tour, historical research}
   role: Design Director, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism
   role_timeframe: January 2018 to now
-  solution: 
+  challenge: 
     description: |
-      No definition of design standards enforced across departments or teams, leading to over 500 logos under management and over 200 applications with inconsistent, outdated standards, and money wasted defining and solving the same issues, over and over again. The piecemeal approach led to inaccessible, poorly translated systems, ugly systems not befitting the 3rd largest City in America. Mayor Rahm Emmanuel hated our dated digital brand. 
+      Living with over 500 logos, 200 applications, and no design standards makes for confusing messaging delivered inconsistently at great expense. Our new design system saves money and time while supporting accessible and inclusive  The piecemeal approach led to inaccessible, poorly translated and, frankly, ugly systems. 
+ 
       After creating the 311 logo, we realized we needed additional expertise to shape the city's public identity, so we partnered with Ogilvy on a pro bono project to design a new identity for Chicago.
   research:
     description: |
@@ -92,6 +93,11 @@
   solution:
     description: 
     media:
+      - url: /img/work/chi/LOGO-Chicago2000x1000-TW.png
+        type: image
+      - url: /img/work/chi/cds-public-mark.png
+        type: image
+        caption: We refined a dozen initial explorations into one consistent framework, the Public Mark of the City of Chicago. This mark may be used by the City or by community members to express their civic pride. 
       - url: /img/work/chi/cds-tradcom-solution-t.png
         type: image
         caption: Traditional media chiron (in use), presentation, memo and business card templates.
@@ -101,6 +107,9 @@
       - url: /img/work/chi/cds-new-media-solution-t.png
         type: image
         caption: An upcoming Cannabis Legalization program illustrates the system today on Chicago home page, microsite, Facebook, Twitter, Instagram, and event messaging.
+      - url: /img/work/chi/cds-financial-systems-t.png
+        type: image
+        caption: We are excited to open an online shop. And if we can't sell you a shirt, we can still take your money at one of our new, accessible and branded kiosks for utility and vehicle fines and fee payments via check, cash, or credit card.
   validation:
     description: |
       We validated the brand by sharing it publicly for comment in the fall of 2019. We received positive and critical feedback on accessibility and usage that helped us evolve the framework. We also piloted web projects with the system throughout 2019 with community users, university graduate students, and business partners to understand the barriers to adoption.
