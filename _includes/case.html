@@ -50,12 +50,17 @@
 
 {% assign counter = 0 %}
 
+{% comment %}
+<!--// 
 <p>
 {% for tag in case.tags %}
 {% assign counter = counter | plus: 1 %}
 {{ tag }}{% if case.tags.size != counter %},{% endif %}
 {% endfor %}
 </p>
+
+    //-->
+{% endcomment %}
 
 </c>
 <c span="6-8" span-s="row">

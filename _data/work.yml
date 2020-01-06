@@ -22,49 +22,43 @@
 
       It was my job to use user experience and service design methods to include resident voice in the product design process.
   research:
-    description: |
-      To build a system that works for residents, we conducted 11 in-person design workshops and focus groups across diverse neighborhoods to engage residents and community groups – averaging 18 participants per session and 200 participants total. We listened to residents’ visions for 311, and have been committed to making their vision, our vision. We tested early versions of the new 311 system with residents at libraries and community colleges across the city and made refinements based on their feedback. We conducted 15 testing sessions prior to launch, each averaging 23 participants each, for a total of 350 community testers. The new system allows residents to create new service requests, upload pictures, track their requests and the time it will take to resolve them, see a map of service requests in their community and across the city, provide ongoing feedback, and find helpful articles about City services—all via multiple channels.
-      The launch of the new system in December 2018 was just the beginning, and we will continue working with residents, departments, and City Council to improve the system, and added useful features over the past few months.
-      Residents can follow along on the progress or contribute their ideas on the first of its kind CHI 311 public roadmap, and can also vote up the features they’d most like to see added. In 2019, we will continue participating in events all across the city to ensure residents know about these new tools and continue to provide valuable input to improve them.
+    description: 
     media:
-      - url: https://via.placeholder.com/800x600?text=Resident+Engagement
+      - url: /img/work/chi/311-research.png
         type: image
-        alt_text: Photo of resident engagement session.
+        caption: Through interviews with employees and the public we created a model for service delivery, then design and managed a dozen participatory design workshops with hundreds of constituents in libraries across the City, accompanied City service workers on the job, and shadowed 311 service operators to find opportunities to unlock innovation.
   solution:
     description: |
-      iOS & Android applications, Open 311 roadmap, web portal at 311.chicago.gov. Highlight explore and follow solutions.
       In December 2018, we launched the new CHI 311 platform to residents and staff, which includes the City’s first ever mobile app.
+      The new system allows residents to create new service requests, upload pictures, follow requests, and receive completion time estimates and other status updates via app, web, phone or SMS. Facebook messenger coming in 2020.
     media:
-      - url: https://via.placeholder.com/800x600?text=311.chicago.gov
+      - url: /img/work/chi/311-community-eng.png
         type: image
-        alt_text: Screenshot of the 311.chicago.gov.
-      - url: https://via.placeholder.com/800x600?text=iOS+&+Android+Applications
+        caption: We used NextDoor to target local events and recruit participants, as well as creating a microsite and Medium publication to share findings, communicate status, and recruit participants. 
+      - url: /img/work/chi/311-chicago.gov.png
         type: image
-        alt_text: Screenshots of iOS & Android mobile applications. 
-      - url: https://via.placeholder.com/800x600?text=Open+311+Roadmap
+        caption: Our 311 web portal is fully responsive, aims to be WCAG AA accessible, and offers a knowledge base for the 70% of requests that are information based. Explore and follow features were developed and inspired by community feedback in discovery and validation.
+      - url: /img/work/chi/311-just-mobile.png
         type: image
-        alt_text: Screenshot of 311 Open 311 Roadmap.
+        caption: Our web portal is accessible via City Libraries, but our mobile applications provide the best experience to the 85% of Chicagoans with a smart phone. 
   validation:
     description: |
-      Usability testing, net promoter score, and reddit comments.
-  learnings:
-    description: |
-      * It's difficult to get a Net Promoter Score doesn't mean much.
-      * No uniform design standards meant difficult to quickly establish working user interface.
-      * Governments are not set up to encourage outcome driven behavior like a product-oriented startup.
+      We tested early versions of the new 311 system with residents at libraries and community colleges across the city and made refinements based on their feedback in 15 testing sessions with over 350 community testers thanks to the help of Chicago sister agencies. Through partnership with DePaul University's College of Digital Media, we have organized student volunteer usability testing resulting in bug improvements and feature requests driven by the community.
     media:
       - url: https://via.placeholder.com/800x600?text=Open+311+Roadmap
         type: image
-        alt_text: Screenshot of the 311 open roadmap.
-      - url: 
-        type: 
-        alt_text: 
-      - url: 
-        type: 
-        alt_text: 
+        caption: Screenshot of Public 311 Roadmap in July 2019. Residents can follow progress and contribute ideas on the first of its kind [CHI311 public roadmap](https://trello.com/b/AODvHk2V/311-public-roadmap).
+  learnings:
+    description: |
+      * Net Promoter Scores are meaningless.
+      * No consistent standards meant it was difficult to give guidance early. Instead of going on a treasure hunt, think laterally.
+      * Whomever owns the means of production controls the experience. Make nice and be pushy for your community.
+      * Governments are not set up to encourage outcome driven behavior like a business, product startup or a political campaign.
+      * Don't mess with the Water Department.
   results:
     description: |
-      50k+ mobile application downloads, feature story in WIRED.
+      * Over 200 service request types online, with the top 80 available via mobile app.
+      * 50k+ mobile application downloads of our first mobile app.
       * WIRED: [Chicago’s New 311 System is a Huge Win for Public Works](https://www.wired.com/story/chicago-311-huge-win-for-public-works/)
 - title: Chicago Design System
   id: 1
@@ -87,7 +81,7 @@
 
       While rolling out 311 with our marketing and community engagement partners we saw time and again how supply and demand for services met unequally time and again. Some awesome services went under utilized while others were overrun with demand, not due to laziness, but because governments weren't built to encourage marketing activities, until now. Now that our digital life is, well, our life, governments need to market services digitally since it's so effective.
 
-      While creating the 311 logo and going through the early launch process, I realized there were many policies written for accessibility and style, but nearly no one followed them. A design system would help, and many of our platforms had them, like Salesforce or ServiceNow, but dozens more did not. In consultation and partnership with the Mayor's Office, we realized we needed additional expertise to shape the city's public identity, so we partnered with Ogilvy on a pro bono project to design a new identity for Chicago.
+      While creating the 311 logo and going through the early launch process, I realized there were many policies written for accessibility and style, but nearly no one followed them. A design system would help, and many of our platforms had them, like Salesforce or ServiceNow, but dozens more did not. In consultation and partnership with the Mayor's Office, we realized we needed additional expertise to shape the city's public identity, so we partnered with Ogilvy, Google, and House of Pretty on a pro bono project to design a new identity for Chicago.
   research:
     description: |
       We began by reviewing the City's major technology programs, departments, and service delivery channels to understand what was in market and what design language it used to communicate. Along with inventorying our current state, we examined the branding efforts of other global cities to understand the benefits and pitfalls of different approaches. Finally, we examined the history and origin of Chicago's civic heraldry and neighborhood devices to place our work in the larger historical context, including interviews with the City's historian.
@@ -120,7 +114,7 @@
       We validated the brand by sharing it publicly for comment in the fall of 2019. We received positive and critical feedback on accessibility and usage that helped us evolve the framework. We also piloted web projects with the system throughout 2019 with community users, university graduate students, and business partners to understand the barriers to adoption.
   learnings:
     description: |
-      We learned early on that that City didn't have a uniform marketing voice because it was no one's responsibility to enforce it. This led to a. 
+      We learned early on that that City didn't have a uniform marketing voice because it was no one's responsibility to enforce it.
   results:
     description: _launching January 2020_
 - title: Design Operations
