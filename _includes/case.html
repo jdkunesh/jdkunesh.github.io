@@ -30,7 +30,7 @@
 <c span="3..">
 </c>
 <c span="row" span-s="row">
-<img src="{{ case.image }}" alt="{{ case.alt_text }}" class="w-full"/>
+<img src="{{ case.image }}" alt="{{ case.alt_text }}" class="w-full h-18"/>
 </c>
 <c>
 </c>
@@ -60,11 +60,11 @@
 </c>
 <c span="6-8" span-s="row">
 <img src="{{ case.logo }}" alt="{{ case.alt_text }}" class="w-12 fill" />
-<h4>{{case.team }}</h4>
+<h5>{{case.team }}</h5>
+<h6>{{ case.role }}{% if case.role_timeframe %}, {{ case.role_timeframe }}{% endif %}</h6>
 {% if case.description %}
 {{ case.description | markdownify }}
 {% endif %}
-<p>{{ case.role }}{% if case.role_timeframe %}, {{ case.role_timeframe }}{% endif %}</p>
 <h4>Budget & Time</h4>
 <ul>
 <li>{{ case.budget }}</li>

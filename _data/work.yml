@@ -10,27 +10,30 @@
     The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through community engagement for digital transformation. I am the first Design Director responsible for digital services and service delivery to the residents, businesses and visitors of the City of Chicago.
   budget: $34mm
   project_timeframe: 2017-2021
-  tags: {community, government, mobile, web, IVR, service app, design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer}
+  tags: {community, government, mobile, web, IVR, service app, design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer, Card sort, participatory design, usability tests, comparative analysis, service design, contextual inquiry, accessibility evaluation, internationalization evaluation}
   role: |
     Design Director
   role_timeframe: January 2018 – present
-  solution: 
+  challenge: 
     description: |
-      Use user experience methods to include resident voice in the product design process, transforming an analog and digital system into a pure digital workflow.
-    media:
-      - url: /img/work/
-        type: image
-        alt_text: Screenshot of some Lorem ipsum?
+      Chicago’s pioneering but antique 311, one of the largest non-emergency systems in the nation, handled millions of requests annually, but the world was a very different place in 1999. The system was straining at the seams, with hundreds of service request types, but only a few dozen available electronically via SMS or a web lookup created by Code for America in 2013. Most calls didn't need an operator, but people had to call, potentially taking 311 operator support away from 911 and, ultimately, officers off the street.
+
+      The 311 Modernization program is a series of digital transformation projects to move an analog workflow to a full-service constituent platform with a digital workflow for 40,000 City of Chicago employees across 33 departments and thousands of service request types.
+
+      It was my job to use user experience and service design methods to include resident voice in the product design process.
   research:
     description: |
-      Card sort, participatory design, usability tests, comparative analysis, service design, contextual inquiry, accessibility evaluation, and internationalization evaluation
+      To build a system that works for residents, we conducted 11 in-person design workshops and focus groups across diverse neighborhoods to engage residents and community groups – averaging 18 participants per session and 200 participants total. We listened to residents’ visions for 311, and have been committed to making their vision, our vision. We tested early versions of the new 311 system with residents at libraries and community colleges across the city and made refinements based on their feedback. We conducted 15 testing sessions prior to launch, each averaging 23 participants each, for a total of 350 community testers. The new system allows residents to create new service requests, upload pictures, track their requests and the time it will take to resolve them, see a map of service requests in their community and across the city, provide ongoing feedback, and find helpful articles about City services—all via multiple channels.
+      The launch of the new system in December 2018 was just the beginning, and we will continue working with residents, departments, and City Council to improve the system, and added useful features over the past few months.
+      Residents can follow along on the progress or contribute their ideas on the first of its kind CHI 311 public roadmap, and can also vote up the features they’d most like to see added. In 2019, we will continue participating in events all across the city to ensure residents know about these new tools and continue to provide valuable input to improve them.
     media:
       - url: https://via.placeholder.com/800x600?text=Resident+Engagement
         type: image
         alt_text: Photo of resident engagement session.
-  highlights:
+  solution:
     description: |
-      * iOS & Android applications, Open 311 roadmap, web portal at 311.chicago.gov. Highlight explore and follow solutions.
+      iOS & Android applications, Open 311 roadmap, web portal at 311.chicago.gov. Highlight explore and follow solutions.
+      In December 2018, we launched the new CHI 311 platform to residents and staff, which includes the City’s first ever mobile app.
     media:
       - url: https://via.placeholder.com/800x600?text=311.chicago.gov
         type: image
@@ -80,9 +83,11 @@
   role_timeframe: January 2018 to now
   challenge: 
     description: |
-      Living with over 500 logos, 200 applications, and no design standards makes for confusing messaging delivered inconsistently at great expense. Our new design system saves money and time while supporting accessible and inclusive  The piecemeal approach led to inaccessible, poorly translated and, frankly, ugly systems. 
- 
-      After creating the 311 logo, we realized we needed additional expertise to shape the city's public identity, so we partnered with Ogilvy on a pro bono project to design a new identity for Chicago.
+      Living with over 500 logos, 200 applications, and no design standards is a recipe for confusing messaging delivered inconsistently at great expense. Our new design system saves money and time while supporting accessible, inclusive, consistent communication.
+
+      While rolling out 311 with our marketing and community engagement partners we saw time and again how supply and demand for services met unequally time and again. Some awesome services went under utilized while others were overrun with demand, not due to laziness, but because governments weren't built to encourage marketing activities, until now. Now that our digital life is, well, our life, governments need to market services digitally since it's so effective.
+
+      While creating the 311 logo and going through the early launch process, I realized there were many policies written for accessibility and style, but nearly no one followed them. A design system would help, and many of our platforms had them, like Salesforce or ServiceNow, but dozens more did not. In consultation and partnership with the Mayor's Office, we realized we needed additional expertise to shape the city's public identity, so we partnered with Ogilvy on a pro bono project to design a new identity for Chicago.
   research:
     description: |
       We began by reviewing the City's major technology programs, departments, and service delivery channels to understand what was in market and what design language it used to communicate. Along with inventorying our current state, we examined the branding efforts of other global cities to understand the benefits and pitfalls of different approaches. Finally, we examined the history and origin of Chicago's civic heraldry and neighborhood devices to place our work in the larger historical context, including interviews with the City's historian.
@@ -128,35 +133,34 @@
   team: City of Chicago
   description: |
     Chicago is the third largest city in the United States. I am its first Design Director, helping Chicago work better through community engagement for digital transformation. I am the first Design Director responsible for digital services and service delivery to the residents, businesses and visitors of the City of Chicago.
-  budget:
-  project_timeframe:
+  budget: $70,000 annual
+  project_timeframe: 2018-present
   tags:  
-  role: Design Director, individual contributor
+  role: Design Director
   role_timeframe: January 2018 to now
-  solution: 
+  challenge: 
     description: |
-      * text
-    media:
-      - url: /img/work/
-        type: image
-        alt_text: Screenshot of some Lorem ipsum?
+      In 2018 I fielded 37 outside project requests from different departments during the course of the 311 Modernization launch. It became apparent fast that the scale of procurement, systems, relationships, and politics were the study of many lifetimes. Often, the only help I could offer was to describe what the process would look like, and in a few cases, offer a service or two. It was small comfort that wasn't helping anyone.
+
+      I knew coming into the job that part of the work was establishing the practice, but the combination of a low budget, no hiring, an inspector general process audit and other challenges made the going tough. Each win offered the possibility of impacting service delivery for a community of Chicagoans, making government more transparent and efficient.
   research:
     description: |
-      * text
-    media:
-      - url: /img/work/
-        type: image
-        alt_text: Screenshot of some Lorem ipsum?
-  highlights:
+      My initial research consisted of learning in three tracks: using Leah Buley's UX project profiler to understand incoming work and teams, ad hoc design facilitation and strategy workshop services as requested, and a listening tour with internal stakeholders across departments and technology vendor UX/UI teams about their methods, skills, process, and goals.  
+  solution:
     description: |
-      * text
+      I categorize our design operations work as follows:
+      #### Culture
+      Introduce and enforce adoption of human-centered design methods, systems thinking and design thinking to produce better products with less risk and cost. Create culture change through internal education, exposure to collaborative opportunities with Chicagoans, designers and design programs with a focus on introducing design skills and fostering collaboration.
+      #### Process
+      Responsible for establishing design standards that incorporate resident engagement, co-creation, prototyping, and validation.
+      #### Product
+      Support project teams through the performance of design duties or through design direction and planning with vendor design teams, university design departments, and philanthropic teams.
     media:
       - url: /img/work/
         type: image
         alt_text: Screenshot of some Lorem ipsum?
   validation:
     description: |
-      * text
     media:
       - url: /img/work/
         type: image
