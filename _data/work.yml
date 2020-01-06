@@ -74,9 +74,9 @@
   description: |
     The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through digital transformation of information and service delivery with the community. 
   budget: $52 & lots of pro bono help
-  project_timeframe: June 2018–January 2020
-  tags: {design system, web design system, comparative analysis, interface inventory, listening tour, historical research}
-  role: Design Director, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism
+  project_timeframe: June 2018–January 2020 of 2017-21 plan
+  tags: {design system, web design system, comparative analysis, interface inventory, listening tour, historical research, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism}
+  role: Design Director
   role_timeframe: January 2018 to now
   challenge: 
     description: |
@@ -243,7 +243,7 @@
 - title: Everything else
   id: 8
   url: /work/etc
-  live: true
+  live: false
   image: /img/work/etc/ee-logo.png
   logo: /img/work/etc/ee-logo.png
   alt_text: Logos from many different companies I've worked with in my career.
