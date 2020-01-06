@@ -3,6 +3,7 @@
   url: /work/cds
   live: true
   image: /img/work/chi/LOGO-CHICAGO-horizontal.png
+  logo: /img/work/chi/LOGO-CHICAGO-horizontal.png
   alt_text: City of Chicago Public Mark
   team: City of Chicago
   description: |
@@ -60,6 +61,7 @@
   url: /work/311
   live: true
   image: /img/work/chi/CHI-311-logo.png
+  logo: /img/work/chi/CHI-311-logo.png
   alt_text: CHI 311 Logo
   team: City of Chicago
   description: |
@@ -124,6 +126,7 @@
   url: /work/desops
   live: true
   image: /img/work/chi/city-seal-black-2019.png
+  logo: /img/work/chi/city-seal-black-2019.png
   alt_text: Seal of the City of Chicago
   team: City of Chicago
   description: |
@@ -180,6 +183,7 @@
   url: /work/ofa
   live: false
   image: /img/work/ofa/Obama_logomark2012.png
+  logo: /img/work/ofa/Obama_logomark2012.png
   alt_text: Obama for America Logo
   team: Obama for America
   description: |
@@ -192,6 +196,7 @@
   url: /work/ofa2
   live: false
   image: /img/work/ofa/Obama_logomark2012.png
+  logo: /img/work/ofa/Obama_logomark2012.png
   alt_text: Obama for America Logo
   team: Obama for America
   description: |
@@ -207,6 +212,7 @@
   url: /work/msft
   live: false
   image: /img/work/msft/microsoft.png
+  logo: /img/work/msft/microsoft.png
   alt_text: Microsoft Logo
   team: Microsoft
   description: |
@@ -219,6 +225,7 @@
   url: /work/threadless
   live: false
   image: /img/work/thr/threadless.png
+  logo: /img/work/thr/threadless.png
   alt_text: Threadless logo
   team: Kunesh Interaction Design
 - title: Orbitz for Business
@@ -226,6 +233,7 @@
   url: /work/orbitz
   live: false
   image: /img/work/orbz/Orbitz-Logo.jpg
+  logo: /img/work/orbz/Orbitz-Logo.jpg
   alt_text: Oritz Worldwide (old school) Logo
   team: Orbitz
   description: |
@@ -240,6 +248,7 @@
   url: /work/etc
   live: true
   image: /img/work/etc/ee-logo.png
+  logo: /img/work/etc/ee-logo.png
   alt_text: Logos from many different companies I've worked with in my career.
   team: various
   description: |
