@@ -1,0 +1,122 @@
+{% assign case = site.data.work[case_index]%}
+
+{% assign previous_index = site.data.work[case_index].id | minus:1 %}
+{% if prev_ovr_index %}
+    {% assign previous_index = prev_ovr_index %}
+{% endif %}
+
+{% assign next_index = site.data.work[case_index].id | plus:1 %}
+{% if next_ovr_index %}
+    {% assign next_index = next_ovr_index %}
+{% endif %}
+{% if next_index >= site.data.work.size %}
+    {% assign next_index = 0 %}
+{% endif %}
+{% if previous_index < 0 %}
+    {% assign previous_index = 0 %}
+{% endif %}
+{% assign previous = site.data.work[previous_index] %}
+{% assign next = site.data.work[next_index] %}
+
+<grid columns="8" columns-s="1">
+<c span="1-2" span-s="row">
+<nav>
+  <ul class="gallery">
+      <li><a href="{{ site.baseurl }}{{ previous.url }}"><i class="fas fa-chevron-circle-left fa-3x"></i></a></li>
+      <li><a href="{{ site.baseurl }}{{ next.url }}"><i class="fas fa-chevron-circle-right fa-3x"></i></a></li>
+  </ul>
+</nav>
+</c>
+<c span="3..">
+</c>
+<c span="row" span-s="row">
+<img src="{{ case.image }}" alt="{{ case.alt_text }}" class="w-full h-18"/>
+</c>
+<c>
+</c>
+<c span="2.." span-s="row">
+<h1>{% if case.title %}{{ case.title | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h1>
+</c>
+<c>
+</c>
+<c span="2-5" span-s="row">
+{% if case.challenge %}
+<h3>Brief</h3>
+{% for thing in case.challenge.media %}
+{% include media.html %}
+{% endfor %}
+{{ case.challenge.description | markdownify }}
+{% endif %}
+
+{% assign counter = 0 %}
+
+{% comment %}
+<!--// 
+<p>
+{% for tag in case.tags %}
+{% assign counter = counter | plus: 1 %}
+{{ tag }}{% if case.tags.size != counter %},{% endif %}
+{% endfor %}
+</p>
+
+    //-->
+{% endcomment %}
+
+</c>
+<c span="6-8" span-s="row">
+<img src="{{ case.logo }}" alt="{{ case.alt_text }}" class="w-12 fill" />
+<h5>{{case.team }}</h5>
+<h6>{{ case.role }}{% if case.role_timeframe %}, {{ case.role_timeframe }}{% endif %}</h6>
+{% if case.description %}
+{{ case.description | markdownify }}
+{% endif %}
+<h4>Budget & Time</h4>
+<ul>
+<li>{{ case.budget }}</li>
+<li>{{ case.project_timeframe }}</li>
+</ul>
+</c>
+<c></c>
+<c span="2-7" span-s="row">
+{% if case.research %}
+<h3>Research</h3>
+{{ case.research.description | markdownify }}
+{% for thing in case.research.media %}
+{% include media.html %}
+{% endfor %}
+{% endif %}
+
+{% if case.solution %}
+<h3>Solution</h3>
+{{ case.solution.description | markdownify }}
+{% for thing in case.solution.media %}
+{% include media.html %}
+{% endfor %}
+{% endif %}
+
+{% if case.validation %}
+<h3>Validation</h3>
+{% for thing in case.validation.media %}
+{% include media.html %}
+{% endfor %}
+{{ case.validation.description | markdownify }}
+{% endif %}
+
+{% if case.learnings %}
+<h3>Learnings</h3>
+{% for thing in case.learnings.media %}
+{% include media.html %}
+{% endfor %}
+{{ case.learnings.description | markdownify }}
+{% endif %}
+
+{% if case.results %}
+<h3>Results</h3>
+{% for thing in case.results.media %}
+{% include media.html %}
+{% endfor %}
+{{ case.results.description | markdownify }}
+{% endif %}
+</c>
+<c></c>
+</grid>

@@ -1,15 +1,27 @@
+
+
+<grid columns="8" columns-s="1">
+<c span="1-2">
+<nav>
+  <ul class="gallery">
+      <li><a href="#top"><i class="fas fa-chevron-circle-up fa-3x"></i></a></li>
+  </ul>
+</nav>
+</c>
+<c span="3-8">
+</c>
+</grid>
 <footer>
-
-{% comment %}
-<!--//
-jdkunesh
-jdkunesh
-jdkunesh
-jdkunesh
-jdkunesh
-
-Long short stories from the 45th parallel.
-
-//-->
-{% endcomment %}
+<nav>
+<ul>
+    {% for item in site.data.navigation.primary %}
+    <a href="{{ site.baseurl }}{{ item.url }}"><li>{{ item.text}}</li></a>
+    {% endfor %}
+    {% for item in site.data.navigation.secondary %}
+    <a href="{{ site.baseurl }}{{ item.url }}"><li>{{ item.text}}</li></a>
+    {% endfor %}
+</ul>
+</nav>
+<hr>
+<p>All content &copy;2020 Jason Kunesh. Chicago, IL, USA, Earth, Sol, Milkway, Multiverse.</p>
 </footer>

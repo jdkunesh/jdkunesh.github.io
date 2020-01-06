@@ -1,0 +1,6 @@
+{% if thing.type == "image" %}
+<figure>
+    <img src="{{ thing.url }}" alt="" class="w-full" />
+    <figcaption>{{ thing.caption | markdownify }}</figcaption>
+</figure>
+{% endif %}

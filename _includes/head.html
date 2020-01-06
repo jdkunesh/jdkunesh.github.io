@@ -1,14 +1,54 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<link href="https://fonts.googleapis.com/css?family=Raleway:extra-light,regular,medium,bold" rel="stylesheet">
-<link rel="stylesheet" href="{{ "/css/site-jdk.css" | prepend: site.baseurl }}">
+
+<link rel="stylesheet" href="{{ '/css/raster.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/css/raster.debug.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/css/jdk20v1.css' | prepend: site.baseurl }}">
+
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="icon" href="favicon.ico" type="image/x-icon"/>
-{% comment %}
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-{% endcomment %}
+
+<script src="https://kit.fontawesome.com/3789fe5ab2.js" crossorigin="anonymous"></script>
+
 </head>
+{% comment %}
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+
+<meta property="og:url" content="https://jdkunesh.com/" />
+<meta property="og:title" content="Jason Kunesh is okay." />
+<meta property="og:description" content="" />
+<meta property="og:image" content="" />
+<!-- 1200x 628-900 (linked image 628, fb image 900, highlighted image 717) 2.7:1 or 16:9 event -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Chicago Design System" />
+<meta property="twitter:description" content="The Chicago Design System is the public visual identity of the City of Chicago. It is an inclusive, equitable, cost saving system for City communication and for Chicagoans to show their civic pride." />
+<meta property="twitter:image" content="https://design.chicago.gov/assets/img/logo/LOGO-Chicago2000x1000-TW.png" />
+<!-- 1024 x 512 2:1/16:9 -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700|Playfair+Display:900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/css/pure/base-min.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/css/pure/grids-min.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ '/css/pure/grids-responsive-min.css' | prepend: site.baseurl }}">
+{% endcomment %}

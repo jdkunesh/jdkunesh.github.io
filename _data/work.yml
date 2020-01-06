@@ -1,0 +1,236 @@
+- title: 311 Modernization
+  id: 0
+  url: /work/311
+  live: true
+  image: /img/work/chi/CHI-311-logo.png
+  logo: /img/work/chi/LOGO-CHICAGO-horizontal.png
+  alt_text: CHI 311 Logo
+  team: City of Chicago
+  description: |
+    The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through community engagement for digital transformation. I am the first Design Director responsible for digital services and service delivery to the residents, businesses and visitors of the City of Chicago.
+  budget: $34mm
+  project_timeframe: 2017-2021
+  tags: {community, government, mobile, web, IVR, service app, design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer, Card sort, participatory design, usability tests, comparative analysis, service design, contextual inquiry, accessibility evaluation, internationalization evaluation}
+  role: |
+    Design Director
+  role_timeframe: January 2018 – present
+  challenge: 
+    description: |
+      Chicago’s pioneering but antique 311, one of the largest non-emergency systems in the nation, handled millions of requests annually, but the world was a very different place in 1999. The system was straining at the seams, with hundreds of service request types, but only a few dozen available electronically via SMS or a web lookup created by Code for America in 2013. Most calls didn't need an operator, but people had to call, potentially taking 311 operator support away from 911 and, ultimately, officers off the street.
+
+      The 311 Modernization program is a series of digital transformation projects to move an analog workflow to a full-service constituent platform with a digital workflow for 40,000 City of Chicago employees across 33 departments and thousands of service request types.
+
+      It was my job to use user experience and service design methods to include resident voice in the product design process.
+  research:
+    description: 
+    media:
+      - url: /img/work/chi/311-research.png
+        type: image
+        caption: Through interviews with employees and the public we created a model for service delivery, then design and managed a dozen participatory design workshops with hundreds of constituents in libraries across the City, accompanied City service workers on the job, and shadowed 311 service operators to find opportunities to unlock innovation.
+  solution:
+    description: |
+      In December 2018, we launched the new CHI 311 platform to residents and staff, which includes the City’s first ever mobile app.
+      The new system allows residents to create new service requests, upload pictures, follow requests, and receive completion time estimates and other status updates via app, web, phone or SMS. Facebook messenger coming in 2020.
+    media:
+      - url: /img/work/chi/311-community-eng.png
+        type: image
+        caption: We used NextDoor to target local events and recruit participants, as well as creating a microsite and Medium publication to share findings, communicate status, and recruit participants. 
+      - url: /img/work/chi/311-chicago.gov.png
+        type: image
+        caption: Our 311 web portal is fully responsive, aims to be WCAG AA accessible, and offers a knowledge base for the 70% of requests that are information based. Explore and follow features were developed and inspired by community feedback in discovery and validation.
+      - url: /img/work/chi/311-just-mobile.png
+        type: image
+        caption: Our web portal is accessible via City Libraries, but our mobile applications provide the best experience to the 85% of Chicagoans with a smart phone. 
+  validation:
+    description: |
+      We tested early versions of the new 311 system with residents at libraries and community colleges across the city and made refinements based on their feedback in 15 testing sessions with over 350 community testers thanks to the help of Chicago sister agencies. Through partnership with DePaul University's College of Digital Media, we have organized student volunteer usability testing resulting in bug improvements and feature requests driven by the community.
+    media:
+      - url: /img/work/chi/311-findings-validation.png
+        type: image
+        caption: Resident ideas were captured in a roadmap poster to guide product development throughout the five year plan. Residents can follow progress and contribute ideas on the first of its kind [CHI311 public roadmap](https://trello.com/b/AODvHk2V/311-public-roadmap). Screenshots here show roadmap changes from January to August, 2019.
+  learnings:
+    description: |
+      * Net Promoter Scores are meaningless.
+      * No consistent standards meant it was difficult to give guidance early. Instead of going on a treasure hunt, think laterally.
+      * Whomever owns the means of production controls the experience. Make nice and be pushy for your community.
+      * Governments are not set up to encourage outcome driven behavior like a business, product startup or a political campaign.
+      * Don't mess with the Water Department.
+  results:
+    description: |
+      * Over 200 service request types online, with the top 80 available via mobile app.
+      * 50k+ mobile application downloads of our first mobile app.
+      * WIRED: [Chicago’s New 311 System is a Huge Win for Public Works](https://www.wired.com/story/chicago-311-huge-win-for-public-works/)
+- title: Chicago Design System
+  id: 1
+  url: /work/cds
+  live: true
+  image: /img/work/chi/flag-commission-seal.png
+  logo: /img/work/chi/LOGO-CHICAGO-horizontal.png
+  alt_text: City of Chicago Public Mark
+  team: City of Chicago
+  description: |
+    The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through digital transformation of information and service delivery with the community. 
+  budget: $52 & lots of pro bono help
+  project_timeframe: June 2018–January 2020
+  tags: {community, government, design system, web design system, comparative analysis, interface inventory, listening tour, historical research, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism}
+  role: Design Director
+  role_timeframe: January 2018 to now
+  challenge: 
+    description: |
+      Living with over 500 logos, 200 applications, and no design standards is a recipe for confusing messaging delivered inconsistently at great expense. Our new design system saves money and time while supporting accessible, inclusive, consistent communication.
+
+      While rolling out 311 with our marketing and community engagement partners we saw how supply and demand for services met unequally time and again. Some great services go under-utilized by the people who need them most because governments aren't built to market effectively. Now that our digital life is, well, our life, governments need to market services digitally.
+
+      While creating the 311 logo and going through the early launch process, I realized there were many policies written for accessibility and style, but nearly no one followed them. A design system would help, and many of our platforms had them, like Salesforce or ServiceNow, but dozens more did not. In consultation and partnership with the Mayor's Office, we realized we needed additional expertise to shape the city's public identity, so we partnered with Ogilvy, Google, and House of Pretty on a pro bono project to design a new identity for Chicago.
+  research:
+    description: |
+      We began by reviewing the City's major technology programs, departments, and service delivery channels to understand what was in market and what design language it used to communicate. Along with inventorying our current state, we examined the branding efforts of other global cities to understand the benefits and pitfalls of different approaches. Finally, we examined the history and origin of Chicago's civic heraldry and neighborhood devices to place our work in the larger historical context, including interviews with the City's historian.
+    media:
+      - url: /img/work/chi/cds-seals-research.png
+        type: image
+        caption: We researched 150 years of City of Chicago archives for examples of how the symbols of the City changed over time. We saw opportunity in refining and reframing existing symbols, including the newest version of the Seal, above.
+  solution:
+    description: |
+      The Chicago Design System is the public visual identity of the City of Chicago. It is an inclusive, equitable, cost saving system for City communication and for the public to use to show civic pride.
+    media:
+      - url: /img/work/chi/LOGO-Chicago2000x1000-TW.png
+        type: image
+      - url: /img/work/chi/cds-public-mark.png
+        type: image
+        caption: We refined a dozen initial explorations into one consistent framework, the Public Mark of the City of Chicago. This mark may be used by the City or by community members to express their civic pride. 
+      - url: /img/work/chi/cds-tradcom-solution-t.png
+        type: image
+        caption: Traditional media chiron (in use), presentation, memo and business card templates.
+      - url: /img/work/chi/cds-support-sites-t.png
+        type: image
+        caption: I developed a demonstration site at [design.chicago.gov](https://design.chicago.gov/) with a Bootstrap 4 theme stored in GitHub.
+      - url: /img/work/chi/cds-new-media-solution-t.png
+        type: image
+        caption: An upcoming Cannabis Legalization program illustrates the system today on Chicago home page, microsite, Facebook, Twitter, Instagram, and event messaging.
+      - url: /img/work/chi/cds-financial-systems-t.png
+        type: image
+        caption: We are excited to open an online shop. And if we can't sell you a shirt, we can still take your money at one of our new, accessible and branded kiosks for utility and vehicle fines and fee payments via check, cash, or credit card.
+  validation:
+    description: |
+      We validated the brand by sharing it publicly for comment in the fall of 2019. We received positive and critical feedback on accessibility and usage that helped us evolve the framework. We also piloted web projects with the system throughout 2019 with community users, university graduate students, and business partners to understand the barriers to adoption.
+  learnings:
+    description: |
+      We learned early on that that City didn't have a uniform marketing voice because it was no one's responsibility to enforce it.
+  results:
+    description: _launching January 2020_
+- title: Design Operations
+  id: 2
+  url: /work/desops
+  live: true
+  image: /img/work/chi/star-under-construction.png
+  logo: /img/work/chi/LOGO-CHICAGO-horizontal.png
+  alt_text: Seal of the City of Chicago
+  team: City of Chicago
+  description: |
+    Chicago is the third largest city in the United States. I am its first Design Director, helping Chicago work better through community engagement for digital transformation. I am the first Design Director responsible for digital services and service delivery to the residents, businesses and visitors of the City of Chicago.
+  budget: $70,000 annual
+  project_timeframe: 2018-present
+  tags:  
+  role: Design Director
+  challenge: 
+    description: |
+      In 2018 I fielded 37 outside project requests from different departments during the course of the 311 Modernization launch. It became apparent fast that the scale of procurement, systems, relationships, and politics were the study of many lifetimes. Often, the only help I could offer was to describe what the process would look like, and in a few cases, offer a service or two. It was small comfort that wasn't helping anyone.
+
+      I knew coming into the job that part of the work was establishing the practice, but the combination of a low budget, no hiring, an inspector general process audit and other challenges made the going tough. Each win offered the possibility of impacting service delivery for a community of Chicagoans, making government more transparent and efficient.
+  research:
+    description: |
+      My initial research consisted of learning in three tracks: using Leah Buley's UX project profiler to understand incoming work and teams, ad hoc design facilitation and strategy workshop services as requested, and a listening tour with internal stakeholders across departments and technology vendor UX/UI teams about their methods, skills, process, and goals.  
+  solution:
+    description: |
+      I categorize our design operations work as follows:
+      #### Culture
+      Introduce and enforce adoption of human-centered design methods, systems thinking and design thinking to produce better products with less risk and cost. Create culture change through internal education, exposure to collaborative opportunities with Chicagoans, designers and design programs with a focus on introducing design skills and fostering collaboration.
+      #### Process
+      Responsible for establishing design standards that incorporate resident engagement, co-creation, prototyping, and validation.
+      #### Product
+      Support project teams through the performance of design duties or through design direction and planning with vendor design teams, university design departments, and philanthropic teams.
+    media:
+      - url: /img/work/chi/desops-culture-process.png
+        type: image
+        caption: I had no free budget in 2018 or early 2019, so I partnered with Northwestern University, DePaul University, and the Mayor's Office for People with Disabilities to build capacity and produce design work and culture change for departments. 
+      - url: /img/work/chi/desops-tools.png
+        type: image
+        caption: Along with the Design System code, we provide multiple tools to vendors, employees, and the community. Pictured here are method playbooks and accessibility guides adapted from 18F, a Figma community beta where we store our patterns and community items like the Chicago star. Also pictured is a summary from Ogilvy of our Frontify presence, currently rolling out.
+- title: Online Fundraising
+  id: 3
+  url: /work/ofa
+  live: false
+  image: /img/work/ofa/Obama_logomark2012.png
+  logo: /img/work/ofa/Obama_logomark2012.png
+  alt_text: Obama for America Logo
+  team: Obama for America
+  description: |
+    Obama for America was the re-election campaign for President Barack Obama. I joined Obama for America to be the first Director of User Experience on a Presidential campaign. It was an incredible prilivege, and one of the most difficult jobs I've ever done.
+    * 11% conversion increase resulted in an additional $30mm raised.
+    * Quick Donate
+    * Contributed donation page A/B test suggestions resulting in $30mm+ additional donations.
+- title: Digital Campaign
+  id: 4
+  url: /work/ofa2
+  live: false
+  image: /img/work/ofa/Obama_logomark2012.png
+  logo: /img/work/ofa/Obama_logomark2012.png
+  alt_text: Obama for America Logo
+  team: Obama for America
+  description: |
+    Obama for America was the re-election campaign for President Barack Obama. I joined Obama for America to be the first Director of User Experience on a Presidential campaign. It was an incredible prilivege, and one of the most difficult jobs I've ever done.
+    * Dashboard volunteer platform program management.
+    * GOTV program management and overall management of the product team.
+    * Mobile app product management
+    * Created nationwide volunteer UX network and supported and opened the SF tech field office.
+    * Managed multiple product managers, products, and programs for voter engagement throughout lifecycle.
+    * Helped establish San Francisco tech office, place outgoing staff in private industry or the administration or business life.
+- title: MyNYP HealthVault
+  id: 5
+  url: /work/msft
+  live: false
+  image: /img/work/msft/microsoft.png
+  logo: /img/work/msft/microsoft.png
+  alt_text: Microsoft Logo
+  team: Microsoft
+  description: |
+    I founded Kunesh Interaction Design, grew to include partners and reformed as Fuzzy Math, with a concentration on consumer ecommerce, healthcare, and travel.
+    Major engagements included reworking how Threadless approached commerce, ecommerce, and marketing, helping Microsoft & the Mayo Clinic create a health application for families struggling to manage a loved one's chronic health conditions, and an eLearning platform and out of the box experience for LeapFrog Connected Toys. Achievements:
+    * Established all business development, design practice and operations processes.
+    * Doubled sales to $2mm annually from 2009-11 through in person word of mouth and SEO landing pages.
+- title: Customer Experience Strategy
+  id: 6
+  url: /work/threadless
+  live: false
+  image: /img/work/thr/threadless.png
+  logo: /img/work/thr/threadless.png
+  alt_text: Threadless logo
+  team: Kunesh Interaction Design
+- title: Orbitz for Business
+  id: 7
+  url: /work/orbitz
+  live: false
+  image: /img/work/orbz/Orbitz-Logo.jpg
+  logo: /img/work/orbz/Orbitz-Logo.jpg
+  alt_text: Oritz Worldwide (old school) Logo
+  team: Orbitz
+  description: |
+    Orbitz is a leading travel platform.
+    * Performed full lifecycle UX and accessibility activities on orbitz.com, orbitzforbusiness.com, and related properties.
+    * Began as a team of one in B2B, grew to lead a team of Information Architects on four products serving small businesses to Fortune 100 companies.
+  tags: design system, web design system
+  role: 
+  role_timeframe:
+- title: Everything else
+  id: 8
+  url: /work/etc
+  live: false
+  image: /img/work/etc/ee-logo.png
+  logo: /img/work/etc/ee-logo.png
+  alt_text: Logos from many different companies I've worked with in my career.
+  team: various
+  description: |
+    
+  tags: {activism, B2B, B2C, CPG, defense, education, finance, healthcare, media, travel}
+  role: Design Director, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism
+  role_timeframe: 1999-2020

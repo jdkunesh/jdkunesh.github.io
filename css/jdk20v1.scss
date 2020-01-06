@@ -1,0 +1,280 @@
+---
+#
+# This file contains overrides to the raster.css framework v1.01 https://rsms.me/raster/
+# 
+---
+@charset "utf-8";
+
+:root {
+  /*
+  Font size is the basis of all other measurements.
+  It's either constant or viewport-relative. Choose one.
+
+  Constant: */
+  --fontSize: 18px;
+  /*
+
+  Veiwport-relative (100% / EMs-across-viewport) */
+  /*--fontSize: calc(100vw / 80);*/
+}
+
+img.dead {
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+nav ul {
+    list-style: none;
+//   text-align: center;
+//  padding:0;
+//  margin:0;
+}
+
+nav ul li {
+    float: left;
+    text-align: left;
+    text-decoration: none;
+//    margin:0;
+//  padding: 0 1em 0 0;
+ }
+
+footer nav ul li {
+    float: none;
+    text-align: left;
+    text-decoration: none;
+//    margin:0;
+//  padding: 0 1em 0 0;
+ }
+
+grid > c > a > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 100%;
+}
+
+
+//== COLOR
+$primary-color:              #2ae !default;    // aqua-ish?
+$secondary-color:            #562800 !default; // old text brown
+$another-primary-color:      #2C5491 !default; // close enough to the primary?
+
+$black:                      #000000 !default;
+$blue:                       #0d6efd !default;
+$indigo:                     #6610f2 !default;
+$purple:                     #4C2C92 !default;
+$pink:                       #d63384 !default;
+$red:                        #dc3545 !default;
+$orange:                     #fd7e14 !default;
+$yellow:                     #ffc107 !default;
+$green:                      #28a745 !default;
+$teal:                       #20c997 !default;
+$cyan:                       #17a2b8 !default;
+$white:                      #ffffff !default;
+$offwhite:                   #FFF4F4 !default;
+
+$grey:                       #494440;
+$grey-light:                 #E4E2E0;
+$grey-dark:                  #494440;
+
+$brand-color:                $primary-color;
+
+// FUNCTIONAL COLORS (WHERE STYLE MEETS SEMANTICS)
+$background-color:           $white;
+$text-color:                 $secondary-color;
+
+$color-link:                 $another-primary-color;
+$color-active:               $indigo;
+$color-hover:                $orange;
+$color-focus:                $cyan;
+$color-visited:              $purple;
+
+//== TOP LEVEL ELEMENTS
+
+body {
+    background-color: $background-color;
+}
+
+a {
+    color: $color-link;
+    text-decoration: none;
+
+    &:visited {
+        color: $color-visited;
+    }
+
+    &:focus {
+        color: $color-focus;
+        text-decoration: underline;
+    }
+    &:hover {
+        color: $color-hover;
+        text-decoration: underline;
+    }
+    &:active {
+        color: $color-active;
+        text-decoration: underline;
+    }
+}
+
+header a h1 {
+    color: $color-hover;
+    text-decoration: none;
+
+    &:visited {
+        color: $color-hover;
+    }
+
+    &:focus {
+        color: $color-focus;
+        text-decoration: none;
+    }
+    &:hover {
+        color: $color-hover;
+        text-decoration: underline;
+    }
+    &:active {
+        color: $color-active;
+        text-decoration: none;
+    }
+}
+
+nav > ul > li > a {
+    color: $grey-light;
+    text-decoration: none;
+
+    &:visited {
+        color: $grey-light;
+    }
+
+    &:focus {
+        color: $color-focus;
+        text-decoration: none;
+    }
+    &:hover {
+        color: $color-hover;
+        text-decoration: none;
+    }
+    &:active {
+        color: $color-active;
+        text-decoration: none;
+    }
+}
+
+// // reset box model for css3 grid
+// * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: // border-box; }
+// 
+// //== Typography
+// $font-family-sans-serif:  'Nunito', sans-serif !default;
+// $font-family-serif:       'Lora', serif !default;
+// $font-family-base:        $font-family-sans-serif !default;
+// $font-family-statement:   'Playfair Display', serif !default;
+// 
+// //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+// $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+// 
+// //== unused???
+// $font-size-base: 17px;
+// $font-size-small:  $font-size-base * 0.875;
+// $font-weight-base: 400;
+// $line-height-base: 1.5;
+// 
+// $headings-font-weight:    700 !default;
+// $headings-line-height:    1.1 !default;
+// $blockquote-font-size: $font-size-base;
+// 
+// h1, h2, h3, h4, h5, h6 {
+//     color: $grey-dark;
+//     font-family: $font-family-sans-serif;
+//     font-weight: $headings-font-weight;
+//     line-height: $headings-line-height;
+// }
+// 
+// h1 {
+//     font-family: $font-family-statement;
+//     font-size: 2em;
+//     font-style: normal;
+//    font-weight: 900;
+//  }
+// 
+// h2 { font-size: 1.5em; }
+// h3 { font-size: 1.17em; }
+// h4 { font-size: 1em; }
+// h5 { font-size: 0.83em; }
+// h6 { font-size: 0.75em; }
+// 
+
+// 
+// 
+// p, li {
+//     color: $text-color;
+//     font-family: $font-family-sans-serif;
+//     font-weight: $font-weight-base;
+//     line-height: $line-height-base;
+// 
+// }
+// 
+// //* LAYOUT TIME
+// 
+// .p1rem {
+//     padding: 1rem;
+// }
+// .p2em {
+//     padding: 2em;
+// }
+// 
+// .card {
+//     
+// }
+// 
+//header ul li, footer ul li {float:left;}
+footer { text-align: center;}
+
+// some stuff from pure blog view
+/* LAYOUT CSS 
+
+.content {
+    padding: 2em 1em 0;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #fff;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    border: 2px solid rgb(61, 146, 201);
+    text-decoration: none;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+
+*/
