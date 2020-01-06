@@ -31,7 +31,7 @@ title: Jason Kunesh's CyberPalace
 {% for item in site.data.work %}
 <!-- {% cycle 2, 4, 6 %} -->
 <c span="2">
-<img src="{{ item.image }}" alt="{{ item.alt_text }}" class="h-8 top {% if item.live == false %}dead{% endif %}" />
+<img src="{{ item.logo }}" alt="{{ item.alt_text }}" class="h-8 top {% if item.live == false %}dead{% endif %}" />
 {% if item.live %} <a href="{{ site.baseurl }}{{ item.url }}"> {% endif %}
 <p>{{ item.title }}</p>
 {% if item.live %} </a> {% endif %}

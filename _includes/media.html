@@ -1,3 +1,6 @@
 {% if thing.type == "image" %}
-<img src="{{ thing.url }}" alt="{{ thing.alt_text }} /">
+<figure>
+    <img src="{{ thing.url }}" alt="" class="w-full" />
+    <figcaption>{{ thing.caption }}</figcaption>
+</figure>
 {% endif %}

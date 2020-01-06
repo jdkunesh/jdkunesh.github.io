@@ -32,9 +32,12 @@
     description: |
       After creating the 311 logo, we realized we needed additional expertise to shape the city's public identity. We pitched Ogilvy to help us on a pro bono basis, and they accepted.
     media:
-      - url: https://via.placeholder.com/800x600?text=lorem+ipsum
+      - url: /img/work/chi/cds-tradcom-solution-trans.png
         type: image
-        alt_text: Screenshot of some Lorem ipsum?
+        caption: Traditional media chiron (in use), presentation, memo and business card templates.
+      - url: /img/work/chi/cds-new-media-solution-trans.png
+        type: image
+        caption: An upcoming Cannabis Legalization program illustrates the system today on Chicago home page, microsite, Facebook, Twitter, Instagram, and event messaging.
   validation:
     description: |
       We validated the brand by sharing it publicly for comment in the fall of 2019. We received positive and critical feedback on accessibility and usage that helped us evolve the framework. We also piloted web projects with the system throughout 2019 with community users, university graduate students, and business partners to understand the barriers to adoption.
@@ -125,12 +128,12 @@
   id: 2
   url: /work/desops
   live: true
-  image: /img/work/chi/city-seal-black-2019.png
+  image: /img/work/chi/star-under-construction.png
   logo: /img/work/chi/city-seal-black-2019.png
   alt_text: Seal of the City of Chicago
   team: City of Chicago
   description: |
-    The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through community engagement for digital transformation. I am the first Design Director responsible for digital services and service delivery to the residents, businesses and visitors of the City of Chicago.
+    Chicago is the third largest city in the United States. I am its first Design Director, helping Chicago work better through community engagement for digital transformation. I am the first Design Director responsible for digital services and service delivery to the residents, businesses and visitors of the City of Chicago.
   budget:
   project_timeframe:
   tags:  

@@ -26,36 +26,33 @@
   </ul>
 </nav>
 
-<grid columns="8" columns-s="1">
-<c></c>
-<c span="2-7">
-<h1>{% if case.title %}{{ case.title | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h1>
-</c>
-<c></c>
-</grid>
 
 <grid columns="8" columns-s="1">
 <c span="row">
-<img src="{{ case.image }}" alt="{{ case.alt_text }}" />
+<img src="{{ case.image }}" alt="{{ case.alt_text }}" class="w-full"/>
 </c>
 </grid>
 
 <grid columns="8" columns-s="1">
-<c></c>
-<c span="2-5">
-<h2>{{case.team }}</h2>
+<c span="1-2">
+<img src="{{ case.logo }}" alt="{{ case.alt_text }}" class="w-16 top" />
+<h4>{{case.team }}</h4>
+<p>{{ case.role }}</p>
+</c>
+<c span="3-6">
+<h1>{% if case.title %}{{ case.title | escape }}{% elsif page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h1>
+
 {% if case.description %}
+<h3>Brief</h3>
 {{ case.description | markdownify }}
 {% endif %}
-
 </c>
-<c span="6-7">
-<h4>Metadata</h4>
-<p>{{ case.role }}</p>
-<p>{{ case.role_timeframe }}</p>
+<c span="7-8">
+<h4>Details</h4>
 <ul>
-<li>{{ case.budget }}</li>
-<li>{{ case.project_timeframe }}</li>
+<li>budget {{ case.budget }}</li>
+<li>timeline {{ case.project_timeframe }}</li>
+<li>involvement {{ case.role_timeframe }}</li>
 </ul>
 <ul>
 {% for tag in case.tags %}
