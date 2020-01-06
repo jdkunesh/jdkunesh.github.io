@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+Hi, I'm Jason.
 
 I am the Design Director for the City of Chicago, making the City work better for residents, visitors, and businesses by building awareness and usage of digital information and services designed with the community like [311](https://311.chicago.gov/) and the [Chicago Design System](https://chicagodesignsystem.org/).
 
@@ -16,4 +17,4 @@ I've played [Metro's main stage](https://metrochicago.com) a couple times as wel
 
 I've been been fortunate to consult or work with awesome organizations from A to Z including: 3M, American Airlines, the Chicago Field Museum, the Clinton Foundation, the Dali Lama Center, Edelman, Emory University, Fellowes Manufacturing, GE Healthcare, Giant Bike, The Grammy Foundation, IBM, Intel, Jabber, LeapFrog, Lockheed Martin, the Mayo Clinic, McDonald's, Microsoft, the NFL, NORC at the University of Chicago, New York Presbyterian Hospital, SAP Fieldglass, Simon Properties, Threadless, United Airlines, UX for Good, Walt Disney Corporation, and bunches more you've never heard of. I am an advisor to [Designation](https://designation.io/), [Greenhouse: the Center of Social Innovation](https://www.ghouseinnovation.com), and [Side Door](https://www.sidedooraccess.com).
 
-I'm open to growth, product, and design roles as a speaker, advisor, or team member. I'm interested in using growth and design skills to transform customers and grow positive brands and products at scale with a focus on growth, internationalization, inclusion, and accessibility.
+

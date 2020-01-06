@@ -19,12 +19,18 @@
 {% assign previous = site.data.work[previous_index] %}
 {% assign next = site.data.work[next_index] %}
 
+<grid columns="8" columns-s="1">
+<c span="1-2">
 <nav>
   <ul class="gallery">
       <li><a href="{{ site.baseurl }}{{ previous.url }}"><i class="fas fa-chevron-circle-left fa-3x"></i></a></li>
       <li><a href="{{ site.baseurl }}{{ next.url }}"><i class="fas fa-chevron-circle-right fa-3x"></i></a></li>
   </ul>
 </nav>
+</c>
+<c span="3-8">
+</c>
+</grid>
 
 
 <grid columns="8" columns-s="1">
@@ -57,8 +63,8 @@
 
 </c>
 <c span="7-8">
-<img src="{{ case.logo }}" alt="{{ case.alt_text }}" class="w-12 top" />
 <h4>{{case.team }}</h4>
+<img src="{{ case.logo }}" alt="{{ case.alt_text }}" class="w-12 fill" />
 {% if case.description %}
 {{ case.description | markdownify }}
 {% endif %}
@@ -67,6 +73,7 @@
 <ul>
 <li>{{ case.budget }}</li>
 <li>{{ case.project_timeframe }}</li>
+{% if case.role_timeframe %}<li>{{ case.role_timeframe }} <i>personally</i></li>{% endif %}
 </ul>
 </c>
 <c></c>

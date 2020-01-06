@@ -8,12 +8,12 @@ title: Jason Kunesh's CyberPalace
 <c></c>
 <c span="2-7">
     <h2>Welcome!</h2>
-    <p>lover's quarrel with tech: design, biz, code intersection.</p>
 
-<p>I am the Design Director for the City of Chicago, making the City work better for residents, visitors, and businesses by building awareness and usage of digital information and services designed with the community like [311](https://311.chicago.gov/) and the [Chicago Design System](https://chicagodesignsystem.org/).</p>
+<p>Hi–</p>
 
-<p>I am the first person in this role. I have had the privilege of saying that pretty often in my career as I've progressed from programming to design to product leadership. I have worked in all sorts of market sectors with acronyms like B2B/B2C/G2B/G2C/B2G/C2G and C2C Whew, I think that's all of 'em, often on either side of the table. Most of the time it's worked out pretty great.</p>
+<p>Currently, I am the Design Director for the City of Chicago, making the City work better for residents, visitors, and businesses by building awareness and usage of digital information and services designed with the community like <a href="https://311.chicago.gov/">311</a> and the <a href="https://design.chicago.gov/">Chicago Design System</a>.</p>
 
+<p>I'm open to user experience, product, or design roles as a consultant, speaker, advisor, or team member. I'm interested in making products to transform customers and grow positive brands and products at scale.</p>
 </c>
 <c span="7-8"></c>
 </grid>
@@ -30,10 +30,10 @@ title: Jason Kunesh's CyberPalace
 
 {% for item in site.data.work %}
 <!-- {% cycle 2, 4, 6 %} -->
-<c span="2">
-<img src="{{ item.logo }}" alt="{{ item.alt_text }}" class="h-8 top {% if item.live == false %}dead{% endif %}" />
+<c span="2" class="h-12">
+<img src="{{ item.image }}" alt="{{ item.alt_text }}" class="w-full h-8 center {% if item.live == false %}dead{% endif %}" />
 {% if item.live %} <a href="{{ site.baseurl }}{{ item.url }}"> {% endif %}
-<p>{{ item.title }}</p>
+<p style="text-align: center;">{{ item.title }}</p>
 {% if item.live %} </a> {% endif %}
 </c>
 {% assign test = forloop.index | modulo:3 %}

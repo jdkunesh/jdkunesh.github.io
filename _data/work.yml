@@ -3,16 +3,16 @@
   url: /work/311
   live: true
   image: /img/work/chi/CHI-311-logo.png
-  logo: /img/work/chi/CHI-311-logo.png
+  logo: /img/work/chi/LOGO-CHICAGO-horizontal.png
   alt_text: CHI 311 Logo
   team: City of Chicago
   description: |
     The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through community engagement for digital transformation. I am the first Design Director responsible for digital services and service delivery to the residents, businesses and visitors of the City of Chicago.
   budget: $34mm
   project_timeframe: 2017-2021
-  tags: {community, government, mobile, web, IVR, service app}
+  tags: {community, government, mobile, web, IVR, service app, design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer}
   role: |
-    Design Director. Design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer.
+    Design Director
   role_timeframe: January 2018 to now
   solution: 
     description: |
@@ -74,8 +74,8 @@
   description: |
     The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through digital transformation of information and service delivery with the community. 
   budget: $52 & lots of pro bono help
-  project_timeframe: June 2018–January 2020 of 2017-21 plan
-  tags: {design system, web design system, comparative analysis, interface inventory, listening tour, historical research, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism}
+  project_timeframe: June 2018–January 2020
+  tags: {community, government, design system, web design system, comparative analysis, interface inventory, listening tour, historical research, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism}
   role: Design Director
   role_timeframe: January 2018 to now
   challenge: 
@@ -123,7 +123,7 @@
   url: /work/desops
   live: true
   image: /img/work/chi/star-under-construction.png
-  logo: /img/work/chi/city-seal-black-2019.png
+  logo: /img/work/chi/LOGO-CHICAGO-horizontal.png
   alt_text: Seal of the City of Chicago
   team: City of Chicago
   description: |
@@ -239,7 +239,7 @@
     * Began as a team of one in B2B, grew to lead a team of Information Architects on four products serving small businesses to Fortune 100 companies.
   tags: design system, web design system
   role: 
-  role_timeframe: January 2018 to now
+  role_timeframe:
 - title: Everything else
   id: 8
   url: /work/etc
