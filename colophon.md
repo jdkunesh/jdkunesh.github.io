@@ -4,21 +4,22 @@ title: Colophon
 
 ---
 
-A colophon typically describes the methods, tools, and materials used to make a creative work. Traditionally, colophons were the ending flourish of a book. This is the colophon for this site, {{ site.name }}.
+A colophon describes the methods, tools, and materials used to make a creative work. Traditionally, colophons were the ending flourish of a book. This is the colophon for this site, {{ site.name }}.
 
 ## History
 
-Some version of this site has been online since 1995. It has changed greatly over time. This version of the site was produced in December, 2019. Highlights of the new version include wholly new content, including an updated portfolio, as well as administrivia (like this colophon) and important features (like [accessibility](/accessibility)).
+I've had a home page on the internet since 1995. This version of the site was produced in January, 2020. Highlights of the new version include wholly new content, an updated portfolio, as well as administrivia (like this colophon), and important features (like an [accessibility statement](/accessibility)).
 
 ## Technology
 
 This site is hosted on [GitHub Pages](https://pages.github.com/). It is produced using [Jekyll](https://jekyllrb.com/), a blog-aware static site generator written in Ruby. Jekyll can generate a static web site from text content stored in markdown files and a theme, in this case a rudimentary custom theme.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
+You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/).
 
 ## Design & imagery
 
- Typefaces are courtesy [Google Fonts](https://fonts.google.com) and images are my own.
+I am using the [Raster Simple Grid System](https://rsms.me/raster/), and images are my own. Logos, copyrights and trademarks are mostly held by the organizations for whom I did the work.
 
 This is a hand-built portfolio site producing using open source tools and free hosting, as God, Goddess, ur-mind, collective spirit or whatever intended. 
+
+Thanks for stopping by!

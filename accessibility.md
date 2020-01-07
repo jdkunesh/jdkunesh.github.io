@@ -6,7 +6,7 @@ filename: accessibility.md
 
 ---
 
-I, Jason Kunesh, am committed to making information and services accessible to people through {{ site.name }}. I strive to provide a welcoming and helpful experience.
+I am committed to making information and services accessible to people through {{ site.name }}. I strive to provide a welcoming and helpful experience.
 
 ## What are we doing?
 
@@ -16,4 +16,4 @@ The guidelines have three levels of accessibility (A, AA and AAA). We’ve chose
 
 ## How are we doing?
 
-I believe this website has WCAG AA accessibility, but if you do find any problems, please get in touch.
+I believe this website to be WCAG AA accessible, but if you do find any problems, please get in touch.
