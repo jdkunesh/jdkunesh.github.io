@@ -58,13 +58,16 @@ $primary-color:              #2ae !default;    // aqua-ish?
 $secondary-color:            #562800 !default; // old text brown
 $another-primary-color:      #2C5491 !default; // close enough to the primary?
 
+$orange:                     #fd7e14 !default;
+$sepia:                      #230400 !default;
+
 $black:                      #000000 !default;
 $blue:                       #0d6efd !default;
 $indigo:                     #6610f2 !default;
 $purple:                     #4C2C92 !default;
 $pink:                       #d63384 !default;
 $red:                        #dc3545 !default;
-$orange:                     #fd7e14 !default;
+
 $yellow:                     #ffc107 !default;
 $green:                      #28a745 !default;
 $teal:                       #20c997 !default;
@@ -77,6 +80,8 @@ $grey-light:                 #E4E2E0;
 $grey-dark:                  #494440;
 
 $brand-color:                $primary-color;
+
+
 
 // FUNCTIONAL COLORS (WHERE STYLE MEETS SEMANTICS)
 $background-color:           $white;
@@ -92,6 +97,7 @@ $color-visited:              $purple;
 
 body {
     background-color: $background-color;
+    color: $sepia;
 }
 
 a {
