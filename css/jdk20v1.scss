@@ -5,6 +5,10 @@
 ---
 @charset "utf-8";
 
+// type
+
+$font-family-statement:   'Playfair Display', serif !default;
+
 :root {
   /*
   Font size is the basis of all other measurements.
@@ -169,6 +173,11 @@ nav > ul > li > a {
     }
 }
 
+body > header > a > h1 {
+    font-family: $font-family-statement;
+    font-weight: 900;
+}
+
 // // reset box model for css3 grid
 // * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: // border-box; }
 // 
@@ -176,7 +185,6 @@ nav > ul > li > a {
 // $font-family-sans-serif:  'Nunito', sans-serif !default;
 // $font-family-serif:       'Lora', serif !default;
 // $font-family-base:        $font-family-sans-serif !default;
-// $font-family-statement:   'Playfair Display', serif !default;
 // 
 // //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 // $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
@@ -198,21 +206,11 @@ nav > ul > li > a {
 //     line-height: $headings-line-height;
 // }
 // 
-// h1 {
-//     font-family: $font-family-statement;
-//     font-size: 2em;
-//     font-style: normal;
-//    font-weight: 900;
-//  }
-// 
 // h2 { font-size: 1.5em; }
 // h3 { font-size: 1.17em; }
 // h4 { font-size: 1em; }
 // h5 { font-size: 0.83em; }
 // h6 { font-size: 0.75em; }
-// 
-
-// 
 // 
 // p, li {
 //     color: $text-color;
@@ -237,53 +235,3 @@ nav > ul > li > a {
 // 
 //header ul li, footer ul li {float:left;}
 footer { text-align: center;}
-
-// some stuff from pure blog view
-/* LAYOUT CSS 
-
-.content {
-    padding: 2em 1em 0;
-}
-
-.pure-img-responsive {
-    max-width: 100%;
-    height: auto;
-}
-
-.nav-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.nav-item {
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-}
-.nav-item a {
-    background: transparent;
-    border: 2px solid rgb(176, 202, 219);
-    color: #fff;
-    margin-top: 1em;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    font-size: 85%;
-}
-.nav-item a:hover,
-.nav-item a:focus {
-    border: 2px solid rgb(61, 146, 201);
-    text-decoration: none;
-}
-
-.content-subhead {
-    text-transform: uppercase;
-    color: #aaa;
-    border-bottom: 1px solid #eee;
-    padding: 0.4em 0;
-    font-size: 80%;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-}
-
-
-*/

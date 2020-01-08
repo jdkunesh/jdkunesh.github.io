@@ -5,15 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '/css/raster.css' | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ '/css/raster.debug.css' | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ '/css/jdk20v1.css' | prepend: site.baseurl }}">
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-<script src="https://kit.fontawesome.com/3789fe5ab2.js" crossorigin="anonymous"></script>
-
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -31,7 +28,7 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-
+<script src="https://kit.fontawesome.com/3789fe5ab2.js" crossorigin="anonymous"></script>
 </head>
 {% comment %}
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
@@ -46,11 +43,4 @@
 <meta property="twitter:description" content="The Chicago Design System is the public visual identity of the City of Chicago. It is an inclusive, equitable, cost saving system for City communication and for Chicagoans to show their civic pride." />
 <meta property="twitter:image" content="https://design.chicago.gov/assets/img/logo/LOGO-Chicago2000x1000-TW.png" />
 <!-- 1024 x 512 2:1/16:9 -->
-
-
-
-<link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700|Playfair+Display:900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ '/css/pure/base-min.css' | prepend: site.baseurl }}">
-<link rel="stylesheet" href="{{ '/css/pure/grids-min.css' | prepend: site.baseurl }}">
-<link rel="stylesheet" href="{{ '/css/pure/grids-responsive-min.css' | prepend: site.baseurl }}">
 {% endcomment %}
