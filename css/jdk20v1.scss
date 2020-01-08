@@ -82,7 +82,6 @@ $grey-dark:                  #494440;
 $brand-color:                $primary-color;
 
 
-
 // FUNCTIONAL COLORS (WHERE STYLE MEETS SEMANTICS)
 $background-color:           $white;
 $text-color:                 $secondary-color;
@@ -97,6 +96,10 @@ $color-visited:              $purple;
 
 body {
     background-color: $background-color;
+    color: $sepia;
+}
+
+hr {
     color: $sepia;
 }
 
