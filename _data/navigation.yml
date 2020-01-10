@@ -7,7 +7,7 @@ secondary:
     url: /accessibility
   - text: Colophon
     url: /colophon
-  - text: hello@jdkunesh.com
+  - text: Email
     url: mailto://hello@jdkunesh.com?subject=Hello!
     external: true
   - text: LinkedIn

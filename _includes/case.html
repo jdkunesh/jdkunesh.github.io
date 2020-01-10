@@ -75,6 +75,12 @@
 <li>{{ case.budget }}</li>
 <li>{{ case.project_timeframe }}</li>
 </ul>
+<h4>Work</h4>
+<ul>
+{% for stuff in case.work_urls %}
+  <li><a href="{{ stuff.url }}">{{ stuff.text }}</a></li>
+{% endfor %}
+</ul>
 </c>
 <c></c>
 <c span="2-7" span-s="row">

@@ -10,9 +10,17 @@
     The City of Chicago is the third largest in the United States. I am its first Design Director, helping Chicago work better through community engagement for digital transformation. I am the first Design Director responsible for digital services and service delivery to the residents, businesses and visitors of the City of Chicago.
   budget: $34mm
   project_timeframe: 2017-2021
+  work_urls:
+    - text: website
+      url: https://311.chicago.gov/
+    - text: iOS app
+      url: https://apps.apple.com/us/app/chi-311/id1441580123
+    - text: Android app
+      url: https://play.google.com/store/apps/details?id=org.cityofchicago.chi311&hl=en_US
+    - text: 311 marketing microsite
+      url: http://whatsthe311.org/
   tags: {community, government, mobile, web, IVR, service app, design management of vendor teams, iOS application admin, accessibility tester, public roadmap maintainer, FAQ writer, UX protocol writer, bug filer, cheerleader, evangelist, designer, Card sort, participatory design, usability tests, comparative analysis, service design, contextual inquiry, accessibility evaluation, internationalization evaluation}
-  role: |
-    Design Director
+  role: Design Director
   role_timeframe: January 2018 – present
   challenge: 
     description: |
@@ -75,13 +83,22 @@
   tags: {community, government, design system, web design system, comparative analysis, interface inventory, listening tour, historical research, Creative Direction, HTML & CSS coding, UX writing, QA, product management, evangelism}
   role: Design Director
   role_timeframe: January 2018 to now
+  work_urls:
+    - text: design.chicago.gov
+      url: https://design.chicago.gov/
+    - text: Bootstrap 4 theme
+      url: https://chicago.github.io/design-cds-bootstrap/
+    - text: Chicago Store
+      url: https://chicago.threadless.com/
+    - text: Cannabis portal
+      url: https://www.chicago.gov/city/en/sites/cannabis-information-center/home.html
   challenge: 
     description: |
       Living with over 500 logos, 200 applications, and no design standards is a recipe for confusing messaging delivered inconsistently at great expense. Our new design system saves money and time while supporting accessible, inclusive, consistent communication.
 
-      While rolling out 311 with our marketing and community engagement partners we saw how supply and demand for services met unequally time and again. Some great services go under-utilized by the people who need them most because governments aren't built to market effectively. Now that our digital life is, well, our life, governments need to market services digitally.
+      While working on 311, we realized there were many style guides and accessibility policies, but nearly no one followed them. Great services went under-utilized and unknown.
 
-      While creating the 311 logo and going through the early launch process, I realized there were many policies written for accessibility and style, but nearly no one followed them. A design system would help, and many of our platforms had them, like Salesforce or ServiceNow, but dozens more did not. In consultation and partnership with the Mayor's Office, we realized we needed additional expertise to shape the city's public identity, so we partnered with Ogilvy, Google, and House of Pretty on a pro bono project to design a new identity for Chicago.
+      A design system would help, but we also knew from our experience designing 311 that we needed outside expertise to help us tell our story best. In consultation and partnership with the Mayor's Office, we realized we needed additional expertise to shape the city's public identity, so we partnered with Ogilvy, Google, and House of Pretty on a pro bono project to design a new identity for Chicago.
   research:
     description: |
       We began by reviewing the City's major technology programs, departments, and service delivery channels to understand what was in market and what design language it used to communicate. Along with inventorying our current state, we examined the branding efforts of other global cities to understand the benefits and pitfalls of different approaches. Finally, we examined the history and origin of Chicago's civic heraldry and neighborhood devices to place our work in the larger historical context, including interviews with the City's historian.
@@ -132,6 +149,15 @@
   project_timeframe: 2018-present
   tags:  
   role: Design Director
+  work_urls:
+    - text: Design Methods
+      url: https://chicago.github.io/design-methods/
+    - text: Accessibility Playbook
+      url: https://design.chicago.gov/accessibility/
+    - text: UX Design Templates 
+      url: https://www.figma.com/@chicago
+    - text: Brand Management System
+      url: https://cityofchicago.frontify.com/  
   challenge: 
     description: |
       In 2018 I fielded 37 outside project requests from different departments during the course of the 311 Modernization launch. It became apparent fast that the scale of procurement, systems, relationships, and politics were the study of many lifetimes. Often, the only help I could offer was to describe what the process would look like, and in a few cases, offer a service or two. It was small comfort that wasn't helping anyone.
