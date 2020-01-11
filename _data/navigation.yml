@@ -1,4 +1,8 @@
 primary:
+  - text: Blog
+    url: /blog
+  - text: Work
+    url: /work/311
 
 secondary:
   - text: About

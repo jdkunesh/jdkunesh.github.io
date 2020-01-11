@@ -1,7 +1,7 @@
 - title: Chicago’s New 311 System is a Huge Win for Public Works
   description: 
   company: WIRED
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.wired.com/story/chicago-311-huge-win-for-public-works/
@@ -9,7 +9,7 @@
 - title: A Distributed Government by the People, for the People
   description: 
   company: CityLab
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.citylab.com/sponsored/stephen-goldsmith-new-city-os/a-distributed-government-by-the-people-for-the-people/238/
@@ -17,7 +17,7 @@
 - title: Chicago Gets a New 311 App
   description: 
   company: WBEZ
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.wbez.org/shows/morning-shift/chicago-gets-a-new-311-app/3d936580-a1b8-4ace-aad9-06e34b7c2587
@@ -25,7 +25,7 @@
 - title: New 311 App Allows Chicagoans To Report Potholes, Rats Or Employer Wrongdoing Anonymously — And Track City Response
   description: 
   company: Block Club Chicago
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://blockclubchicago.org/2018/12/18/new-311-app-allows-chicagoans-to-report-potholes-rats-or-employer-wrongdoing-anonymously-and-track-city-response/
@@ -33,7 +33,7 @@
 - title: Why Chicago Added a Design Office to City Hall
   description: 
   company: GovTech
-  feature: 
+  feature: false
   quote: 
   media:
   url: http://www.govtech.com/civic/Why-Chicago-Added-a-Design-Office-to-City-Hall.html
@@ -41,7 +41,7 @@
 - title: How Some News Outlets Let Readers ‘Take Action’ With a Click
   description: 
   company: WTTW
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://news.wttw.com/2018/03/26/how-some-news-outlets-let-readers-take-action-click
@@ -49,7 +49,7 @@
 - title: Jason Kunesh of Public Good on How Bands Are Just Like Startups 
   description: 
   company: 
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://tech.co/jason-kunesh-public-good-interview-2017-05
@@ -57,7 +57,7 @@
 - title: Running a UI Design Critique
   description: 
   company: Smashing Magazine 
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.smashingmagazine.com/2016/08/running-a-ui-design-critique/
@@ -65,7 +65,7 @@
 - title: Tech developer talks civic good
   description: 
   company: the Valparaiso Torch
-  feature: 
+  feature: false
   quote: 
   media:
   url: http://www.valpotorch.com/news/article_69d64036-8757-11e6-b856-5f857d71853d.html
@@ -73,7 +73,7 @@
 - title: Jason Kunesh, Public Good
   description: 
   company: Be like Peter
-  feature: 
+  feature: false
   quote: 
   media:
   url: http://belikepeter.com/jason-kunesh-public-good/
@@ -81,7 +81,7 @@
 - title: 8 Tenets of Good Company Culture—Does Yours Have Them?
   description: 
   company: Success
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.success.com/8-tenets-of-good-company-culture-does-yours-have-them/
@@ -89,7 +89,7 @@
 - title: 5 things I wish I knew as a first time CEO
   description: 
   company: 5 in 60
-  feature: 
+  feature: false
   quote: 
   media:
   url: http://curvetube.com/FIVEinSIXTY_24-Jason_Kunesh_CEO_Public_Good/4ykVCTsaCBA.video
@@ -97,7 +97,7 @@
 - title: Public Good offers digital backbone to '#ILGive' campaign
   description: 
   company: Chicago Tribune
-  feature: 
+  feature: false
   quote: 
   media:
   url: http://www.chicagotribune.com/bluesky/originals/ct-public-good-ilgive-campaign-bsi-20151202-story.html
@@ -105,7 +105,7 @@
 - title: Giving in the Digital World
   description: 
   company: WNET Metrofocus
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.thirteen.org/metrofocus/2015/12/giving-in-the-digital-world/
@@ -113,7 +113,7 @@
 - title: Jason Kunesh of Public Good Software
   description: 
   company: WGN Radio
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://wgnradio.com/2014/12/24/jason-kunesh-public-good-software/
@@ -121,7 +121,7 @@
 - title: Can a like button for doing good create a more caring Internet?
   description: 
   company: Motherboard
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://motherboard.vice.com/en_us/article/3dk5kw/can-a-like-button-for-doing-good-create-a-more-caring-internet
@@ -129,7 +129,7 @@
 - title: Introducing Public Good Software–a new way to turn articles into action
   description: 
   company: Chicago Reader
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.chicagoreader.com/Bleader/archives/2014/11/03/introducing-public-good-software-a-new-way-to-turn-articles-into-action
@@ -137,7 +137,7 @@
 - title: We are Civic Tech City
   description: 
   company: Built in Chicago
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.builtinchicago.org/2014/09/07/we-are-civic-tech-city-how-chicago-rapidly-advancing-public-good-technology
@@ -145,7 +145,7 @@
 - title: Obama campaign veterans launch hub for charitable giving
   description: 
   company: Chicago Tribune
-  feature: 
+  feature: false
   quote: 
   media:
   url: http://www.chicagotribune.com/business/ct-xpm-2014-04-20-ct-confidential-public-good-software-harris-0420-b-20140420-story.html
@@ -153,7 +153,7 @@
 - title: Jason Kunesh on Building a Community For The Public Good, Simplifying the Complex and Working for Obama
   description: 
   company: Podchaser
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.podchaser.com/podcasts/make-your-mark-podcast-15024/episodes/jason-kunesh-on-building-a-com-3027698
@@ -161,7 +161,7 @@
 - title: Chicago Camps Podcast Interview
   description: 
   company: Chicago Camps
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://player.fm/series/chicago-camps-podcast-1402637/115-jason-kunesh
@@ -169,7 +169,7 @@
 - title: Ex-Obama techies hope to do well with Public Good
   description: 
   company: Crain's
-  feature: 
+  feature: false
   quote: 
   media:
   url: http://www.chicagobusiness.com/article/20140311/BLOGS11/140319944/ex-obama-techies-hope-to-do-well-with-public-good
@@ -177,7 +177,7 @@
 - title: Dream Jobs You’ve Never Heard of- Director of User Experience for Obama for America Campaign
   description: 
   company: WIRED
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.wired.com/2013/01/obama-ux-director/
@@ -185,7 +185,7 @@
 - title: When the Nerds Go Marching In
   description: 
   company: Atlantic
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.theatlantic.com/technology/archive/2012/11/when-the-nerds-go-marching-in/265325/
@@ -193,7 +193,7 @@
 - title: Public Good Software lands 1 million seed funding
   description: 
   company: Tech President
-  feature: 
+  feature: false
   quote: 
   media:
   url: http://techpresident.com/news/24813/public-good-software-lands-1-million-seed-funding
@@ -201,7 +201,7 @@
 - title: Building Tech for Civic Life
   description: 
   company: Lumpen Times
-  feature: 
+  feature: false
   quote: 
   media:
   url: http://www.lumpenmagazine.org/building-tech-for-civic-life-an-interview-with-public-good-software/
@@ -209,7 +209,7 @@
 - title: A Conversation with Jason Kunesh
   description: 
   company: Adaptive Path
-  feature: 
+  feature: false
   quote: 
   media:
   url: http://adaptivepath.org/ideas/a-conversation-with-jason-kunesh/
@@ -217,7 +217,7 @@
 - title: Inside Obama's Campaign
   description: 
   company: Rolling Stone
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.rollingstone.com/politics/politics-news/inside-obamas-campaign-2-231052/#ixzz1qWEeKxiw
@@ -225,7 +225,7 @@
 - title: For Startups, Design is the New Competitive Advantage
   description: 
   company: Forbes
-  feature: 
+  feature: false
   quote: 
   media:
   url: https://www.forbes.com/sites/kellyreid/2012/10/31/for-startups-design-is-the-new-competitive-advantage-2/#3a5592015419
@@ -233,14 +233,14 @@
 - title: Microsoft HealthVault Manager
   description: Video Demo on YouTube
   company: Mayo Clinic 
-  feature: 
+  feature: false
   quote: 
   url: https://www.youtube.com/watch?v=_R3aQ2edc3k
   year: 2012
 - title: Various web 1.0 & entertainment media.
   description: Things happened, I got some press from it, I don't know where any of it is now. It mostly involved startups or guitars.
   company: 
-  feature: 
+  feature: false
   quote: 
   media:
   url: 

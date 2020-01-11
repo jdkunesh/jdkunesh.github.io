@@ -1,7 +1,16 @@
+- title: 
+  event: Config
+  description: Figma conference
+  feature: false
+  quote: 
+  location: San Francisco
+  media:
+  url: https://config.figma.com
+  year: 2020
 - title: The Dreaded I Word - Real Talk about Delivering Innovative Work
   event: Digital Government Summit
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Chicago
   media:
@@ -10,7 +19,7 @@
 - title: SF Design Week
   event: 
   description: 
-  feature: 
+  feature: false
   quote: 
   location: San Francisco
   media:
@@ -19,7 +28,7 @@
 - title: 
   event: Adobe Creative Jam
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Chicago
   media:
@@ -28,7 +37,7 @@
 - title: 
   event: ThinkChicago
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Chicago
   media:
@@ -37,7 +46,7 @@
 - title: 
   event: Design for America Summit
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Evanston
   media:
@@ -46,7 +55,7 @@
 - title: 
   event: NWU McWhatever School
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Evanston
   media:
@@ -55,7 +64,7 @@
 - title: 
   event: Design director con
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -64,7 +73,7 @@
 - title: 
   event: Design for America Summit
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Evanston
   media:
@@ -73,7 +82,7 @@
 - title: 
   event: Service Design Day
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Chicago
   media:
@@ -82,7 +91,7 @@
 - title: Human-Centered Design in Government
   event: Digital Government Summit
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Chicago
   media:
@@ -91,7 +100,7 @@
 - title: Keynote
   event: Chicago Camps
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Chicago
   media:
@@ -100,7 +109,7 @@
 - title: NETT Day 
   event: 
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -109,7 +118,7 @@
 - title: LEVERAGING THE VALUE OF UX Panel
   event: UXD Chicago Meetup – 
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -118,7 +127,7 @@
 - title: 
   event: Chi Hack Night
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -127,7 +136,7 @@
 - title: 
   event: ThinkChicago
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -136,7 +145,7 @@
 - title: 
   event: Chicago Design Week
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -145,7 +154,7 @@
 - title: 
   event: Designation
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -154,7 +163,7 @@
 - title: Social Enterprise Real Talk from the Field 
   event: SXSW
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -163,7 +172,7 @@
 - title: 
   event: 
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -172,7 +181,7 @@
 - title: 
   event: Law libraries
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -181,7 +190,7 @@
 - title: Civic Networking - Evolving Approaches to Online Organizing
   event: Pathways to Purpose series
   description: Institute for Leadership and Service at Valparaiso University
-  feature: 
+  feature: false
   quote: 
   location: Valapraiso, IN
   media:
@@ -190,7 +199,7 @@
 - title: How to be a Designer CEO at a Startup without Being a Jerk
   event: Chicago Camps
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -199,7 +208,7 @@
 - title: The Happiness Movement
   event: World IA Day
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -208,7 +217,7 @@
 - title: 2014 panel
   event: Sxsw 
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -217,7 +226,7 @@
 - title: Future 2040 Panel
   event: W3C Web at 25
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -226,7 +235,7 @@
 - title: 
   event: prototype camp keynote
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -235,7 +244,7 @@
 - title: rules of engagement - new face of giving
   event: 
   description: JP Morgan chase
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -244,7 +253,7 @@
 - title: Design Chicanery
   event: UX Week
   description: 
-  feature: 
+  feature: false
   quote: 
   location: San Francisco
   media: video
@@ -253,7 +262,7 @@
 - title: 
   event: Starter League
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -262,7 +271,7 @@
 - title: mobile talk
   event: 
   description: Notre Dame
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -271,7 +280,7 @@
 - title: 
   event: 
   description: Google
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -280,7 +289,7 @@
 - title: 
   event: 
   description: HCI talk xerox parc
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -289,7 +298,7 @@
 - title: 
   event: UX for good
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Vancouver
   media:
@@ -298,7 +307,7 @@
 - title: Do Gooder lounge
   event: SXSW 
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Austin, TX
   media:
@@ -307,7 +316,7 @@
 - title: Talk at Groupon
   event: 
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Chicago, IL
   media:
@@ -316,7 +325,7 @@
 - title: asdf
   event: IxDA
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Chicago, IL
   media:
@@ -325,7 +334,7 @@
 - title: 10 Lessons Learned from Obama for America
   event: Refresh Chicago
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -334,7 +343,7 @@
 - title: Jason Kunesh Talks About Designing for Humans Youth
   event: #-CivicSummer @ 1871
   description: Photo by Daniel X. O'Neil.
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -343,7 +352,7 @@
 - title: 
   event: HATCH
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -352,7 +361,7 @@
 - title: 
   event: UX for good
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -361,7 +370,7 @@
 - title: Keynote
   event: web visions
   description: 
-  feature: 
+  feature: false
   quote: 
   location: Barcelona, Chicago, NYC, Portland
   media:
@@ -370,7 +379,7 @@
 - title: 
   event: UX for good 
   description: 
-  feature: 
+  feature: false
   quote: 
   location: New Orleans
   media:
@@ -379,7 +388,7 @@
 - title: 
   event: Weird product marketing meetup thing
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -388,7 +397,7 @@
 - title: 
   event: Talk at Morningstar
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -397,7 +406,7 @@
 - title: 
   event: Talk in NO
   description: 
-  feature: 
+  feature: false
   quote: 
   location: New Orleans
   media:
@@ -406,7 +415,7 @@
 - title: 
   event: IA summit
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -415,7 +424,7 @@
 - title: 
   event: IA summit 
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -424,7 +433,7 @@
 - title: 
   event: Railsconf
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
@@ -433,7 +442,7 @@
 - title: 
   event: World usability day
   description: 
-  feature: 
+  feature: false
   quote: 
   location:
   media:
