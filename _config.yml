@@ -20,7 +20,7 @@
 name: jdkunesh.com
 title: Jason Kunesh
 email: jdkunesh@gmail.com
-description: I make short stories long.
+description: The web site of a designer living in Chicago.
 # > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jdkunesh.com" # the base hostname & protocol for your site
