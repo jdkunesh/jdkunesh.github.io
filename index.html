@@ -27,13 +27,13 @@ layout: home
 </c>
 <c></c>
 <c></c>
-<c span="2-7" span-s="row" style="padding-top:3em;">
+
+<!-- <c span="2-7" span-s="row" style="padding-top:3em;">
 <h2>Selected Work</h2>
 </c>
 <c></c>
 <c></c>
 {% for item in site.data.work %}
-<!-- {% cycle 2, 4, 6 %} -->
 <c span="2" span-s="row">
 <img src="{{ item.image }}" alt="{{ item.alt_text }}" class="w-full h-8 center {% if item.live == false %}dead opacity5{% endif %}" />
 {% if item.live %} <a href="{{ site.baseurl }}{{ item.url }}"> {% endif %}
@@ -47,14 +47,15 @@ layout: home
 {% endif %}
 
 {% endfor %}
-<c></c>
+ //
+ --><c></c>
 <c></c>
 <c></c>
 <c span="2-7" span-s="row" style="padding-top:3em;">
     <h2>Speaking</h2>
     <p>I am available for speaking engagements. Get in touch at <a href="mailto://speaking@jdkunesh.com?subject=speaking+inquiry">speaking@jdkunesh.com</a>.</p>
     <h4>Next up</h4>
-    <p>I'm excited to be speaking at <a href="https://config.figma.com">Figma's Inaugural Config Conference</a> February 6th in San Francisco.</p>
+    <p>I'm excited to be speaking at <a href="https://config.figma.com">Config, Figma's First Conference</a> February 6th in San Francisco.</p>
 {% comment %}
     {% for event in site.data.events %}
     <ul>
