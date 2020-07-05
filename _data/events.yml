@@ -1,61 +1,63 @@
-- title: 
+- title: >-
+    Designing with the Public: How Figma Empowers Chicago Digital Services
   event: Config
-  description: Figma conference
-  feature: false
+  description:
+  live: true
   quote: 
-  location: San Francisco
+  location: San Francisco, CA
   media:
   url: https://config.figma.com
   year: 2020
 - title: The Dreaded I Word - Real Talk about Delivering Innovative Work
   event: Digital Government Summit
   description: 
-  feature: false
+  live: true
   quote: 
-  location: Chicago
+  location: Chicago, IL
   media:
   url: https://events.govtech.com/Chicago-Digital-Government-Summit.html
   year: 2019
-- title: SF Design Week
-  event: 
-  description: 
-  feature: false
+- title: Design Thinking in Civic Service
+  event: SF Design Week
+  description: The City of Chicago collaborated with the Masters in Engineering Design Innovation program to explore civic service design. This talk explored how we leveraged design thinking to find new entry points to city services for residents.
+  live: true
   quote: 
-  location: San Francisco
+  location: San Francisco, CA
   media:
   url: 
   year: 2019
-- title: 
+- title: Tall Tales & Short Thoughts About Data-Driven Human Centered Design 
   event: Adobe Creative Jam
   description: 
-  feature: false
+  live: true
   quote: 
-  location: Chicago
+  location: Chicago, IL
   media:
   url: 
   year: 2019
 - title: 
   event: ThinkChicago
   description: 
-  feature: false
+  live: false
   quote: 
-  location: Chicago
+  location: Chicago, IL
   media:
   url: 
   year: 2019
-- title: 
+- title: >-
+    A Small Team @ Civic Scale
   event: Design for America Summit
   description: 
-  feature: false
+  live: true
   quote: 
-  location: Evanston
+  location: Northwestern University
   media:
   url: 
   year: 2019
 - title: 
   event: NWU McWhatever School
   description: 
-  feature: false
+  live: false
   quote: 
   location: Evanston
   media:
@@ -64,7 +66,7 @@
 - title: 
   event: Design director con
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -73,7 +75,7 @@
 - title: 
   event: Design for America Summit
   description: 
-  feature: false
+  live: false
   quote: 
   location: Evanston
   media:
@@ -82,61 +84,61 @@
 - title: 
   event: Service Design Day
   description: 
-  feature: false
+  live: false
   quote: 
-  location: Chicago
+  location: Chicago, IL
   media:
   url: 
   year: 2018
 - title: Human-Centered Design in Government
   event: Digital Government Summit
   description: 
-  feature: false
+  live: true
   quote: 
-  location: Chicago
+  location: Chicago, IL
   media:
   url: 
   year: 2018
-- title: Keynote
+- title: Keynote Conversation with the City of Chicago's Danielle DuMerer, CIO, and Jason Kunesh, Design Director, moderated by Russ Unger
   event: Chicago Camps
   description: 
-  feature: false
+  live: true
   quote: 
-  location: Chicago
+  location: Chicago, IL
   media:
   url: http://chicagocamps.org/events/2018/ux-camp-spring/
   year: 2018
 - title: NETT Day 
   event: 
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
   url: 
   year: 2018
-- title: LEVERAGING THE VALUE OF UX Panel
-  event: UXD Chicago Meetup – 
+- title: Leveraging The Value Of UX Panel
+  event: UXD Chicago Meetup
   description: 
-  feature: false
+  live: true
   quote: 
-  location:
+  location: Chicago, IL
   media:
   url: 
   year: 2018
-- title: 
+- title: City of Chicago's First Design Director
   event: Chi Hack Night
   description: 
-  feature: false
+  live: true
   quote: 
-  location:
+  location: Chicago, IL
   media:
   url: https://chihacknight.org/events/2018/08/14/jason-kunesh.html
   year: 2018
 - title: 
   event: ThinkChicago
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -145,7 +147,7 @@
 - title: 
   event: Chicago Design Week
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -154,7 +156,7 @@
 - title: 
   event: Designation
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -163,16 +165,16 @@
 - title: Social Enterprise Real Talk from the Field 
   event: SXSW
   description: 
-  feature: false
+  live: true
   quote: 
-  location:
+  location: Austin, TX
   media:
   url: https://schedule.sxsw.com/2017/events/PP62429
   year: 2017
 - title: 
   event: 
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -181,61 +183,62 @@
 - title: 
   event: Law libraries
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
   url: 
   year: 2016
 - title: Civic Networking - Evolving Approaches to Online Organizing
-  event: Pathways to Purpose series
+  event: Institute for Leadership and Service Pathways to Purpose series
   description: Institute for Leadership and Service at Valparaiso University
-  feature: false
+  live: true
   quote: 
-  location: Valapraiso, IN
+  location: Valapraiso University 
   media:
   url: https://www.valpo.edu/institute-for-leadership-and-service/pathways-to-purpose/previous-speakers/
   year: 2016
 - title: How to be a Designer CEO at a Startup without Being a Jerk
   event: Chicago Camps
   description: 
-  feature: false
+  live: true
   quote: 
-  location:
+  location: Chicago, IL
   media:
   url: http://chicagocamps.org/posts/2016/jason-kunesh-prototypes-process-play/
   year: 2016
 - title: The Happiness Movement
   event: World IA Day
   description: 
-  feature: false
+  live: true
   quote: 
-  location:
+  location: Chicago, IL
   media:
   url: https://www.slideshare.net/jdkunesh/the-happiness-movement-at-world-ia-day-chicago-2015
   year: 2015
-- title: 2014 panel
-  event: Sxsw 
+- title: >-
+    The Beacon Lounge: Do Good Dialogs
+  event: SXSW 
   description: 
-  feature: false
+  live: true
   quote: 
-  location:
+  location: Austin, TX
   media:
   url: 
   year: 2014
 - title: Future 2040 Panel
   event: W3C Web at 25
   description: 
-  feature: false
+  live: true
   quote: 
-  location:
+  location: Chicago, IL
   media:
   url: https://www.w3.org/webat25/calendar/web-visions-future-2040-panel
   year: 2014
 - title: 
   event: prototype camp keynote
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -244,7 +247,7 @@
 - title: rules of engagement - new face of giving
   event: 
   description: JP Morgan chase
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -253,16 +256,16 @@
 - title: Design Chicanery
   event: UX Week
   description: 
-  feature: false
+  live: true
   quote: 
-  location: San Francisco
+  location: San Francisco, CA
   media: video
   url: https://www.youtube.com/watch?v=UWAQ5hpooWc
   year: 2013
 - title: 
   event: Starter League
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -271,7 +274,7 @@
 - title: mobile talk
   event: 
   description: Notre Dame
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -280,7 +283,7 @@
 - title: 
   event: 
   description: Google
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -289,7 +292,7 @@
 - title: 
   event: 
   description: HCI talk xerox parc
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -298,7 +301,7 @@
 - title: 
   event: UX for good
   description: 
-  feature: false
+  live: false
   quote: 
   location: Vancouver
   media:
@@ -307,34 +310,34 @@
 - title: Do Gooder lounge
   event: SXSW 
   description: 
-  feature: false
+  live: false
   quote: 
-  location: Austin, TX
+  location: Austin, TX, TX
   media:
   url: 
   year: 2013
 - title: Talk at Groupon
   event: 
   description: 
-  feature: false
+  live: false
   quote: 
-  location: Chicago, IL
+  location: Chicago, IL, IL
   media:
   url: 
   year: 2013
 - title: asdf
   event: IxDA
   description: 
-  feature: false
+  live: false
   quote: 
-  location: Chicago, IL
+  location: Chicago, IL, IL
   media:
   url: 
   year: 2013
 - title: 10 Lessons Learned from Obama for America
   event: Refresh Chicago
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -343,7 +346,7 @@
 - title: Jason Kunesh Talks About Designing for Humans Youth
   event: #-CivicSummer @ 1871
   description: Photo by Daniel X. O'Neil.
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -352,7 +355,7 @@
 - title: 
   event: HATCH
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
@@ -361,25 +364,25 @@
 - title: 
   event: UX for good
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
   url: 
   year: 2013
 - title: Keynote
-  event: web visions
+  event: Web Visions
   description: 
-  feature: false
+  live: true
   quote: 
-  location: Barcelona, Chicago, NYC, Portland
+  location: Barcelona, Chicago, New York City, Portland
   media:
   url: http://www.webvisionsevent.com/barcelona-2013/speakers/
   year: 2013
 - title: 
-  event: UX for good 
+  event: UX for Good 
   description: 
-  feature: false
+  live: false
   quote: 
   location: New Orleans
   media:
@@ -388,25 +391,25 @@
 - title: 
   event: Weird product marketing meetup thing
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
   url: 
   year: 2012
-- title: 
-  event: Talk at Morningstar
+- title: Design Business Growth Happiness
+  event: The D Conference
   description: 
-  feature: false
+  live: false
   quote: 
-  location:
+  location: Chicago, IL
   media:
   url: 
   year: 2012
 - title: 
   event: Talk in NO
   description: 
-  feature: false
+  live: false
   quote: 
   location: New Orleans
   media:
@@ -415,45 +418,45 @@
 - title: College of Digital Media Panel on Mobility
   event: DePaul University’s College of Computing & Digital Media Corporate Technology Breakfast 
   description: 
-  feature: false
+  live: false
   quote: 
-  location: Chicago, IL
+  location: Chicago, IL, IL
   media:
   url: 
   year: 2012
 - title: 
   event: IA summit
   description: 
-  feature: false
+  live: false
   quote: 
   location:
   media:
   url: 
   year: 2009
-- title: 
+- title: Design Context Clues
   event: IA summit 
   description: 
-  feature: false
+  live: true
   quote: 
-  location:
+  location: Chicago, IL
   media:
   url: 
   year: 2008
-- title: 
+- title: Rails + AJAX and Universal Design
   event: Railsconf
   description: 
-  feature: false
+  live: true
   quote: 
-  location:
+  location: Chicago, IL
   media:
   url: 
   year: 2006
-- title: 
-  event: World usability day
+- title: The UC Practice in My Experience at Orbitz
+  event: World Usability Day
   description: 
-  feature: false
+  live: true
   quote: 
-  location:
+  location: Chicago, IL
   media:
   url: 
-  year: 2003
+  year: 2005
