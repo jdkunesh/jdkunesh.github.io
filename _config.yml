@@ -20,13 +20,15 @@
 name: jdkunesh.com
 title: Jason Kunesh
 email: jdkunesh@gmail.com
-description: The web site of a designer living in Chicago.
+description: Jason Kunesh is the Design Director of the City of Chicago. This is my personal site.
 # > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jdkunesh.com" # the base hostname & protocol for your site
+url: "https://jdkunesh.com" # the base hostname & protocol for your site
 twitter_username: jdkunesh
 github_username:  jdkunesh
 
+image_main: /img/sunrise-over-lake-michigan.jpg
+image_social: /img/sunrise-over-lake-michigan-fbtw.jpg
 # Build settings
 plugins:
   - jekyll-feed
