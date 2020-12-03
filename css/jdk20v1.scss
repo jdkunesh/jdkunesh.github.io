@@ -1,13 +1,15 @@
 ---
 #
-# This file contains overrides to the raster.css framework v1.01 https://rsms.me/raster/
+# jdkunesh stylesheet 2021
 # 
 ---
+
 @charset "utf-8";
 
 // type
 
-$font-family-statement:   'Playfair Display', serif !default;
+$font-family-statement: 'Playfair Display', serif !default;
+$font-family-body: helvetica, arial, sans serif;
 
 :root {
   /*
@@ -18,9 +20,10 @@ $font-family-statement:   'Playfair Display', serif !default;
   --fontSize: 16px;
   /*
 
-  Veiwport-relative (100% / EMs-across-viewport) */
+  Viewport-relative (100% / EMs-across-viewport) */
   /*--fontSize: calc(100vw / 80);*/
 }
+
 
 img.dead {
 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -55,46 +58,6 @@ grid > c > a > img {
      object-fit: contain;
   max-width: 100%;
 }
-
-
-//== COLOR
-$primary-color:              #2ae !default;    // aqua-ish?
-$secondary-color:            #562800 !default; // old text brown
-$another-primary-color:      #2C5491 !default; // close enough to the primary?
-
-$orange:                     #fd7e14 !default;
-$sepia:                      #230400 !default;
-
-$black:                      #000000 !default;
-$blue:                       #0d6efd !default;
-$indigo:                     #6610f2 !default;
-$purple:                     #4C2C92 !default;
-$pink:                       #d63384 !default;
-$red:                        #dc3545 !default;
-
-$yellow:                     #ffc107 !default;
-$green:                      #28a745 !default;
-$teal:                       #20c997 !default;
-$cyan:                       #17a2b8 !default;
-$white:                      #ffffff !default;
-$offwhite:                   #FFF4F4 !default;
-
-$grey:                       #494440;
-$grey-light:                 #E4E2E0;
-$grey-dark:                  #494440;
-
-$brand-color:                $primary-color;
-
-
-// FUNCTIONAL COLORS (WHERE STYLE MEETS SEMANTICS)
-$background-color:           $white;
-$text-color:                 $secondary-color;
-
-$color-link:                 $another-primary-color;
-$color-active:               $indigo;
-$color-hover:                $orange;
-$color-focus:                $cyan;
-$color-visited:              $purple;
 
 //== TOP LEVEL ELEMENTS
 
