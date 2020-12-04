@@ -18,13 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 name: jdkunesh.com
-title: Jason Kunesh
+title: The Jason Kunesh Experience
 email: jdkunesh@gmail.com
 description: Jason Kunesh is the Design Director of the City of Chicago. This is my personal site.
 # > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jdkunesh.com" # the base hostname & protocol for your site
 twitter_username: jdkunesh
+twitter_authorname: jdkunesh
 github_username:  jdkunesh
 
 image_main: /img/sunrise-over-lake-michigan.jpg
