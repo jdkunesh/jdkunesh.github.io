@@ -8,7 +8,7 @@ A colophon describes the methods, tools, and materials used to make a creative w
 
 ## History
 
-I've had a home page on the internet since 1995. This version of the site was produced in January, 2020. Highlights of the new version include wholly new content, an updated portfolio, as well as administrivia (like this colophon), and important features (like an [accessibility statement](/accessibility)).
+I've had a home page on the internet since 1995. This version of the site was produced in 2020 and published January, 2021. Highlights of this version include an updated portfolio, administrivia (like this colophon), and important features (like an [accessibility statement](/accessibility)).
 
 ## Technology
 
@@ -18,7 +18,7 @@ You can find out more info about customizing your Jekyll theme, as well as basic
 
 ## Design & imagery
 
-I am using the [Raster Simple Grid System](https://rsms.me/raster/), and images are my own. Logos, copyrights and trademarks are mostly held by the organizations for whom I did the work.
+I am using a CSS Grid System of my own design. Images are my own. Logos, copyrights and trademarks are mostly held by the organizations for whom I did the work.
 
 This is a hand-built portfolio site producing using open source tools and free hosting, as God, Goddess, ur-mind, collective spirit or whatever intended. 
 
