@@ -262,6 +262,16 @@
   media: video
   url: https://www.youtube.com/watch?v=UWAQ5hpooWc
   year: 2013
+- title: >-
+    In the Loop\: Jason Kunesh
+  event: IIT Institute of Design In The Loop Series
+  description: A Q&A with professor Laura Forlano as part of "In the Loop", a lecture series on design, innovation and entrepreneurship organized by ID faculty. The series engages a wide range of speakers that present on topics ranging from theoretical research and emerging methodologies that are relevant to the field of design as well as personal narratives and examples from current design practice.
+  live: false
+  quote: 
+  location: Chicago, IL
+  media:
+  url: 
+  year: 2013
 - title: 
   event: Starter League
   description: 

@@ -1,6 +1,6 @@
 - title: Chicago’s New 311 System is a Huge Win for Public Works
   description: 
-  company: WIRED
+  publisher: WIRED
   feature: false
   quote: 
   media:
@@ -8,7 +8,7 @@
   year: 2019
 - title: A Distributed Government by the People, for the People
   description: 
-  company: CityLab
+  publisher: CityLab
   feature: false
   quote: 
   media:
@@ -16,7 +16,7 @@
   year: 2019
 - title: Chicago Gets a New 311 App
   description: 
-  company: WBEZ
+  publisher: WBEZ
   feature: false
   quote: 
   media:
@@ -24,7 +24,7 @@
   year: 2018
 - title: New 311 App Allows Chicagoans To Report Potholes, Rats Or Employer Wrongdoing Anonymously — And Track City Response
   description: 
-  company: Block Club Chicago
+  publisher: Block Club Chicago
   feature: false
   quote: 
   media:
@@ -32,7 +32,7 @@
   year: 2018
 - title: Why Chicago Added a Design Office to City Hall
   description: 
-  company: GovTech
+  publisher: GovTech
   feature: false
   quote: 
   media:
@@ -40,7 +40,7 @@
   year: 2018
 - title: How Some News Outlets Let Readers ‘Take Action’ With a Click
   description: 
-  company: WTTW
+  publisher: WTTW
   feature: false
   quote: 
   media:
@@ -48,7 +48,7 @@
   year: 2018
 - title: Jason Kunesh of Public Good on How Bands Are Just Like Startups 
   description: 
-  company: 
+  publisher: 
   feature: false
   quote: 
   media:
@@ -56,7 +56,7 @@
   year: 2017
 - title: Running a UI Design Critique
   description: 
-  company: Smashing Magazine 
+  publisher: Smashing Magazine 
   feature: false
   quote: 
   media:
@@ -64,7 +64,7 @@
   year: 2016
 - title: Tech developer talks civic good
   description: 
-  company: the Valparaiso Torch
+  publisher: the Valparaiso Torch
   feature: false
   quote: 
   media:
@@ -72,7 +72,7 @@
   year: 2016
 - title: Jason Kunesh, Public Good
   description: 
-  company: Be like Peter
+  publisher: Be like Peter
   feature: false
   quote: 
   media:
@@ -80,7 +80,7 @@
   year: 2016
 - title: 8 Tenets of Good Company Culture—Does Yours Have Them?
   description: 
-  company: Success
+  publisher: Success
   feature: false
   quote: 
   media:
@@ -88,7 +88,7 @@
   year: 2015
 - title: 5 things I wish I knew as a first time CEO
   description: 
-  company: 5 in 60
+  publisher: 5 in 60
   feature: false
   quote: 
   media:
@@ -96,7 +96,7 @@
   year: 2015
 - title: Public Good offers digital backbone to '#ILGive' campaign
   description: 
-  company: Chicago Tribune
+  publisher: Chicago Tribune
   feature: false
   quote: 
   media:
@@ -104,7 +104,7 @@
   year: 2015
 - title: Giving in the Digital World
   description: 
-  company: WNET Metrofocus
+  publisher: WNET Metrofocus
   feature: false
   quote: 
   media:
@@ -112,7 +112,7 @@
   year: 2015
 - title: Jason Kunesh of Public Good Software
   description: 
-  company: WGN Radio
+  publisher: WGN Radio
   feature: false
   quote: 
   media:
@@ -120,7 +120,7 @@
   year: 2014
 - title: Can a like button for doing good create a more caring Internet?
   description: 
-  company: Motherboard
+  publisher: Motherboard
   feature: false
   quote: 
   media:
@@ -128,7 +128,7 @@
   year: 2014
 - title: Introducing Public Good Software–a new way to turn articles into action
   description: 
-  company: Chicago Reader
+  publisher: Chicago Reader
   feature: false
   quote: 
   media:
@@ -136,7 +136,7 @@
   year: 2014
 - title: We are Civic Tech City
   description: 
-  company: Built in Chicago
+  publisher: Built in Chicago
   feature: false
   quote: 
   media:
@@ -144,7 +144,7 @@
   year: 2014
 - title: Obama campaign veterans launch hub for charitable giving
   description: 
-  company: Chicago Tribune
+  publisher: Chicago Tribune
   feature: false
   quote: 
   media:
@@ -152,7 +152,7 @@
   year: 2014
 - title: Jason Kunesh on Building a Community For The Public Good, Simplifying the Complex and Working for Obama
   description: 
-  company: Podchaser
+  publisher: Podchaser
   feature: false
   quote: 
   media:
@@ -160,7 +160,7 @@
   year: 2014
 - title: Chicago Camps Podcast Interview
   description: 
-  company: Chicago Camps
+  publisher: Chicago Camps
   feature: false
   quote: 
   media:
@@ -168,7 +168,7 @@
   year: 2014
 - title: Ex-Obama techies hope to do well with Public Good
   description: 
-  company: Crain's
+  publisher: Crain's
   feature: false
   quote: 
   media:
@@ -176,7 +176,7 @@
   year: 2014
 - title: Dream Jobs You’ve Never Heard of- Director of User Experience for Obama for America Campaign
   description: 
-  company: WIRED
+  publisher: WIRED
   feature: false
   quote: 
   media:
@@ -184,7 +184,7 @@
   year: 2013
 - title: When the Nerds Go Marching In
   description: 
-  company: Atlantic
+  publisher: Atlantic
   feature: false
   quote: 
   media:
@@ -192,7 +192,7 @@
   year: 2013
 - title: Public Good Software lands 1 million seed funding
   description: 
-  company: Tech President
+  publisher: Tech President
   feature: false
   quote: 
   media:
@@ -200,7 +200,7 @@
   year: 2013
 - title: Building Tech for Civic Life
   description: 
-  company: Lumpen Times
+  publisher: Lumpen Times
   feature: false
   quote: 
   media:
@@ -208,7 +208,7 @@
   year: 2013
 - title: A Conversation with Jason Kunesh
   description: 
-  company: Adaptive Path
+  publisher: Adaptive Path
   feature: false
   quote: 
   media:
@@ -216,7 +216,7 @@
   year: 2013
 - title: Inside Obama's Campaign
   description: 
-  company: Rolling Stone
+  publisher: Rolling Stone
   feature: false
   quote: 
   media:
@@ -224,7 +224,7 @@
   year: 2013
 - title: For Startups, Design is the New Competitive Advantage
   description: 
-  company: Forbes
+  publisher: Forbes
   feature: false
   quote: 
   media:
@@ -232,14 +232,14 @@
   year: 2012
 - title: Microsoft HealthVault Manager
   description: Video Demo on YouTube
-  company: Mayo Clinic 
+  publisher: Mayo Clinic 
   feature: false
   quote: 
   url: https://www.youtube.com/watch?v=_R3aQ2edc3k
   year: 2012
 - title: Various web 1.0 & entertainment media.
   description: Things happened, I got some press from it, I don't know where any of it is now. It mostly involved startups or guitars.
-  company: 
+  publisher: 
   feature: false
   quote: 
   media:
