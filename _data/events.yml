@@ -1,10 +1,30 @@
 - title: >-
+    Representing the City of Chicago in Digital & Physical Spaces
+  event: Chicago Graphic Design Club Feb. 23 meeting
+  description:
+  live: true
+  quote: 
+  location: Chicago
+  media:
+  url: 
+  year: 2021
+- title: >-
+    Panel with others
+  event: U of C thingie
+  description:
+  live: true
+  quote: 
+  location: Chicago
+  media:
+  url: 
+  year: 2020
+- title: >-
     Designing with the Public: How Figma Empowers Chicago Digital Services
   event: Config
   description:
   live: true
   quote: 
-  location: San Francisco, CA
+  location: San Francisco
   media:
   url: https://config.figma.com
   year: 2020
@@ -13,7 +33,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: https://events.govtech.com/Chicago-Digital-Government-Summit.html
   year: 2019
@@ -22,7 +42,7 @@
   description: The City of Chicago collaborated with the Masters in Engineering Design Innovation program to explore civic service design. This talk explored how we leveraged design thinking to find new entry points to city services for residents.
   live: true
   quote: 
-  location: San Francisco, CA
+  location: San Francisco
   media:
   url: 
   year: 2019
@@ -30,8 +50,8 @@
   event: Adobe Creative Jam
   description: 
   live: true
-  quote: 
-  location: Chicago, IL
+  quote: "Thank you for being an incredible keynote, starting the day right and empowering everyone in the room to create with purpose."
+  location: Chicago
   media:
   url: 
   year: 2019
@@ -40,7 +60,7 @@
   description: 
   live: false
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: 
   year: 2019
@@ -86,7 +106,7 @@
   description: 
   live: false
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: 
   year: 2018
@@ -95,7 +115,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: 
   year: 2018
@@ -104,7 +124,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: http://chicagocamps.org/events/2018/ux-camp-spring/
   year: 2018
@@ -122,7 +142,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: 
   year: 2018
@@ -131,7 +151,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: https://chihacknight.org/events/2018/08/14/jason-kunesh.html
   year: 2018
@@ -167,7 +187,7 @@
   description: 
   live: true
   quote: 
-  location: Austin, TX
+  location: Austin
   media:
   url: https://schedule.sxsw.com/2017/events/PP62429
   year: 2017
@@ -203,7 +223,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: http://chicagocamps.org/posts/2016/jason-kunesh-prototypes-process-play/
   year: 2016
@@ -212,7 +232,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: https://www.slideshare.net/jdkunesh/the-happiness-movement-at-world-ia-day-chicago-2015
   year: 2015
@@ -222,7 +242,7 @@
   description: 
   live: true
   quote: 
-  location: Austin, TX
+  location: Austin
   media:
   url: 
   year: 2014
@@ -231,7 +251,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: https://www.w3.org/webat25/calendar/web-visions-future-2040-panel
   year: 2014
@@ -258,7 +278,7 @@
   description: 
   live: true
   quote: 
-  location: San Francisco, CA
+  location: San Francisco
   media: video
   url: https://www.youtube.com/watch?v=UWAQ5hpooWc
   year: 2013
@@ -268,7 +288,7 @@
   description: A Q&A with professor Laura Forlano as part of "In the Loop", a lecture series on design, innovation and entrepreneurship organized by ID faculty. The series engages a wide range of speakers that present on topics ranging from theoretical research and emerging methodologies that are relevant to the field of design as well as personal narratives and examples from current design practice.
   live: false
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: 
   year: 2013
@@ -322,7 +342,7 @@
   description: 
   live: false
   quote: 
-  location: Austin, TX, TX
+  location: Austin
   media:
   url: 
   year: 2013
@@ -331,7 +351,7 @@
   description: 
   live: false
   quote: 
-  location: Chicago, IL, IL
+  location: Chicago
   media:
   url: 
   year: 2013
@@ -340,7 +360,7 @@
   description: 
   live: false
   quote: 
-  location: Chicago, IL, IL
+  location: Chicago
   media:
   url: 
   year: 2013
@@ -412,7 +432,7 @@
   description: 
   live: false
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: 
   year: 2012
@@ -430,7 +450,7 @@
   description: 
   live: false
   quote: 
-  location: Chicago, IL, IL
+  location: Chicago
   media:
   url: 
   year: 2012
@@ -448,7 +468,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: 
   year: 2008
@@ -457,7 +477,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: 
   year: 2006
@@ -466,7 +486,7 @@
   description: 
   live: true
   quote: 
-  location: Chicago, IL
+  location: Chicago
   media:
   url: 
   year: 2005
