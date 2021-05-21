@@ -1,6 +1,6 @@
 - title: >-
     Representing the City of Chicago in Digital & Physical Spaces
-  event: Chicago Graphic Design Club Feb. 23 meeting
+  event: Chicago Graphic Design Club
   description:
   live: true
   quote: 
@@ -183,7 +183,7 @@
   url: 
   year: 2017
 - title: Social Enterprise Real Talk from the Field 
-  event: SXSW
+  event: South by Southwest (SXSW)
   description: 
   live: true
   quote: 
@@ -211,7 +211,7 @@
   year: 2016
 - title: Civic Networking - Evolving Approaches to Online Organizing
   event: Institute for Leadership and Service Pathways to Purpose series
-  description: Institute for Leadership and Service at Valparaiso University
+  description: 
   live: true
   quote: 
   location: Valapraiso University 
@@ -238,7 +238,7 @@
   year: 2015
 - title: >-
     The Beacon Lounge: Do Good Dialogs
-  event: SXSW 
+  event: South by Southwest (SXSW) 
   description: 
   live: true
   quote: 
@@ -301,10 +301,10 @@
   media:
   url: 
   year: 2013
-- title: mobile talk
-  event: 
+- title: Digital Organizing at Obama for America with Dan Ryan & Jason Kunesh
+  event: Mobile Summit
   description: Notre Dame
-  live: false
+  live: true
   quote: 
   location:
   media:
@@ -338,7 +338,7 @@
   url: 
   year: 2013
 - title: Do Gooder lounge
-  event: SXSW 
+  event: South by Southwest (SXSW) 
   description: 
   live: false
   quote: 
@@ -481,7 +481,7 @@
   media:
   url: 
   year: 2006
-- title: The UC Practice in My Experience at Orbitz
+- title: It Makes Sen$e - The User Research Practice in My Experience at Orbitz
   event: World Usability Day
   description: 
   live: true

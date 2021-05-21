@@ -1,6 +1,6 @@
 ---
 title: Awards
-published: false
+published: true
 
 ---
 
@@ -8,7 +8,9 @@ published: false
 
 {% for item in site.data.awards %}
 
-<li><a href="{{ item.url }}">{{ item.title }} - {{ item.organization }}</a>, {{ item.year }}</li>
+<li><a href="{{ item.url }}">{{ item.title }}</a>
+    <p>{{ item.organization }} {{ item.year }}</p>
+</li>
 
 
 {% endfor %}
